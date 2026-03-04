@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== TOP BAR ===== -->
+<header class="topbar">
+  <button id="menuBtn" class="menu-btn">☰</button>
+</header>
+
+<!-- ===== SIDEBAR ===== -->
+<div class="sidebar" id="sidebar">
+  <h3>Меню</h3>
+
+  <!-- импорт -->
+  <label class="file-upload">
+    <input type="file" id="fileInput" accept=".json">
+    <div class="file-btn">📂 Выбрать файл</div>
+    <div id="fileName">Файл не выбран</div>
+  </label>
+
+  <!-- категория -->
+  <div class="menu-section">
+    <label>Категория</label>
+    <select id="categoryFilter">
+      <option value="all">Все</option>
+      <option value="all">Все</option>
+      <option value="all">Все</option>
+    </select>
+  </div>
+</div>
+
+<div class="overlay" id="overlay"></div>
+
+<!-- ===== MAIN ===== -->
+<main class="container">
+
+  <div class="card" id="card">
+    <div class="card-inner" id="cardInner">
+
+      <div class="card-front">
+        <span id="word">Загрузите слова</span>
+      </div>
+
+      <div class="card-back">
+        <span id="translation"></span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button id="knowBtn" class="primary">Знаю</button>
+    <button id="repeatBtn" class="secondary-btn">Повторить</button>
+  </div>
+
+  <p id="stats">0 / 0</p>
+
+  <button id="openStats" class="secondary-btn">Статистика</button>
+
+</main>
+
+<!-- ===== MODAL ===== -->
+<div class="modal" id="statsModal">
+  <div class="modal-content">
+    <h2>Статистика</h2>
+    <p id="modalStats"></p>
+    <button id="closeStats" class="secondary-btn">Закрыть</button>
+  </div>
+</div>
+
+<!-- ===== THEME BUTTON ===== -->
+<button id="themeToggle" class="theme-toggle">☀️</button>
+
+<script src="script.js"></script>
+</body>
+</html>

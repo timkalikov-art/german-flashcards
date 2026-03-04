@@ -1,0 +1,187 @@
+{
+  "level": "A1",
+  "topic": "Familie",
+  "language": "de",
+  "cards": [
+    {
+      "id": 1,
+      "front": "die Familie",
+      "back": "семья",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Meine Familie ist sehr groß."
+    },
+    {
+      "id": 2,
+      "front": "die Eltern",
+      "back": "родители",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Meine Eltern wohnen in Berlin."
+    },
+    {
+      "id": 3,
+      "front": "die Mutter",
+      "back": "мать",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Meine Mutter arbeitet im Büro."
+    },
+    {
+      "id": 4,
+      "front": "der Vater",
+      "back": "отец",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Mein Vater fährt zur Arbeit."
+    },
+    {
+      "id": 5,
+      "front": "der Sohn",
+      "back": "сын",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Sohn spielt im Garten."
+    },
+    {
+      "id": 6,
+      "front": "die Tochter",
+      "back": "дочь",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Tochter lernt Deutsch."
+    },
+    {
+      "id": 7,
+      "front": "der Bruder",
+      "back": "брат",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Mein Bruder ist 20 Jahre alt."
+    },
+    {
+      "id": 8,
+      "front": "die Schwester",
+      "back": "сестра",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Meine Schwester wohnt in Hamburg."
+    },
+    {
+      "id": 9,
+      "front": "das Kind",
+      "back": "ребёнок",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Das Kind spielt im Park."
+    },
+    {
+      "id": 10,
+      "front": "der Mann",
+      "back": "мужчина",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Der Mann arbeitet hier."
+    },
+    {
+      "id": 11,
+      "front": "die Frau",
+      "back": "женщина",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Frau spricht Englisch."
+    },
+    {
+      "id": 12,
+      "front": "der Ehemann",
+      "back": "муж",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 3,
+      "example": "Ihr Ehemann ist Arzt."
+    },
+    {
+      "id": 13,
+      "front": "die Ehefrau",
+      "back": "жена",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 3,
+      "example": "Seine Ehefrau kommt aus Polen."
+    },
+    {
+      "id": 14,
+      "front": "die Großmutter",
+      "back": "бабушка",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 3,
+      "example": "Meine Großmutter backt Kuchen."
+    },
+    {
+      "id": 15,
+      "front": "der Großvater",
+      "back": "дедушка",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 3,
+      "example": "Mein Großvater liest Zeitung."
+    },
+    {
+      "id": 16,
+      "front": "die Tante",
+      "back": "тётя",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 3,
+      "example": "Meine Tante lebt in Köln."
+    },
+    {
+      "id": 17,
+      "front": "der Onkel",
+      "back": "дядя",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 3,
+      "example": "Mein Onkel fährt ein Auto."
+    },
+    {
+      "id": 18,
+      "front": "das Baby",
+      "back": "младенец",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 4,
+      "example": "Das Baby schläft."
+    },
+    {
+      "id": 19,
+      "front": "verheiratet",
+      "back": "женат / замужем",
+      "partOfSpeech": "adjective",
+      "gender": null,
+      "frequency": 4,
+      "example": "Er ist verheiratet."
+    },
+    {
+      "id": 20,
+      "front": "ledig",
+      "back": "не женат / не замужем",
+      "partOfSpeech": "adjective",
+      "gender": null,
+      "frequency": 3,
+      "example": "Sie ist noch ledig."
+    }
+  ]
+}
