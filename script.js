@@ -68,11 +68,7 @@ function nextCard() {
 
   if (!words.length) return;
 
-  current++;
-
-  if (current >= words.length) {
-    current = 0;
-  }
+  current = (current + 1) % words.length;
 
   showCard();
 }
@@ -102,11 +98,7 @@ function prevCard() {
 
   if (!words.length) return;
 
-  current--;
-
-  if (current < 0) {
-    current = words.length - 1;
-  }
+  current = (current - 1 + words.length) % words.length;
 
   showCard();
 }
