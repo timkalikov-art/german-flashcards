@@ -1,0 +1,457 @@
+{
+  "level": "A1",
+  "topic": "Essen",
+  "language": "de",
+  "cards": [
+    {
+      "id": 1,
+      "front": "das Essen",
+      "back": "еда",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Das Essen ist sehr lecker."
+    },
+    {
+      "id": 2,
+      "front": "das Frühstück",
+      "back": "завтрак",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Ich esse Frühstück um sieben Uhr."
+    },
+    {
+      "id": 3,
+      "front": "das Mittagessen",
+      "back": "обед",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Wir essen Mittagessen zusammen."
+    },
+    {
+      "id": 4,
+      "front": "das Abendessen",
+      "back": "ужин",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Das Abendessen ist um acht Uhr."
+    },
+    {
+      "id": 5,
+      "front": "das Brot",
+      "back": "хлеб",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Ich kaufe Brot."
+    },
+    {
+      "id": 6,
+      "front": "das Brötchen",
+      "back": "булочка",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 4,
+      "example": "Zum Frühstück esse ich ein Brötchen."
+    },
+    {
+      "id": 7,
+      "front": "die Butter",
+      "back": "масло",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Ich nehme Butter aufs Brot."
+    },
+    {
+      "id": 8,
+      "front": "der Käse",
+      "back": "сыр",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Der Käse schmeckt gut."
+    },
+    {
+      "id": 9,
+      "front": "die Milch",
+      "back": "молоко",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Ich trinke Milch."
+    },
+    {
+      "id": 10,
+      "front": "der Kaffee",
+      "back": "кофе",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Ich trinke Kaffee am Morgen."
+    },
+    {
+      "id": 11,
+      "front": "der Tee",
+      "back": "чай",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Sie trinkt Tee."
+    },
+    {
+      "id": 12,
+      "front": "das Wasser",
+      "back": "вода",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Ich trinke viel Wasser."
+    },
+    {
+      "id": 13,
+      "front": "der Saft",
+      "back": "сок",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Saft ist kalt."
+    },
+    {
+      "id": 14,
+      "front": "der Apfel",
+      "back": "яблоко",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Ich esse einen Apfel."
+    },
+    {
+      "id": 15,
+      "front": "die Banane",
+      "back": "банан",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Banane ist gelb."
+    },
+    {
+      "id": 16,
+      "front": "die Orange",
+      "back": "апельсин",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Ich esse eine Orange."
+    },
+    {
+      "id": 17,
+      "front": "die Kartoffel",
+      "back": "картофель",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Kartoffeln sind heiß."
+    },
+    {
+      "id": 18,
+      "front": "der Reis",
+      "back": "рис",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Wir essen Reis."
+    },
+    {
+      "id": 19,
+      "front": "die Nudeln",
+      "back": "макароны",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Ich koche Nudeln."
+    },
+    {
+      "id": 20,
+      "front": "die Suppe",
+      "back": "суп",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Suppe ist warm."
+    },
+    {
+      "id": 21,
+      "front": "das Fleisch",
+      "back": "мясо",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Er isst Fleisch."
+    },
+    {
+      "id": 22,
+      "front": "das Hähnchen",
+      "back": "курица",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 4,
+      "example": "Das Hähnchen ist lecker."
+    },
+    {
+      "id": 23,
+      "front": "der Fisch",
+      "back": "рыба",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Wir essen Fisch."
+    },
+    {
+      "id": 24,
+      "front": "das Ei",
+      "back": "яйцо",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Ich esse ein Ei."
+    },
+    {
+      "id": 25,
+      "front": "der Zucker",
+      "back": "сахар",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Ich nehme Zucker in den Kaffee."
+    },
+    {
+      "id": 26,
+      "front": "das Salz",
+      "back": "соль",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Die Suppe braucht Salz."
+    },
+    {
+      "id": 27,
+      "front": "der Pfeffer",
+      "back": "перец",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Pfeffer ist scharf."
+    },
+    {
+      "id": 28,
+      "front": "der Salat",
+      "back": "салат",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Ich esse Salat."
+    },
+    {
+      "id": 29,
+      "front": "die Tomate",
+      "back": "помидор",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Tomate ist rot."
+    },
+    {
+      "id": 30,
+      "front": "die Gurke",
+      "back": "огурец",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Ich schneide eine Gurke."
+    },
+    {
+      "id": 31,
+      "front": "die Karotte",
+      "back": "морковь",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Karotte ist gesund."
+    },
+    {
+      "id": 32,
+      "front": "die Zwiebel",
+      "back": "лук",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Zwiebel ist stark."
+    },
+    {
+      "id": 33,
+      "front": "der Knoblauch",
+      "back": "чеснок",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Knoblauch riecht stark."
+    },
+    {
+      "id": 34,
+      "front": "der Kuchen",
+      "back": "пирог",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Der Kuchen ist süß."
+    },
+    {
+      "id": 35,
+      "front": "der Keks",
+      "back": "печенье",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Ich esse einen Keks."
+    },
+    {
+      "id": 36,
+      "front": "die Schokolade",
+      "back": "шоколад",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Schokolade ist lecker."
+    },
+    {
+      "id": 37,
+      "front": "das Eis",
+      "back": "мороженое",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Im Sommer esse ich Eis."
+    },
+    {
+      "id": 38,
+      "front": "hungrig",
+      "back": "голодный",
+      "partOfSpeech": "adjective",
+      "gender": null,
+      "frequency": 5,
+      "example": "Ich bin hungrig."
+    },
+    {
+      "id": 39,
+      "front": "satt",
+      "back": "сытый",
+      "partOfSpeech": "adjective",
+      "gender": null,
+      "frequency": 4,
+      "example": "Ich bin satt."
+    },
+    {
+      "id": 40,
+      "front": "lecker",
+      "back": "вкусный",
+      "partOfSpeech": "adjective",
+      "gender": null,
+      "frequency": 5,
+      "example": "Das Essen ist lecker."
+    },
+    {
+      "id": 41,
+      "front": "kochen",
+      "back": "готовить",
+      "partOfSpeech": "verb",
+      "gender": null,
+      "frequency": 5,
+      "example": "Ich koche Suppe."
+    },
+    {
+      "id": 42,
+      "front": "essen",
+      "back": "есть",
+      "partOfSpeech": "verb",
+      "gender": null,
+      "frequency": 5,
+      "example": "Wir essen zusammen."
+    },
+    {
+      "id": 43,
+      "front": "trinken",
+      "back": "пить",
+      "partOfSpeech": "verb",
+      "gender": null,
+      "frequency": 5,
+      "example": "Ich trinke Wasser."
+    },
+    {
+      "id": 44,
+      "front": "kaufen",
+      "back": "покупать",
+      "partOfSpeech": "verb",
+      "gender": null,
+      "frequency": 5,
+      "example": "Ich kaufe Brot."
+    },
+    {
+      "id": 45,
+      "front": "bestellen",
+      "back": "заказывать",
+      "partOfSpeech": "verb",
+      "gender": null,
+      "frequency": 4,
+      "example": "Wir bestellen Pizza."
+    },
+    {
+      "id": 46,
+      "front": "der Teller",
+      "back": "тарелка",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Der Teller ist voll."
+    },
+    {
+      "id": 47,
+      "front": "das Glas",
+      "back": "стакан",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Das Glas ist sauber."
+    },
+    {
+      "id": 48,
+      "front": "die Tasse",
+      "back": "чашка",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Tasse ist heiß."
+    },
+    {
+      "id": 49,
+      "front": "das Messer",
+      "back": "нож",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Das Messer ist scharf."
+    },
+    {
+      "id": 50,
+      "front": "die Gabel",
+      "back": "вилка",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Ich nehme eine Gabel."
+    }
+  ]
+}
