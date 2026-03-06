@@ -108,6 +108,47 @@ function prevCard() {
 document.getElementById("knowBtn").onclick = nextCard;
 document.getElementById("repeatBtn").onclick = nextCard;
 
+document.getElementById("repeatBtn").onclick = () => {
+
+  if (!words.length) return;
+
+  const card = words[current];
+
+  card.wrong++;
+  card.level = Math.max(0, card.level - 1);
+
+  card.nextReview = Date.now() + 1000 * 60;
+
+  const repeatWord = words.splice(current, 1)[0];
+
+  words.splice(Math.min(current + 2, words.length), 0, repeatWord);
+
+  showCard();
+};
+
+document.getElementById("knowBtn").onclick = () => {
+
+  if (!words.length) return;
+
+  const card = words[current];
+
+  card.correct++;
+  card.level++;
+
+  const intervals = [
+    1000 * 60,
+    1000 * 60 * 5,
+    1000 * 60 * 30,
+    1000 * 60 * 60 * 12
+  ];
+
+  const interval = intervals[Math.min(card.level, intervals.length - 1)];
+
+  card.nextReview = Date.now() + interval;
+
+  nextCard();
+};
+
 /* ===== ПЕРЕМЕШАТЬ ===== */
 
 document.getElementById("shuffleBtn").onclick = () => {
@@ -166,10 +207,15 @@ async function loadTopic(level, topic) {
 
   const data = await response.json();
 
-  words = data.cards.map(card => ({
-    word: card.front,
-    translation: card.back
-  }));
+ words = data.cards.map(card => ({
+  word: card.front,
+  translation: card.back,
+
+  level: 0,          // уровень знания
+  nextReview: Date.now(),  // когда повторить
+  correct: 0,
+  wrong: 0
+}));
 
   shuffle(words);
 
@@ -234,6 +280,36 @@ topicSelect.addEventListener("change", () => {
   loadTopic(currentLevel, currentTopic);
 
 });
+
+
+const openStats = document.getElementById("openStats");
+const closeStats = document.getElementById("closeStats");
+const modal = document.getElementById("statsModal");
+const modalStats = document.getElementById("modalStats");
+
+openStats.onclick = () => {
+
+  const learned = words.filter(w => w.level >= 3).length;
+
+  const total = words.length;
+
+  const percent = Math.round((learned / total) * 100);
+
+  modalStats.innerHTML = `
+  
+  Карточек всего: ${total}<br>
+  Выучено: ${learned}<br>
+  Прогресс: ${percent}%
+  
+  `;
+
+  modal.style.display = "flex";
+
+};
+
+closeStats.onclick = () => {
+  modal.style.display = "none";
+};
 
 /* ===== СТАРТ ===== */
 
