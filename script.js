@@ -102,6 +102,18 @@ showCard();
 
 }
 
+function prevCard() {
+
+  if (!words.length) return;
+
+  current--;
+
+  if (current < 0) current = words.length - 1;
+
+  showCard();
+
+}
+
 /* ===== КНОПКА ЗНАЮ ===== */
 
 document.getElementById("knowBtn").onclick = () => {
@@ -230,6 +242,47 @@ currentTopic = topicSelect.value;
 loadTopic(currentLevel, currentTopic);
 
 };
+
+/* ===== КЛАВИАТУРА ===== */
+
+document.addEventListener("keydown", (e) => {
+
+  if (e.code === "Space") {
+    e.preventDefault();
+    cardInner.classList.toggle("flipped");
+  }
+
+  if (e.code === "ArrowRight") {
+    nextCard();
+  }
+
+  if (e.code === "ArrowLeft") {
+    prevCard();
+  }
+
+});
+
+/* ===== СВАЙПЫ ===== */
+
+let startX = 0;
+
+document.addEventListener("touchstart", e => {
+  startX = e.touches[0].clientX;
+});
+
+document.addEventListener("touchend", e => {
+
+  let endX = e.changedTouches[0].clientX;
+
+  if (endX - startX > 50) {
+    prevCard();
+  }
+
+  if (startX - endX > 50) {
+    nextCard();
+  }
+
+});
 
 /* ===== СТАРТ ===== */
 
