@@ -1,9 +1,16 @@
-/* ===== ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ ===== */
+/* =========================
+   FLASHCARDS APP
+   Стабильная архитектура
+========================= */
 
-let words = [];
-let current = 0;
-let currentLevel = "A1";
-let currentTopic = "";
+/* ===== НАСТРОЙКИ ===== */
+
+const state = {
+  words: [],
+  current: 0,
+  level: "A1",
+  topic: ""
+};
 
 /* ===== DOM ===== */
 
@@ -15,23 +22,7 @@ const cardInner = document.getElementById("cardInner");
 const levelSelect = document.getElementById("levelSelect");
 const topicSelect = document.getElementById("topicSelect");
 
-/* ===== SIDEBAR ===== */
-
-const menuBtn = document.getElementById("menuBtn");
-const sidebar = document.getElementById("sidebar");
-const overlay = document.getElementById("overlay");
-
-menuBtn.onclick = () => {
-  sidebar.classList.toggle("open");
-  overlay.classList.toggle("show");
-};
-
-overlay.onclick = () => {
-  sidebar.classList.remove("open");
-  overlay.classList.remove("show");
-};
-
-/* ===== ПЕРЕМЕШИВАНИЕ ===== */
+/* ===== ПЕРЕМЕШАТЬ ===== */
 
 function shuffle(arr) {
   for (let i = arr.length - 1; i > 0; i--) {
@@ -39,7 +30,6 @@ function shuffle(arr) {
     const j = Math.floor(Math.random() * (i + 1));
 
     [arr[i], arr[j]] = [arr[j], arr[i]];
-
   }
 }
 
@@ -47,7 +37,7 @@ function shuffle(arr) {
 
 function showCard() {
 
-  if (!words.length) {
+  if (!state.words.length) {
 
     wordEl.textContent = "Выберите тему";
     translationEl.textContent = "";
@@ -56,109 +46,77 @@ function showCard() {
     return;
   }
 
-  const card = words[current];
+  const card = state.words[state.current];
 
   wordEl.textContent = card.word;
   translationEl.textContent = card.translation;
 
+  statsEl.textContent =
+    `${state.current + 1} / ${state.words.length}`;
+
   cardInner.classList.remove("flipped");
-
-  statsEl.textContent = `${current + 1} / ${words.length}`;
-
 }
 
 /* ===== ПЕРЕВОРОТ ===== */
 
-cardInner.addEventListener("click", () => {
+function flipCard() {
 
-  if (!words.length) return;
+  if (!state.words.length) return;
 
   cardInner.classList.toggle("flipped");
+}
 
-});
+cardInner.addEventListener("click", flipCard);
 
 /* ===== НАВИГАЦИЯ ===== */
 
 function nextCard() {
 
-  if (!words.length) return;
+  if (!state.words.length) return;
 
-  current++;
-
-  if (current >= words.length) current = 0;
+  state.current =
+    (state.current + 1) % state.words.length;
 
   showCard();
-
 }
 
 function prevCard() {
 
-  if (!words.length) return;
+  if (!state.words.length) return;
 
-  current--;
-
-  if (current < 0) current = words.length - 1;
+  state.current =
+    (state.current - 1 + state.words.length)
+    % state.words.length;
 
   showCard();
-
 }
 
 /* ===== КНОПКИ ===== */
 
-document.getElementById("knowBtn").onclick = nextCard;
-document.getElementById("repeatBtn").onclick = nextCard;
-
-document.getElementById("repeatBtn").onclick = () => {
-
-  if (!words.length) return;
-
-  const card = words[current];
-
-  card.wrong++;
-  card.level = Math.max(0, card.level - 1);
-
-  card.nextReview = Date.now() + 1000 * 60;
-
-  const repeatWord = words.splice(current, 1)[0];
-
-  words.splice(Math.min(current + 2, words.length), 0, repeatWord);
-
-  showCard();
-};
-
 document.getElementById("knowBtn").onclick = () => {
-
-  if (!words.length) return;
-
-  const card = words[current];
-
-  card.correct++;
-  card.level++;
-
-  const intervals = [
-    1000 * 60,
-    1000 * 60 * 5,
-    1000 * 60 * 30,
-    1000 * 60 * 60 * 12
-  ];
-
-  const interval = intervals[Math.min(card.level, intervals.length - 1)];
-
-  card.nextReview = Date.now() + interval;
-
   nextCard();
 };
 
-/* ===== ПЕРЕМЕШАТЬ ===== */
+document.getElementById("repeatBtn").onclick = () => {
+
+  const word = state.words.splice(state.current, 1)[0];
+
+  state.words.splice(
+    Math.min(state.current + 3, state.words.length),
+    0,
+    word
+  );
+
+  showCard();
+};
 
 document.getElementById("shuffleBtn").onclick = () => {
 
-  shuffle(words);
+  shuffle(state.words);
 
-  current = 0;
+  state.current = 0;
 
   showCard();
-
 };
 
 /* ===== КЛАВИАТУРА ===== */
@@ -168,195 +126,142 @@ document.addEventListener("keydown", (e) => {
   if (e.code === "Space") {
 
     e.preventDefault();
-
-    cardInner.classList.toggle("flipped");
-
+    flipCard();
   }
 
   if (e.code === "ArrowRight") nextCard();
 
   if (e.code === "ArrowLeft") prevCard();
-
 });
 
 /* ===== СВАЙП ===== */
 
 let startX = 0;
 
-document.addEventListener("touchstart", e => {
+cardInner.addEventListener("touchstart", (e) => {
 
   startX = e.touches[0].clientX;
-
 });
 
-document.addEventListener("touchend", e => {
+cardInner.addEventListener("touchend", (e) => {
 
-  let endX = e.changedTouches[0].clientX;
+  const endX = e.changedTouches[0].clientX;
 
-  if (startX - endX > 50) nextCard();
+  const diff = endX - startX;
 
-  if (endX - startX > 50) prevCard();
+  if (diff > 50) prevCard();
 
+  if (diff < -50) nextCard();
 });
 
-/* ===== ЗАГРУЗКА ТЕМЫ ===== */
+/* ===== ЗАГРУЗКА СЛОВ ===== */
 
 async function loadTopic(level, topic) {
 
-  const response = await fetch(`data/${level}/${topic}.json`);
+  try {
 
-  const data = await response.json();
+    const response =
+      await fetch(`data/${level}/${topic}.json`);
 
- words = data.cards.map(card => ({
-  word: card.front,
-  translation: card.back,
+    const data = await response.json();
 
-  level: 0,          // уровень знания
-  nextReview: Date.now(),  // когда повторить
-  correct: 0,
-  wrong: 0
-}));
+    state.words = data.cards.map(card => ({
+      word: card.front,
+      translation: card.back
+    }));
 
-  shuffle(words);
+    shuffle(state.words);
 
-  current = 0;
+    state.current = 0;
 
-  showCard();
+    showCard();
 
+  } catch (error) {
+
+    console.error("Ошибка загрузки:", error);
+  }
 }
 
-/* ===== ТЕМЫ ===== */
+/* ===== УРОВНИ ===== */
 
-const topicsByLevel = {
+const topics = {
 
-  A1: ["familie", "essen", "wohnen"],
-  A2: ["arbeit", "reisen"],
+  A1: ["familie", "essen"],
+  A2: ["arbeit"],
   B1: [],
   B2: [],
   C1: []
-
 };
 
 function populateTopics(level) {
 
   topicSelect.innerHTML = "";
 
-  topicsByLevel[level].forEach(topic => {
+  topics[level].forEach(topic => {
 
     const option = document.createElement("option");
 
     option.value = topic;
-
     option.textContent = topic;
 
     topicSelect.appendChild(option);
-
   });
 
-  if (topicsByLevel[level].length > 0) {
+  if (topics[level].length) {
 
-    currentTopic = topicsByLevel[level][0];
+    state.topic = topics[level][0];
 
-    loadTopic(level, currentTopic);
-
+    loadTopic(level, state.topic);
   }
-
 }
 
-/* ===== СОБЫТИЯ ===== */
+/* ===== SELECT ===== */
 
 levelSelect.addEventListener("change", () => {
 
-  currentLevel = levelSelect.value;
+  state.level = levelSelect.value;
 
-  populateTopics(currentLevel);
-
+  populateTopics(state.level);
 });
 
 topicSelect.addEventListener("change", () => {
 
-  currentTopic = topicSelect.value;
+  state.topic = topicSelect.value;
 
-  loadTopic(currentLevel, currentTopic);
-
+  loadTopic(state.level, state.topic);
 });
 
-
-const openStats = document.getElementById("openStats");
-const closeStats = document.getElementById("closeStats");
-const modal = document.getElementById("statsModal");
-const modalStats = document.getElementById("modalStats");
-
-openStats.onclick = () => {
-
-  const learned = words.filter(w => w.level >= 3).length;
-
-  const total = words.length;
-
-  const percent = Math.round((learned / total) * 100);
-
-  modalStats.innerHTML = `
-  
-  Карточек всего: ${total}<br>
-  Выучено: ${learned}<br>
-  Прогресс: ${percent}%
-  
-  `;
-
-  modal.style.display = "flex";
-
-};
-
-closeStats.onclick = () => {
-  modal.style.display = "none";
-};
-
-/* ===== THEME SWITCH ===== */
-
-const themeToggle = document.getElementById("themeToggle");
-
-themeToggle.addEventListener("click", () => {
-
-  document.body.classList.toggle("dark");
-
-  if (document.body.classList.contains("dark")) {
-    themeToggle.textContent = "🌙";
-  } else {
-    themeToggle.textContent = "☀️";
-  }
-
-});
-
-/* ===== ТЕМНАЯ ТЕМА ===== */
+/* ===== ТЕМА ===== */
 
 const themeBtn = document.getElementById("themeToggle");
 
 if (themeBtn) {
 
-  // загрузка сохранённой темы
-  const savedTheme = localStorage.getItem("theme");
+  const saved = localStorage.getItem("theme");
 
-  if (savedTheme === "dark") {
+  if (saved === "dark") {
+
     document.body.classList.add("dark");
     themeBtn.textContent = "🌙";
   }
 
-  themeBtn.addEventListener("click", () => {
+  themeBtn.onclick = () => {
 
     document.body.classList.toggle("dark");
 
     if (document.body.classList.contains("dark")) {
+
       themeBtn.textContent = "🌙";
       localStorage.setItem("theme", "dark");
+
     } else {
+
       themeBtn.textContent = "☀️";
       localStorage.setItem("theme", "light");
     }
-
-  });
-
+  };
 }
 
 /* ===== СТАРТ ===== */
 
-populateTopics(currentLevel);
+populateTopics(state.level);
