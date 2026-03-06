@@ -25,24 +25,30 @@ function shuffle(arr) {
 
 /* ===== ПОКАЗ КАРТОЧКИ ===== */
 function showCard() {
-
-  if (!cards.length) {
+  if (!words.length) {
     wordEl.textContent = "Выберите тему";
     translationEl.textContent = "";
     statsEl.textContent = "0 / 0";
     return;
   }
 
-  const card = cards[currentIndex];
+  const w = words[current];
 
   wordEl.textContent = card.front;
   translationEl.textContent = card.back;
 
+  const exampleEl = document.getElementById("example");
+
+  if (card.example) {
+    exampleEl.textContent = card.example;
+  } else {
+    exampleEl.textContent = "";
+  }
+
+  const learned = words.filter(w => w.knowCount >= LEARNED_THRESHOLD).length;
+  statsEl.textContent = `${learned} / ${words.length}`;
+
   cardInner.classList.remove("flipped");
-
-  // ===== ПРОГРЕСС =====
-  statsEl.textContent = `${currentIndex + 1} / ${cards.length}`;
-
 }
 
 /* ===== ПЕРЕВОРОТ ===== */
@@ -151,19 +157,3 @@ topicSelect.addEventListener("change", () => {
 
 /* ===== СТАРТ ===== */
 populateTopics(currentLevel);
-
-/* ===== ПЕРЕМЕШАТЬ ===== */
-
-document.getElementById("shuffleBtn").onclick = () => {
-
-  if (!cards.length) return;
-
-  shuffle(cards);
-
-  currentIndex = 0;
-
-  showCard();
-
-};
-
-levelSelect.dispatchEvent(new Event("change"));
