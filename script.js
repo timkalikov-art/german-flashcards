@@ -45,13 +45,10 @@ cardInner.onclick = () => {
 function showCard() {
 
   if (!words.length) {
-
     wordEl.textContent = "Выберите тему";
     translationEl.textContent = "";
     statsEl.textContent = "0 / 0";
-
     return;
-
   }
 
   const card = words[current];
@@ -62,7 +59,6 @@ function showCard() {
   statsEl.textContent = `${current + 1} / ${words.length}`;
 
   cardInner.classList.remove("flipped");
-
 }
 
 
@@ -72,10 +68,13 @@ function nextCard() {
 
   if (!words.length) return;
 
-  current = (current + 1) % words.length;
+  current++;
+
+  if (current >= words.length) {
+    current = 0;
+  }
 
   showCard();
-
 }
 
 
@@ -99,6 +98,19 @@ document.getElementById("shuffleBtn").onclick = () => {
 
 };
 
+function prevCard() {
+
+  if (!words.length) return;
+
+  current--;
+
+  if (current < 0) {
+    current = words.length - 1;
+  }
+
+  showCard();
+}
+
 
 /* ===== ЗАГРУЗКА ТЕМЫ ===== */
 
@@ -115,6 +127,8 @@ async function loadTopic(level, topic) {
     }));
 
     current = 0;
+
+    shuffle(words);
 
     showCard();
 
