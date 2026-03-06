@@ -1,36 +1,57 @@
-/* ===== НАСТРОЙКИ ===== */
-const LEARNED_THRESHOLD = 7;
+/* ===== ПЕРЕМЕННЫЕ ===== */
 
-/* ===== ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ ===== */
 let words = [];
 let current = 0;
-let currentLevel = "A1";
-let currentTopic = "";
 
-/* ===== DOM ===== */
 const wordEl = document.getElementById("word");
 const translationEl = document.getElementById("translation");
 const statsEl = document.getElementById("stats");
 const cardInner = document.getElementById("cardInner");
+
+const sidebar = document.getElementById("sidebar");
+const overlay = document.getElementById("overlay");
+const menuBtn = document.getElementById("menuBtn");
+
 const levelSelect = document.getElementById("levelSelect");
 const topicSelect = document.getElementById("topicSelect");
 
-/* ===== ПЕРЕМЕШИВАНИЕ ===== */
-function shuffle(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-}
+
+/* ===== SIDEBAR ===== */
+
+menuBtn.onclick = () => {
+  sidebar.classList.add("open");
+  overlay.classList.add("show");
+};
+
+overlay.onclick = () => {
+  sidebar.classList.remove("open");
+  overlay.classList.remove("show");
+};
+
+
+/* ===== ПЕРЕВОРОТ КАРТОЧКИ ===== */
+
+cardInner.onclick = () => {
+
+  if (!words.length) return;
+
+  cardInner.classList.toggle("flipped");
+
+};
+
 
 /* ===== ПОКАЗ КАРТОЧКИ ===== */
+
 function showCard() {
 
   if (!words.length) {
+
     wordEl.textContent = "Выберите тему";
     translationEl.textContent = "";
     statsEl.textContent = "0 / 0";
+
     return;
+
   }
 
   const card = words[current];
@@ -38,61 +59,49 @@ function showCard() {
   wordEl.textContent = card.word;
   translationEl.textContent = card.translation;
 
+  statsEl.textContent = `${current + 1} / ${words.length}`;
+
   cardInner.classList.remove("flipped");
 
-  statsEl.textContent = `${current + 1} / ${words.length}`;
 }
 
-/* ===== ПЕРЕВОРОТ ===== */
-function flipCard() {
-  if (!words.length) return;
-  cardInner.classList.toggle("flipped");
-}
 
-cardInner.addEventListener("click", flipCard);
+/* ===== СЛЕДУЮЩАЯ ===== */
 
-/* ===== НАВИГАЦИЯ ===== */
 function nextCard() {
+
   if (!words.length) return;
+
   current = (current + 1) % words.length;
+
   showCard();
+
 }
 
-function prevCard() {
-  if (!words.length) return;
-  current = (current - 1 + words.length) % words.length;
-  showCard();
-}
 
 /* ===== КНОПКИ ===== */
-document.getElementById("knowBtn").onclick = () => {
+
+document.getElementById("knowBtn").onclick = nextCard;
+document.getElementById("repeatBtn").onclick = nextCard;
+
+
+/* ===== ПЕРЕМЕШАТЬ ===== */
+
+document.getElementById("shuffleBtn").onclick = () => {
+
   if (!words.length) return;
 
-  words[current].knowCount = (words[current].knowCount || 0) + 1;
-  nextCard();
-};
+  words.sort(() => Math.random() - 0.5);
 
-document.getElementById("repeatBtn").onclick = () => {
-  if (!words.length) return;
-
-  const repeatWord = words.splice(current, 1)[0];
-  words.splice(Math.min(current + 3, words.length), 0, repeatWord);
+  current = 0;
 
   showCard();
+
 };
 
-/* ===== КЛАВИАТУРА ===== */
-document.addEventListener("keydown", e => {
-  if (e.code === "Space") {
-    e.preventDefault();
-    flipCard();
-  }
-
-  if (e.code === "ArrowRight") nextCard();
-  if (e.code === "ArrowLeft") prevCard();
-});
 
 /* ===== ЗАГРУЗКА ТЕМЫ ===== */
+
 async function loadTopic(level, topic) {
 
   try {
@@ -102,29 +111,36 @@ async function loadTopic(level, topic) {
 
     words = data.cards.map(card => ({
       word: card.front,
-      translation: card.back,
-      knowCount: 0
+      translation: card.back
     }));
 
-    shuffle(words);
     current = 0;
 
     showCard();
 
   } catch (error) {
+
     console.error("Ошибка загрузки:", error);
+
   }
 
 }
 
+
 /* ===== УРОВНИ ===== */
+
 const topicsByLevel = {
+
   A1: ["familie", "essen", "wohnen"],
   A2: ["arbeit", "reisen"],
   B1: [],
   B2: [],
   C1: []
+
 };
+
+
+/* ===== ЗАПОЛНЕНИЕ ТЕМ ===== */
 
 function populateTopics(level) {
 
@@ -133,6 +149,7 @@ function populateTopics(level) {
   topicsByLevel[level].forEach(topic => {
 
     const option = document.createElement("option");
+
     option.value = topic;
     option.textContent = topic;
 
@@ -140,31 +157,30 @@ function populateTopics(level) {
 
   });
 
-  if (topicsByLevel[level].length > 0) {
+  if (topicsByLevel[level].length) {
 
-    currentTopic = topicsByLevel[level][0];
-    loadTopic(level, currentTopic);
+    loadTopic(level, topicsByLevel[level][0]);
 
   }
 
 }
 
-/* ===== EVENTS ===== */
 
-levelSelect.addEventListener("change", () => {
+/* ===== СОБЫТИЯ ===== */
 
-  currentLevel = levelSelect.value;
-  populateTopics(currentLevel);
+levelSelect.onchange = () => {
 
-});
+  populateTopics(levelSelect.value);
 
-topicSelect.addEventListener("change", () => {
+};
 
-  currentTopic = topicSelect.value;
-  loadTopic(currentLevel, currentTopic);
+topicSelect.onchange = () => {
 
-});
+  loadTopic(levelSelect.value, topicSelect.value);
+
+};
+
 
 /* ===== СТАРТ ===== */
 
-populateTopics(currentLevel);
+populateTopics("A1");
