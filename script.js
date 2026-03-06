@@ -311,21 +311,34 @@ closeStats.onclick = () => {
   modal.style.display = "none";
 };
 
-/* ===== THEME SWITCH ===== */
+/* ===== THEME BUTTON ===== */
 
-const themeToggle = document.getElementById("themeToggle");
+.theme-toggle{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #111;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 1000;
+}
 
-themeToggle.addEventListener("click", () => {
+body.dark{
+  background:#121212;
+  color:white;
+}
 
-  document.body.classList.toggle("dark");
+body.dark .card{
+  background:#1e1e1e;
+}
 
-  if (document.body.classList.contains("dark")) {
-    themeToggle.textContent = "🌙";
-  } else {
-    themeToggle.textContent = "☀️";
-  }
-
-});
+body.dark .sidebar{
+  background:#1a1a1a;
+}
 
 /* ===== СТАРТ ===== */
 
