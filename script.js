@@ -327,6 +327,36 @@ themeToggle.addEventListener("click", () => {
 
 });
 
+/* ===== ТЕМНАЯ ТЕМА ===== */
+
+const themeBtn = document.getElementById("themeToggle");
+
+if (themeBtn) {
+
+  // загрузка сохранённой темы
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark");
+    themeBtn.textContent = "🌙";
+  }
+
+  themeBtn.addEventListener("click", () => {
+
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+      themeBtn.textContent = "🌙";
+      localStorage.setItem("theme", "dark");
+    } else {
+      themeBtn.textContent = "☀️";
+      localStorage.setItem("theme", "light");
+    }
+
+  });
+
+}
+
 /* ===== СТАРТ ===== */
 
 populateTopics(currentLevel);
