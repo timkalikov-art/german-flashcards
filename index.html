@@ -6,6 +6,7 @@
   <title>Flashcards</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <!-- ===== TOP BAR ===== -->
@@ -15,6 +16,7 @@
 
 <!-- ===== SIDEBAR ===== -->
 <div class="sidebar" id="sidebar">
+
   <h3>Меню</h3>
 
   <!-- импорт -->
@@ -24,25 +26,27 @@
     <div id="fileName">Файл не выбран</div>
   </label>
 
-  <!-- категория -->
+  <!-- уровень -->
   <div class="menu-section">
-  <label>Уровень</label>
-  <select id="levelSelect">
-    <option value="A1">A1</option>
-    <option value="A2">A2</option>
-    <option value="B1">B1</option>
-    <option value="B2">B2</option>
-    <option value="C1">C1</option>
-  </select>
-</div>
+    <label>Уровень</label>
+    <select id="levelSelect">
+      <option value="A1">A1</option>
+      <option value="A2">A2</option>
+      <option value="B1">B1</option>
+      <option value="B2">B2</option>
+      <option value="C1">C1</option>
+    </select>
+  </div>
 
-<div class="menu-section">
-  <label>Тема</label>
-  <select id="topicSelect"></select>
-</div>
+  <!-- тема -->
+  <div class="menu-section">
+    <label>Тема</label>
+    <select id="topicSelect"></select>
+  </div>
 
 </div> <!-- ЗАКРЫЛИ SIDEBAR -->
 
+<!-- затем overlay -->
 <div class="overlay" id="overlay"></div>
 
 <!-- ===== MAIN ===== -->
@@ -52,7 +56,7 @@
     <div class="card-inner" id="cardInner">
 
       <div class="card-front">
-        <span id="word">Загрузите слова</span>
+        <span id="word">Выберите тему</span>
       </div>
 
       <div class="card-back">
@@ -82,9 +86,10 @@
   </div>
 </div>
 
-<!-- ===== THEME BUTTON ===== -->
+<!-- ===== THEME ===== -->
 <button id="themeToggle" class="theme-toggle">☀️</button>
 
 <script src="script.js"></script>
+
 </body>
 </html>

@@ -64,6 +64,26 @@ function prevCard() {
   showCard();
 }
 
+/* ===== SIDEBAR ===== */
+
+const menuBtn = document.getElementById("menuBtn");
+const sidebar = document.getElementById("sidebar");
+const overlay = document.getElementById("overlay");
+
+if (menuBtn && sidebar && overlay) {
+
+  menuBtn.addEventListener("click", () => {
+    sidebar.classList.add("open");
+    overlay.classList.add("show");
+  });
+
+  overlay.addEventListener("click", () => {
+    sidebar.classList.remove("open");
+    overlay.classList.remove("show");
+  });
+
+}
+
 /* ===== КНОПКИ ===== */
 document.getElementById("knowBtn").onclick = () => {
   if (!words.length) return;
@@ -155,8 +175,39 @@ populateTopics(currentLevel);
 let touchStartX = 0;
 let touchEndX = 0;
 
-cardInner.addEventListener("touchstart", e => {
-  touchStartX = e.changedTouches[0].screenX;
+/* ===== МОБИЛЬНЫЙ SWIPE ===== */
+
+let startX = 0;
+let startY = 0;
+
+const card = document.getElementById("card");
+
+card.addEventListener("touchstart", (e) => {
+  startX = e.touches[0].clientX;
+  startY = e.touches[0].clientY;
+});
+
+card.addEventListener("touchend", (e) => {
+
+  let endX = e.changedTouches[0].clientX;
+  let endY = e.changedTouches[0].clientY;
+
+  let diffX = endX - startX;
+  let diffY = endY - startY;
+
+  /* игнорируем вертикальные движения */
+  if (Math.abs(diffX) < Math.abs(diffY)) return;
+
+  /* свайп вправо */
+  if (diffX > 60) {
+    nextCard();
+  }
+
+  /* свайп влево */
+  if (diffX < -60) {
+    nextCard();
+  }
+
 });
 
 cardInner.addEventListener("touchend", e => {
