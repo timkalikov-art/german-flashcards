@@ -26,23 +26,21 @@ function shuffle(arr) {
 /* ===== ПОКАЗ КАРТОЧКИ ===== */
 function showCard() {
 
-  if (!cards.length) {
+  if (!words.length) {
     wordEl.textContent = "Выберите тему";
     translationEl.textContent = "";
     statsEl.textContent = "0 / 0";
     return;
   }
 
-  const card = cards[currentIndex];
+  const card = words[current];
 
-  wordEl.textContent = card.front;
-  translationEl.textContent = card.back;
+  wordEl.textContent = card.word;
+  translationEl.textContent = card.translation;
 
   cardInner.classList.remove("flipped");
 
-  // ===== ПРОГРЕСС =====
-  statsEl.textContent = `${currentIndex + 1} / ${cards.length}`;
-
+  statsEl.textContent = `${current + 1} / ${words.length}`;
 }
 
 /* ===== ПЕРЕВОРОТ ===== */
@@ -89,13 +87,16 @@ document.addEventListener("keydown", e => {
     e.preventDefault();
     flipCard();
   }
+
   if (e.code === "ArrowRight") nextCard();
   if (e.code === "ArrowLeft") prevCard();
 });
 
 /* ===== ЗАГРУЗКА ТЕМЫ ===== */
 async function loadTopic(level, topic) {
+
   try {
+
     const response = await fetch(`data/${level}/${topic}.json`);
     const data = await response.json();
 
@@ -107,14 +108,16 @@ async function loadTopic(level, topic) {
 
     shuffle(words);
     current = 0;
+
     showCard();
 
   } catch (error) {
     console.error("Ошибка загрузки:", error);
   }
+
 }
 
-/* ===== УРОВНИ И ТЕМЫ ===== */
+/* ===== УРОВНИ ===== */
 const topicsByLevel = {
   A1: ["familie", "essen", "wohnen"],
   A2: ["arbeit", "reisen"],
@@ -124,46 +127,44 @@ const topicsByLevel = {
 };
 
 function populateTopics(level) {
+
   topicSelect.innerHTML = "";
 
   topicsByLevel[level].forEach(topic => {
+
     const option = document.createElement("option");
     option.value = topic;
     option.textContent = topic;
+
     topicSelect.appendChild(option);
+
   });
 
   if (topicsByLevel[level].length > 0) {
+
     currentTopic = topicsByLevel[level][0];
     loadTopic(level, currentTopic);
+
   }
+
 }
 
+/* ===== EVENTS ===== */
+
 levelSelect.addEventListener("change", () => {
+
   currentLevel = levelSelect.value;
   populateTopics(currentLevel);
+
 });
 
 topicSelect.addEventListener("change", () => {
+
   currentTopic = topicSelect.value;
   loadTopic(currentLevel, currentTopic);
+
 });
 
 /* ===== СТАРТ ===== */
+
 populateTopics(currentLevel);
-
-/* ===== ПЕРЕМЕШАТЬ ===== */
-
-document.getElementById("shuffleBtn").onclick = () => {
-
-  if (!cards.length) return;
-
-  shuffle(cards);
-
-  currentIndex = 0;
-
-  showCard();
-
-};
-
-levelSelect.dispatchEvent(new Event("change"));
