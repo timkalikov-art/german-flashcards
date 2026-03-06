@@ -3,6 +3,8 @@
 let words = [];
 let current = 0;
 
+
+
 const wordEl = document.getElementById("word");
 const translationEl = document.getElementById("translation");
 const statsEl = document.getElementById("stats");
@@ -15,6 +17,19 @@ const menuBtn = document.getElementById("menuBtn");
 const levelSelect = document.getElementById("levelSelect");
 const topicSelect = document.getElementById("topicSelect");
 
+/* ===== ПЕРЕМЕШИВАНИЕ ===== */
+
+function shuffle(array) {
+
+  for (let i = array.length - 1; i > 0; i--) {
+
+    const j = Math.floor(Math.random() * (i + 1));
+
+    [array[i], array[j]] = [array[j], array[i]];
+
+  }
+
+}
 
 /* ===== SIDEBAR ===== */
 
