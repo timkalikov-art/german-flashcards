@@ -1,207 +1,236 @@
-/* ===== ПЕРЕМЕННЫЕ ===== */
+/* ===== ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ ===== */
 
 let words = [];
 let current = 0;
+let currentLevel = "A1";
+let currentTopic = "";
 
-
+/* ===== DOM ===== */
 
 const wordEl = document.getElementById("word");
 const translationEl = document.getElementById("translation");
 const statsEl = document.getElementById("stats");
 const cardInner = document.getElementById("cardInner");
 
-const sidebar = document.getElementById("sidebar");
-const overlay = document.getElementById("overlay");
-const menuBtn = document.getElementById("menuBtn");
-
 const levelSelect = document.getElementById("levelSelect");
 const topicSelect = document.getElementById("topicSelect");
+
+const menuBtn = document.getElementById("menuBtn");
+const sidebar = document.getElementById("sidebar");
+const overlay = document.getElementById("overlay");
+
+/* ===== SIDEBAR ===== */
+
+menuBtn.onclick = () => {
+
+sidebar.classList.toggle("open");
+overlay.classList.toggle("show");
+
+};
+
+overlay.onclick = () => {
+
+sidebar.classList.remove("open");
+overlay.classList.remove("show");
+
+};
 
 /* ===== ПЕРЕМЕШИВАНИЕ ===== */
 
 function shuffle(array) {
 
-  for (let i = array.length - 1; i > 0; i--) {
+for (let i = array.length - 1; i > 0; i--) {
 
-    const j = Math.floor(Math.random() * (i + 1));
+```
+const j = Math.floor(Math.random() * (i + 1));
 
-    [array[i], array[j]] = [array[j], array[i]];
-
-  }
+[array[i], array[j]] = [array[j], array[i]];
+```
 
 }
 
-/* ===== SIDEBAR ===== */
-
-menuBtn.onclick = () => {
-  sidebar.classList.add("open");
-  overlay.classList.add("show");
-};
-
-overlay.onclick = () => {
-  sidebar.classList.remove("open");
-  overlay.classList.remove("show");
-};
-
-
-/* ===== ПЕРЕВОРОТ КАРТОЧКИ ===== */
-
-cardInner.onclick = () => {
-
-  if (!words.length) return;
-
-  cardInner.classList.toggle("flipped");
-
-};
-
+}
 
 /* ===== ПОКАЗ КАРТОЧКИ ===== */
 
 function showCard() {
 
-  if (!words.length) {
-    wordEl.textContent = "Выберите тему";
-    translationEl.textContent = "";
-    statsEl.textContent = "0 / 0";
-    return;
-  }
+if (!words.length) {
 
-  const card = words[current];
+```
+wordEl.textContent = "Выберите тему";
+translationEl.textContent = "";
+statsEl.textContent = "0 / 0";
 
-  wordEl.textContent = card.word;
-  translationEl.textContent = card.translation;
+return;
+```
 
-  statsEl.textContent = `${current + 1} / ${words.length}`;
-
-  cardInner.classList.remove("flipped");
 }
 
+const card = words[current];
 
-/* ===== СЛЕДУЮЩАЯ ===== */
+wordEl.textContent = card.word;
+translationEl.textContent = card.translation;
+
+cardInner.classList.remove("flipped");
+
+statsEl.textContent = `${current + 1} / ${words.length}`;
+
+}
+
+/* ===== ПЕРЕВОРОТ ===== */
+
+cardInner.onclick = () => {
+
+if (!words.length) return;
+
+cardInner.classList.toggle("flipped");
+
+};
+
+/* ===== СЛЕДУЮЩАЯ КАРТОЧКА ===== */
 
 function nextCard() {
 
-  if (!words.length) return;
+if (!words.length) return;
 
-  current = (current + 1) % words.length;
+current++;
 
-  showCard();
+if (current >= words.length) current = 0;
+
+showCard();
+
 }
 
+/* ===== КНОПКА ЗНАЮ ===== */
 
-/* ===== КНОПКИ ===== */
+document.getElementById("knowBtn").onclick = () => {
 
-document.getElementById("knowBtn").onclick = nextCard;
-document.getElementById("repeatBtn").onclick = nextCard;
+nextCard();
 
+};
+
+/* ===== КНОПКА ПОВТОРИТЬ ===== */
+
+document.getElementById("repeatBtn").onclick = () => {
+
+if (!words.length) return;
+
+const repeatWord = words.splice(current, 1)[0];
+
+words.push(repeatWord);
+
+showCard();
+
+};
 
 /* ===== ПЕРЕМЕШАТЬ ===== */
 
 document.getElementById("shuffleBtn").onclick = () => {
 
-  if (!words.length) return;
-
-  words.sort(() => Math.random() - 0.5);
-
-  current = 0;
-
-  showCard();
+shuffle(words);
+current = 0;
+showCard();
 
 };
-
-function prevCard() {
-
-  if (!words.length) return;
-
-  current = (current - 1 + words.length) % words.length;
-
-  showCard();
-}
-
 
 /* ===== ЗАГРУЗКА ТЕМЫ ===== */
 
 async function loadTopic(level, topic) {
 
-  try {
+try {
 
-    const response = await fetch(`data/${level}/${topic}.json`);
-    const data = await response.json();
+```
+const response = await fetch(`data/${level}/${topic}.json`);
+const data = await response.json();
 
-    words = data.cards.map(card => ({
-      word: card.front,
-      translation: card.back
-    }));
+words = data.cards.map(card => ({
+  word: card.front,
+  translation: card.back
+}));
 
-    current = 0;
+shuffle(words);
 
-    shuffle(words);
+current = 0;
 
-    showCard();
-
-  } catch (error) {
-
-    console.error("Ошибка загрузки:", error);
-
-  }
+showCard();
+```
 
 }
 
+catch (error) {
+
+```
+console.error("Ошибка загрузки:", error);
+```
+
+}
+
+}
 
 /* ===== УРОВНИ ===== */
 
 const topicsByLevel = {
 
-  A1: ["familie", "essen", "wohnen"],
-  A2: ["arbeit", "reisen"],
-  B1: [],
-  B2: [],
-  C1: []
+A1: ["familie", "essen", "wohnen"],
+A2: ["arbeit", "reisen"],
+B1: [],
+B2: [],
+C1: []
 
 };
-
 
 /* ===== ЗАПОЛНЕНИЕ ТЕМ ===== */
 
 function populateTopics(level) {
 
-  topicSelect.innerHTML = "";
+topicSelect.innerHTML = "";
 
-  topicsByLevel[level].forEach(topic => {
+topicsByLevel[level].forEach(topic => {
 
-    const option = document.createElement("option");
+```
+const option = document.createElement("option");
 
-    option.value = topic;
-    option.textContent = topic;
+option.value = topic;
+option.textContent = topic;
 
-    topicSelect.appendChild(option);
+topicSelect.appendChild(option);
+```
 
-  });
+});
 
-  if (topicsByLevel[level].length) {
+if (topicsByLevel[level].length > 0) {
 
-    loadTopic(level, topicsByLevel[level][0]);
+```
+currentTopic = topicsByLevel[level][0];
 
-  }
+loadTopic(level, currentTopic);
+```
 
 }
 
+}
 
-/* ===== СОБЫТИЯ ===== */
+/* ===== СМЕНА УРОВНЯ ===== */
 
 levelSelect.onchange = () => {
 
-  populateTopics(levelSelect.value);
+currentLevel = levelSelect.value;
+
+populateTopics(currentLevel);
 
 };
+
+/* ===== СМЕНА ТЕМЫ ===== */
 
 topicSelect.onchange = () => {
 
-  loadTopic(levelSelect.value, topicSelect.value);
+currentTopic = topicSelect.value;
+
+loadTopic(currentLevel, currentTopic);
 
 };
 
-
 /* ===== СТАРТ ===== */
 
-populateTopics("A1");
+populateTopics(currentLevel);
