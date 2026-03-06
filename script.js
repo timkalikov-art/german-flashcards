@@ -149,3 +149,33 @@ topicSelect.addEventListener("change", () => {
 
 /* ===== СТАРТ ===== */
 populateTopics(currentLevel);
+
+/* ===== SWIPE ДЛЯ ТЕЛЕФОНА ===== */
+
+let touchStartX = 0;
+let touchEndX = 0;
+
+cardInner.addEventListener("touchstart", e => {
+  touchStartX = e.changedTouches[0].screenX;
+});
+
+cardInner.addEventListener("touchend", e => {
+  touchEndX = e.changedTouches[0].screenX;
+  handleSwipe();
+});
+
+function handleSwipe() {
+
+  const diff = touchEndX - touchStartX;
+
+  // свайп вправо
+  if (diff > 60) {
+    nextCard();
+  }
+
+  // свайп влево
+  if (diff < -60) {
+    nextCard();
+  }
+
+}
