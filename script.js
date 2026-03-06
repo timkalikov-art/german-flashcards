@@ -262,6 +262,34 @@ if (themeBtn) {
   };
 }
 
+/* ===== SIDEBAR ===== */
+
+const sidebar = document.getElementById("sidebar");
+const overlay = document.getElementById("overlay");
+const menuBtn = document.getElementById("menuBtn");
+
+if (menuBtn) {
+
+  menuBtn.onclick = () => {
+
+    sidebar.classList.add("open");
+    overlay.classList.add("show");
+
+  };
+
+}
+
+if (overlay) {
+
+  overlay.onclick = () => {
+
+    sidebar.classList.remove("open");
+    overlay.classList.remove("show");
+
+  };
+
+}
+
 /* ===== СТАРТ ===== */
 
 populateTopics(state.level);
