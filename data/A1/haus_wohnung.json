@@ -1,0 +1,407 @@
+{
+  "level": "A1",
+  "topic": "Haus & Wohnung",
+  "language": "de",
+  "cards": [
+    {
+      "id": 1,
+      "front": "das Haus",
+      "back": "дом",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Das Haus ist groß.",
+      "exampleTranslation": "Дом большой."
+    },
+    {
+      "id": 2,
+      "front": "die Wohnung",
+      "back": "квартира",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Wohnung ist neu.",
+      "exampleTranslation": "Квартира новая."
+    },
+    {
+      "id": 3,
+      "front": "das Zimmer",
+      "back": "комната",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Das Zimmer ist hell.",
+      "exampleTranslation": "Комната светлая."
+    },
+    {
+      "id": 4,
+      "front": "das Schlafzimmer",
+      "back": "спальня",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 4,
+      "example": "Das Schlafzimmer ist oben.",
+      "exampleTranslation": "Спальня наверху."
+    },
+    {
+      "id": 5,
+      "front": "das Wohnzimmer",
+      "back": "гостиная",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 4,
+      "example": "Wir sitzen im Wohnzimmer.",
+      "exampleTranslation": "Мы сидим в гостиной."
+    },
+    {
+      "id": 6,
+      "front": "die Küche",
+      "back": "кухня",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Küche ist klein.",
+      "exampleTranslation": "Кухня маленькая."
+    },
+    {
+      "id": 7,
+      "front": "das Badezimmer",
+      "back": "ванная комната",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 4,
+      "example": "Das Badezimmer ist sauber.",
+      "exampleTranslation": "Ванная комната чистая."
+    },
+    {
+      "id": 8,
+      "front": "die Toilette",
+      "back": "туалет",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Toilette ist hier.",
+      "exampleTranslation": "Туалет здесь."
+    },
+    {
+      "id": 9,
+      "front": "der Balkon",
+      "back": "балкон",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Balkon ist groß.",
+      "exampleTranslation": "Балкон большой."
+    },
+    {
+      "id": 10,
+      "front": "der Garten",
+      "back": "сад",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Garten ist schön.",
+      "exampleTranslation": "Сад красивый."
+    },
+    {
+      "id": 11,
+      "front": "die Tür",
+      "back": "дверь",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Tür ist offen.",
+      "exampleTranslation": "Дверь открыта."
+    },
+    {
+      "id": 12,
+      "front": "das Fenster",
+      "back": "окно",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Das Fenster ist zu.",
+      "exampleTranslation": "Окно закрыто."
+    },
+    {
+      "id": 13,
+      "front": "die Wand",
+      "back": "стена",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Wand ist weiß.",
+      "exampleTranslation": "Стена белая."
+    },
+    {
+      "id": 14,
+      "front": "der Boden",
+      "back": "пол",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 3,
+      "example": "Der Boden ist sauber.",
+      "exampleTranslation": "Пол чистый."
+    },
+    {
+      "id": 15,
+      "front": "die Decke",
+      "back": "потолок",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 3,
+      "example": "Die Decke ist hoch.",
+      "exampleTranslation": "Потолок высокий."
+    },
+    {
+      "id": 16,
+      "front": "die Treppe",
+      "back": "лестница",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 3,
+      "example": "Die Treppe ist lang.",
+      "exampleTranslation": "Лестница длинная."
+    },
+    {
+      "id": 17,
+      "front": "der Flur",
+      "back": "коридор",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 3,
+      "example": "Der Flur ist schmal.",
+      "exampleTranslation": "Коридор узкий."
+    },
+    {
+      "id": 18,
+      "front": "die Miete",
+      "back": "аренда",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Miete ist teuer.",
+      "exampleTranslation": "Аренда дорогая."
+    },
+    {
+      "id": 19,
+      "front": "der Schlüssel",
+      "back": "ключ",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Ich habe den Schlüssel.",
+      "exampleTranslation": "У меня есть ключ."
+    },
+    {
+      "id": 20,
+      "front": "der Nachbar",
+      "back": "сосед",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Nachbar ist freundlich.",
+      "exampleTranslation": "Сосед дружелюбный."
+    },
+    {
+  "id": 21,
+  "front": "die Garage",
+  "back": "гараж",
+  "partOfSpeech": "noun",
+  "gender": "die",
+  "frequency": 3,
+  "example": "Das Auto steht in der Garage.",
+  "exampleTranslation": "Машина стоит в гараже."
+},
+{
+  "id": 22,
+  "front": "der Keller",
+  "back": "подвал",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 3,
+  "example": "Der Keller ist kalt.",
+  "exampleTranslation": "Подвал холодный."
+},
+{
+  "id": 23,
+  "front": "der Dachboden",
+  "back": "чердак",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 2,
+  "example": "Der Dachboden ist oben.",
+  "exampleTranslation": "Чердак находится наверху."
+},
+{
+  "id": 24,
+  "front": "das Gebäude",
+  "back": "здание",
+  "partOfSpeech": "noun",
+  "gender": "das",
+  "frequency": 3,
+  "example": "Das Gebäude ist alt.",
+  "exampleTranslation": "Здание старое."
+},
+{
+  "id": 25,
+  "front": "der Eingang",
+  "back": "вход",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 3,
+  "example": "Der Eingang ist links.",
+  "exampleTranslation": "Вход слева."
+},
+{
+  "id": 26,
+  "front": "der Ausgang",
+  "back": "выход",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 3,
+  "example": "Der Ausgang ist dort.",
+  "exampleTranslation": "Выход там."
+},
+{
+  "id": 27,
+  "front": "die Etage",
+  "back": "этаж",
+  "partOfSpeech": "noun",
+  "gender": "die",
+  "frequency": 3,
+  "example": "Wir wohnen auf der dritten Etage.",
+  "exampleTranslation": "Мы живём на третьем этаже."
+},
+{
+  "id": 28,
+  "front": "der Aufzug",
+  "back": "лифт",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 4,
+  "example": "Der Aufzug ist schnell.",
+  "exampleTranslation": "Лифт быстрый."
+},
+{
+  "id": 29,
+  "front": "der Briefkasten",
+  "back": "почтовый ящик",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 4,
+  "example": "Der Brief liegt im Briefkasten.",
+  "exampleTranslation": "Письмо лежит в почтовом ящике."
+},
+{
+  "id": 30,
+  "front": "der Strom",
+  "back": "электричество",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 4,
+  "example": "Der Strom ist teuer.",
+  "exampleTranslation": "Электричество дорогое."
+},
+{
+  "id": 31,
+  "front": "das Wasser",
+  "back": "вода",
+  "partOfSpeech": "noun",
+  "gender": "das",
+  "frequency": 5,
+  "example": "Das Wasser ist kalt.",
+  "exampleTranslation": "Вода холодная."
+},
+{
+  "id": 32,
+  "front": "die Heizung",
+  "back": "отопление",
+  "partOfSpeech": "noun",
+  "gender": "die",
+  "frequency": 4,
+  "example": "Die Heizung ist warm.",
+  "exampleTranslation": "Отопление тёплое."
+},
+{
+  "id": 33,
+  "front": "das Licht",
+  "back": "свет",
+  "partOfSpeech": "noun",
+  "gender": "das",
+  "frequency": 5,
+  "example": "Das Licht ist an.",
+  "exampleTranslation": "Свет включён."
+},
+{
+  "id": 34,
+  "front": "die Lampe",
+  "back": "лампа",
+  "partOfSpeech": "noun",
+  "gender": "die",
+  "frequency": 4,
+  "example": "Die Lampe steht auf dem Tisch.",
+  "exampleTranslation": "Лампа стоит на столе."
+},
+{
+  "id": 35,
+  "front": "der Müll",
+  "back": "мусор",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 4,
+  "example": "Der Müll ist draußen.",
+  "exampleTranslation": "Мусор снаружи."
+},
+{
+  "id": 36,
+  "front": "die Mülltonne",
+  "back": "мусорный контейнер",
+  "partOfSpeech": "noun",
+  "gender": "die",
+  "frequency": 3,
+  "example": "Die Mülltonne ist voll.",
+  "exampleTranslation": "Мусорный контейнер полный."
+},
+{
+  "id": 37,
+  "front": "der Hof",
+  "back": "двор",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 3,
+  "example": "Die Kinder spielen im Hof.",
+  "exampleTranslation": "Дети играют во дворе."
+},
+{
+  "id": 38,
+  "front": "der Eingangscode",
+  "back": "код входа",
+  "partOfSpeech": "noun",
+  "gender": "der",
+  "frequency": 2,
+  "example": "Der Eingangscode ist geheim.",
+  "exampleTranslation": "Код входа секретный."
+},
+{
+  "id": 39,
+  "front": "die Adresse",
+  "back": "адрес",
+  "partOfSpeech": "noun",
+  "gender": "die",
+  "frequency": 5,
+  "example": "Ich kenne die Adresse.",
+  "exampleTranslation": "Я знаю адрес."
+},
+{
+  "id": 40,
+  "front": "das Gebäude",
+  "back": "здание",
+  "partOfSpeech": "noun",
+  "gender": "das",
+  "frequency": 3,
+  "example": "Das Gebäude ist modern.",
+  "exampleTranslation": "Здание современное."
+}
+  ]
+}

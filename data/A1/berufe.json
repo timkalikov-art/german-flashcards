@@ -1,0 +1,408 @@
+{
+  "level": "A1",
+  "topic": "Berufe",
+  "language": "de",
+  "cards": [
+    {
+      "id": 1,
+      "front": "der Arzt",
+      "back": "врач",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Der Arzt arbeitet im Krankenhaus.",
+      "exampleTranslation": "Врач работает в больнице."
+    },
+    {
+      "id": 2,
+      "front": "die Ärztin",
+      "back": "врач (женщина)",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Ärztin hilft den Patienten.",
+      "exampleTranslation": "Женщина-врач помогает пациентам."
+    },
+    {
+      "id": 3,
+      "front": "der Lehrer",
+      "back": "учитель",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Der Lehrer erklärt die Aufgabe.",
+      "exampleTranslation": "Учитель объясняет задание."
+    },
+    {
+      "id": 4,
+      "front": "die Lehrerin",
+      "back": "учительница",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Lehrerin spricht langsam.",
+      "exampleTranslation": "Учительница говорит медленно."
+    },
+    {
+      "id": 5,
+      "front": "der Koch",
+      "back": "повар",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Koch kocht das Essen.",
+      "exampleTranslation": "Повар готовит еду."
+    },
+    {
+      "id": 6,
+      "front": "die Köchin",
+      "back": "повар (женщина)",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Köchin arbeitet im Restaurant.",
+      "exampleTranslation": "Женщина-повар работает в ресторане."
+    },
+    {
+      "id": 7,
+      "front": "der Fahrer",
+      "back": "водитель",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Fahrer fährt den Bus.",
+      "exampleTranslation": "Водитель ведёт автобус."
+    },
+    {
+      "id": 8,
+      "front": "der Verkäufer",
+      "back": "продавец",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Verkäufer arbeitet im Laden.",
+      "exampleTranslation": "Продавец работает в магазине."
+    },
+    {
+      "id": 9,
+      "front": "die Verkäuferin",
+      "back": "продавщица",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Verkäuferin hilft dem Kunden.",
+      "exampleTranslation": "Продавщица помогает клиенту."
+    },
+    {
+      "id": 10,
+      "front": "der Manager",
+      "back": "менеджер",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 3,
+      "example": "Der Manager arbeitet im Büro.",
+      "exampleTranslation": "Менеджер работает в офисе."
+    },
+    {
+      "id": 11,
+      "front": "der Polizist",
+      "back": "полицейский",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Polizist arbeitet auf der Straße.",
+      "exampleTranslation": "Полицейский работает на улице."
+    },
+    {
+      "id": 12,
+      "front": "die Polizei",
+      "back": "полиция",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Polizei hilft den Menschen.",
+      "exampleTranslation": "Полиция помогает людям."
+    },
+    {
+      "id": 13,
+      "front": "der Kellner",
+      "back": "официант",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Kellner bringt das Essen.",
+      "exampleTranslation": "Официант приносит еду."
+    },
+    {
+      "id": 14,
+      "front": "die Kellnerin",
+      "back": "официантка",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Kellnerin arbeitet im Café.",
+      "exampleTranslation": "Официантка работает в кафе."
+    },
+    {
+      "id": 15,
+      "front": "der Arbeiter",
+      "back": "рабочий",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Arbeiter arbeitet in der Fabrik.",
+      "exampleTranslation": "Рабочий работает на заводе."
+    },
+    {
+      "id": 16,
+      "front": "der Chef",
+      "back": "начальник",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Der Chef spricht mit dem Mitarbeiter.",
+      "exampleTranslation": "Начальник говорит с сотрудником."
+    },
+    {
+      "id": 17,
+      "front": "die Chefin",
+      "back": "начальница",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Chefin ist im Büro.",
+      "exampleTranslation": "Начальница в офисе."
+    },
+    {
+      "id": 18,
+      "front": "der Student",
+      "back": "студент",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Student studiert Deutsch.",
+      "exampleTranslation": "Студент изучает немецкий."
+    },
+    {
+      "id": 19,
+      "front": "die Studentin",
+      "back": "студентка",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Studentin lernt viel.",
+      "exampleTranslation": "Студентка много учится."
+    },
+    {
+      "id": 20,
+      "front": "der Mitarbeiter",
+      "back": "сотрудник",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Mitarbeiter arbeitet im Büro.",
+      "exampleTranslation": "Сотрудник работает в офисе."
+    },
+    {
+      "id": 21,
+      "front": "der Bäcker",
+      "back": "пекарь",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Bäcker backt Brot.",
+      "exampleTranslation": "Пекарь печёт хлеб."
+    },
+    {
+    "id": 22,
+    "front": "die Bäckerin",
+    "back": "пекарь (женщина)",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "frequency": 3,
+    "example": "Die Bäckerin arbeitet früh.",
+    "exampleTranslation": "Женщина-пекарь работает рано."
+    },
+    {
+    "id": 23,
+    "front": "der Friseur",
+    "back": "парикмахер",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 4,
+    "example": "Der Friseur schneidet Haare.",
+    "exampleTranslation": "Парикмахер стрижёт волосы."
+    },
+    {
+    "id": 24,
+    "front": "die Friseurin",
+    "back": "парикмахер (женщина)",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "frequency": 4,
+    "example": "Die Friseurin arbeitet im Salon.",
+    "exampleTranslation": "Парикмахер работает в салоне."
+    },
+    {
+    "id": 25,
+    "front": "der Mechaniker",
+    "back": "механик",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 3,
+    "example": "Der Mechaniker repariert das Auto.",
+    "exampleTranslation": "Механик ремонтирует машину."
+    },
+    {
+    "id": 26,
+    "front": "der Elektriker",
+    "back": "электрик",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 3,
+    "example": "Der Elektriker repariert das Licht.",
+    "exampleTranslation": "Электрик чинит свет."
+    },
+    {
+    "id": 27,
+    "front": "der Bauarbeiter",
+    "back": "строитель",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 3,
+    "example": "Der Bauarbeiter baut ein Haus.",
+    "exampleTranslation": "Строитель строит дом."
+    },
+    {
+    "id": 28,
+    "front": "der Journalist",
+    "back": "журналист",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 3,
+    "example": "Der Journalist schreibt einen Artikel.",
+    "exampleTranslation": "Журналист пишет статью."
+    },
+    {
+    "id": 29,
+    "front": "die Journalistin",
+    "back": "журналистка",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "frequency": 3,
+    "example": "Die Journalistin arbeitet für eine Zeitung.",
+    "exampleTranslation": "Журналистка работает для газеты."
+    },
+    {
+    "id": 30,
+    "front": "der Fotograf",
+    "back": "фотограф",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 3,
+    "example": "Der Fotograf macht Fotos.",
+    "exampleTranslation": "Фотограф делает фотографии."
+    },
+    {
+    "id": 31,
+    "front": "die Fotografin",
+    "back": "фотограф (женщина)",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "frequency": 3,
+    "example": "Die Fotografin arbeitet auf einer Hochzeit.",
+    "exampleTranslation": "Фотограф работает на свадьбе."
+    },
+    {
+    "id": 32,
+    "front": "der Verkäufer",
+    "back": "продавец",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 4,
+    "example": "Der Verkäufer arbeitet im Laden.",
+    "exampleTranslation": "Продавец работает в магазине."
+    },
+    {
+    "id": 33,
+    "front": "der Kassierer",
+    "back": "кассир",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 3,
+    "example": "Der Kassierer sitzt an der Kasse.",
+    "exampleTranslation": "Кассир сидит за кассой."
+    },
+    {
+    "id": 34,
+    "front": "die Kassiererin",
+    "back": "кассирша",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "frequency": 3,
+    "example": "Die Kassiererin arbeitet im Supermarkt.",
+    "exampleTranslation": "Кассирша работает в супермаркете."
+    },
+    {
+    "id": 35,
+    "front": "der Fahrer",
+    "back": "водитель",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 4,
+    "example": "Der Fahrer fährt den Bus.",
+    "exampleTranslation": "Водитель ведёт автобус."
+    },
+    {
+    "id": 36,
+    "front": "der Pilot",
+    "back": "пилот",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 3,
+    "example": "Der Pilot fliegt das Flugzeug.",
+    "exampleTranslation": "Пилот управляет самолётом."
+    },
+    {
+    "id": 37,
+    "front": "die Pilotin",
+    "back": "пилот (женщина)",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "frequency": 3,
+    "example": "Die Pilotin arbeitet für eine Airline.",
+    "exampleTranslation": "Женщина-пилот работает в авиакомпании."
+    },
+    {
+    "id": 38,
+    "front": "der Feuerwehrmann",
+    "back": "пожарный",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 3,
+    "example": "Der Feuerwehrmann löscht das Feuer.",
+    "exampleTranslation": "Пожарный тушит огонь."
+    },
+    {
+    "id": 39,
+    "front": "die Feuerwehr",
+    "back": "пожарная служба",
+    "partOfSpeech": "noun",
+    "gender": "die",
+    "frequency": 3,
+    "example": "Die Feuerwehr kommt schnell.",
+    "exampleTranslation": "Пожарная приезжает быстро."
+    },
+    {
+    "id": 40,
+    "front": "der Anwalt",
+    "back": "адвокат",
+    "partOfSpeech": "noun",
+    "gender": "der",
+    "frequency": 2,
+    "example": "Der Anwalt arbeitet im Büro.",
+    "exampleTranslation": "Адвокат работает в офисе."
+    }
+    
+  ]
+}

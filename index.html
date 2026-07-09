@@ -20,14 +20,14 @@
   <h3>Меню</h3>
 
   <!-- импорт -->
-  <label class="file-upload">
+  <label class="file-upload hidden-menu-item">
     <input type="file" id="fileInput" accept=".json">
     <div class="file-btn">📂 Выбрать файл</div>
     <div id="fileName">Файл не выбран</div>
   </label>
 
   <!-- уровень -->
-  <div class="menu-section">
+  <div class="menu-section hidden-menu-item">
     <label>Уровень</label>
     <select id="levelSelect">
       <option value="A1">A1</option>
@@ -38,9 +38,9 @@
     </select>
   </div>
 
-  <!-- тема -->
+  <!-- категория -->
   <div class="menu-section">
-    <label>Тема</label>
+    <label>Категория</label>
     <select id="topicSelect"></select>
   </div>
 
@@ -56,7 +56,7 @@
     <div class="card-inner" id="cardInner">
 
       <div class="card-front">
-        <span id="word">Выберите тему</span>
+        <span id="word">Выберите категорию</span>
       </div>
 
       <div class="card-back">
@@ -90,6 +90,7 @@
 <!-- ===== THEME ===== -->
 <button id="themeToggle" class="theme-toggle">☀️</button>
 
+<script src="data.js"></script>
 <script src="script.js"></script>
 
 </body>

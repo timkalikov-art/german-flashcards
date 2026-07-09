@@ -1,0 +1,207 @@
+{
+  "level": "A1",
+  "topic": "Menschen",
+  "language": "de",
+  "cards": [
+    {
+      "id": 1,
+      "front": "der Mensch",
+      "back": "человек",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Der Mensch lebt in der Stadt.",
+      "exampleTranslation": "Человек живёт в городе."
+    },
+    {
+      "id": 2,
+      "front": "die Person",
+      "back": "личность / человек",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Diese Person ist freundlich.",
+      "exampleTranslation": "Этот человек дружелюбный."
+    },
+    {
+      "id": 3,
+      "front": "der Mann",
+      "back": "мужчина",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Der Mann arbeitet hier.",
+      "exampleTranslation": "Этот мужчина работает здесь."
+    },
+    {
+      "id": 4,
+      "front": "die Frau",
+      "back": "женщина",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Die Frau spricht Deutsch.",
+      "exampleTranslation": "Женщина говорит по-немецки."
+    },
+    {
+      "id": 5,
+      "front": "das Kind",
+      "back": "ребёнок",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 5,
+      "example": "Das Kind spielt im Park.",
+      "exampleTranslation": "Ребёнок играет в парке."
+    },
+    {
+      "id": 6,
+      "front": "der Junge",
+      "back": "мальчик",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Junge läuft schnell.",
+      "exampleTranslation": "Мальчик быстро бежит."
+    },
+    {
+      "id": 7,
+      "front": "das Mädchen",
+      "back": "девочка",
+      "partOfSpeech": "noun",
+      "gender": "das",
+      "frequency": 4,
+      "example": "Das Mädchen liest ein Buch.",
+      "exampleTranslation": "Девочка читает книгу."
+    },
+    {
+      "id": 8,
+      "front": "der Freund",
+      "back": "друг",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 5,
+      "example": "Mein Freund kommt heute.",
+      "exampleTranslation": "Мой друг приходит сегодня."
+    },
+    {
+      "id": 9,
+      "front": "die Freundin",
+      "back": "подруга",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Meine Freundin wohnt hier.",
+      "exampleTranslation": "Моя подруга живёт здесь."
+    },
+    {
+      "id": 10,
+      "front": "der Nachbar",
+      "back": "сосед",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Mein Nachbar ist nett.",
+      "exampleTranslation": "Мой сосед хороший."
+    },
+    {
+      "id": 11,
+      "front": "die Nachbarin",
+      "back": "соседка",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Nachbarin hilft uns.",
+      "exampleTranslation": "Соседка помогает нам."
+    },
+    {
+      "id": 12,
+      "front": "die Leute",
+      "back": "люди",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 5,
+      "example": "Viele Leute sind hier.",
+      "exampleTranslation": "Здесь много людей."
+    },
+    {
+      "id": 13,
+      "front": "der Besucher",
+      "back": "посетитель",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 3,
+      "example": "Der Besucher kommt aus Spanien.",
+      "exampleTranslation": "Посетитель из Испании."
+    },
+    {
+      "id": 14,
+      "front": "der Kunde",
+      "back": "клиент",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Kunde bezahlt.",
+      "exampleTranslation": "Клиент платит."
+    },
+    {
+      "id": 15,
+      "front": "die Kundin",
+      "back": "клиентка",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Die Kundin wartet.",
+      "exampleTranslation": "Клиентка ждёт."
+    },
+    {
+      "id": 16,
+      "front": "der Gast",
+      "back": "гость",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 4,
+      "example": "Der Gast kommt heute.",
+      "exampleTranslation": "Гость приходит сегодня."
+    },
+    {
+      "id": 17,
+      "front": "die Gäste",
+      "back": "гости",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 4,
+      "example": "Viele Gäste sind hier.",
+      "exampleTranslation": "Здесь много гостей."
+    },
+    {
+      "id": 18,
+      "front": "der Partner",
+      "back": "партнёр",
+      "partOfSpeech": "noun",
+      "gender": "der",
+      "frequency": 3,
+      "example": "Mein Partner arbeitet viel.",
+      "exampleTranslation": "Мой партнёр много работает."
+    },
+    {
+      "id": 19,
+      "front": "die Partnerin",
+      "back": "партнёрша",
+      "partOfSpeech": "noun",
+      "gender": "die",
+      "frequency": 3,
+      "example": "Seine Partnerin kommt später.",
+      "exampleTranslation": "Его партнёрша придёт позже."
+    },
+    {
+      "id": 20,
+      "front": "alle",
+      "back": "все",
+      "partOfSpeech": "pronoun",
+      "gender": null,
+      "frequency": 5,
+      "example": "Alle sind hier.",
+      "exampleTranslation": "Все здесь."
+    }
+  ]
+}
