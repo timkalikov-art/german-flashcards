@@ -11,6 +11,8 @@ const state = {
   repeated: 0
 };
 
+const STUDY_STATE_KEY = "flashcardsStudyState";
+
 const wordEl = document.getElementById("word");
 const translationEl = document.getElementById("translation");
 const statsEl = document.getElementById("stats");
@@ -23,11 +25,74 @@ const statsModal = document.getElementById("statsModal");
 const modalStats = document.getElementById("modalStats");
 const openStatsBtn = document.getElementById("openStats");
 const closeStatsBtn = document.getElementById("closeStats");
+const sidebar = document.getElementById("sidebar");
+const overlay = document.getElementById("overlay");
+const menuBtn = document.getElementById("menuBtn");
 
 function resetProgress() {
   state.current = 0;
   state.known = 0;
   state.repeated = 0;
+}
+
+function getCardKey(card, index = 0) {
+  return String(card.id ?? `${card.front}|${card.back}|${index}`);
+}
+
+function makeWord(card, index = 0) {
+  return {
+    key: getCardKey(card, index),
+    word: formatFront(card),
+    translation: formatBack(card),
+    raw: card
+  };
+}
+
+function readStudyState() {
+  try {
+    return JSON.parse(localStorage.getItem(STUDY_STATE_KEY)) || null;
+  } catch {
+    return null;
+  }
+}
+
+function saveStudyState() {
+  if (!state.category || !state.words.length) return;
+
+  const payload = {
+    category: state.category,
+    current: state.current,
+    known: state.known,
+    repeated: state.repeated,
+    order: state.words.map(item => item.key)
+  };
+
+  try {
+    localStorage.setItem(STUDY_STATE_KEY, JSON.stringify(payload));
+  } catch {
+    // Сайт должен работать даже если браузер запретил сохранение.
+  }
+}
+
+function restoreWordOrder(words, saved) {
+  if (!saved?.order?.length) {
+    return words;
+  }
+
+  const savedOrder = saved.order.map(String);
+  const savedKeys = new Set(savedOrder);
+  const byKey = new Map(words.map(word => [word.key, word]));
+  const restored = savedOrder
+    .map(key => byKey.get(String(key)))
+    .filter(Boolean);
+  const missing = words.filter(word => !savedKeys.has(word.key));
+
+  return [...restored, ...missing];
+}
+
+function closeSidebar() {
+  sidebar?.classList.remove("open");
+  overlay?.classList.remove("show");
 }
 
 function escapeHtml(value) {
@@ -39,35 +104,48 @@ function escapeHtml(value) {
     .replaceAll("'", "&#039;");
 }
 
-function formatBack(card) {
-  const rows = card.tenses || [];
-  const forms = rows
-    .map(row => `
-      <div class="conjugation-row">
-        <span>${escapeHtml(row.pronoun)}</span>
-        <strong>
-          ${escapeHtml(row.present)}
-          <small>/ ${escapeHtml(row.perfect)} / ${escapeHtml(row.preterite)} / ${escapeHtml(row.future)}</small>
-        </strong>
-      </div>
-    `)
-    .join("");
+function getCardHint(card) {
+  const row = (card.tenses || [])
+    .find(item => item.pronoun === "er/sie/es");
+
+  if (row?.perfect) {
+    return row.perfect;
+  }
+
+  return card.grammar?.case || "";
+}
+
+function formatFront(card) {
+  const hint = getCardHint(card);
 
   return `
-    <div class="translation-main">${escapeHtml(card.back)}</div>
-    <div class="conjugation-list">${forms}</div>
+    <div class="front-word">${escapeHtml(card.front)}</div>
+    ${hint ? `<div class="front-hint">(${escapeHtml(hint)})</div>` : ""}
   `;
 }
 
-function setWordsFromCards(cards) {
-  state.words = cards.map(card => ({
-    word: card.front,
-    translation: formatBack(card),
-    raw: card
-  }));
+function formatBack(card) {
+  return `<div class="translation-main">${escapeHtml(card.back)}</div>`;
+}
 
-  shuffle(state.words);
+function setWordsFromCards(cards, options = {}) {
+  const saved = options.restore ? readStudyState() : null;
+
+  state.words = cards.map(makeWord);
   resetProgress();
+
+  if (saved?.category === state.category) {
+    state.words = restoreWordOrder(state.words, saved);
+    state.current = Math.min(
+      Math.max(Number(saved.current) || 0, 0),
+      Math.max(state.words.length - 1, 0)
+    );
+    state.known = Number(saved.known) || 0;
+    state.repeated = Number(saved.repeated) || 0;
+  } else {
+    shuffle(state.words);
+  }
+
   showCard();
 }
 
@@ -89,13 +167,14 @@ function showCard() {
 
   const card = state.words[state.current];
 
-  wordEl.textContent = card.word;
+  wordEl.innerHTML = card.word;
   translationEl.innerHTML = card.translation;
 
   statsEl.textContent =
     `${state.current + 1} / ${state.words.length}`;
 
   cardInner.classList.remove("flipped");
+  saveStudyState();
 }
 
 function flipCard() {
@@ -109,8 +188,12 @@ cardInner.addEventListener("click", flipCard);
 function nextCard() {
   if (!state.words.length) return;
 
-  state.current =
-    (state.current + 1) % state.words.length;
+  if (state.current === state.words.length - 1) {
+    shuffle(state.words);
+    state.current = 0;
+  } else {
+    state.current += 1;
+  }
 
   showCard();
 }
@@ -200,7 +283,7 @@ function loadCategory(categoryId) {
   }
 
   state.category = category.id;
-  setWordsFromCards(category.cards);
+  setWordsFromCards(category.cards, { restore: true });
 }
 
 function populateCategories() {
@@ -231,11 +314,20 @@ function populateCategories() {
     topicSelect.appendChild(option);
   });
 
-  loadCategory(categories[0].id);
+  const saved = readStudyState();
+  const savedCategoryExists = categories
+    .some(category => category.id === saved?.category);
+  const startCategory = savedCategoryExists
+    ? saved.category
+    : categories[0].id;
+
+  topicSelect.value = startCategory;
+  loadCategory(startCategory);
 }
 
 topicSelect.addEventListener("change", () => {
   loadCategory(topicSelect.value);
+  closeSidebar();
 });
 
 if (fileInput) {
@@ -258,10 +350,7 @@ if (fileInput) {
 
         setWordsFromCards(data.cards);
 
-        if (sidebar && overlay) {
-          sidebar.classList.remove("open");
-          overlay.classList.remove("show");
-        }
+        closeSidebar();
       } catch (error) {
         console.error("Ошибка импорта:", error);
         fileNameEl.textContent = "Ошибка в JSON-файле";
@@ -317,10 +406,6 @@ if (themeBtn) {
   };
 }
 
-const sidebar = document.getElementById("sidebar");
-const overlay = document.getElementById("overlay");
-const menuBtn = document.getElementById("menuBtn");
-
 if (menuBtn) {
   menuBtn.onclick = () => {
     sidebar.classList.add("open");
@@ -329,10 +414,7 @@ if (menuBtn) {
 }
 
 if (overlay) {
-  overlay.onclick = () => {
-    sidebar.classList.remove("open");
-    overlay.classList.remove("show");
-  };
+  overlay.onclick = closeSidebar;
 }
 
 populateCategories();
