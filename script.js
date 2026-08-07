@@ -171,66 +171,6 @@ function updateControls() {
   }
 }
 
-function getCardKey(card, index = 0) {
-  return String(card.id ?? `${card.front}|${card.back}|${index}`);
-}
-
-function makeWord(card, index = 0) {
-  return {
-    key: getCardKey(card, index),
-    word: formatFront(card),
-    translation: formatBack(card),
-    raw: card
-  };
-}
-
-function readStudyState() {
-  try {
-    return JSON.parse(localStorage.getItem(STUDY_STATE_KEY)) || null;
-  } catch {
-    return null;
-  }
-}
-
-function saveStudyState() {
-  if (!state.category || !state.words.length) return;
-
-  const payload = {
-    category: state.category,
-    current: state.current,
-    known: state.known,
-    repeated: state.repeated,
-    order: state.words.map(item => item.key)
-  };
-
-  try {
-    localStorage.setItem(STUDY_STATE_KEY, JSON.stringify(payload));
-  } catch {
-    // Сайт должен работать даже если браузер запретил сохранение.
-  }
-}
-
-function restoreWordOrder(words, saved) {
-  if (!saved?.order?.length) {
-    return words;
-  }
-
-  const savedOrder = saved.order.map(String);
-  const savedKeys = new Set(savedOrder);
-  const byKey = new Map(words.map(word => [word.key, word]));
-  const restored = savedOrder
-    .map(key => byKey.get(String(key)))
-    .filter(Boolean);
-  const missing = words.filter(word => !savedKeys.has(word.key));
-
-  return [...restored, ...missing];
-}
-
-function closeSidebar() {
-  sidebar?.classList.remove("open");
-  overlay?.classList.remove("show");
-}
-
 function escapeHtml(value) {
   return String(value || "")
     .replaceAll("&", "&amp;")
@@ -349,6 +289,7 @@ function showCard() {
   }
 
   const card = state.words[state.current];
+  card.correctCount = Math.max(Number(card.correctCount) || 0, 0);
 
   wordEl.innerHTML = card.word;
   translationEl.innerHTML = card.translation;
@@ -374,7 +315,6 @@ function nextCard() {
   if (!state.words.length || state.completed) return;
 
   if (state.current === state.words.length - 1) {
-    shuffle(state.words);
     state.current = 0;
   } else {
     state.current += 1;
@@ -397,6 +337,7 @@ function finishCurrentCard(shouldRepeat) {
   if (!state.words.length || state.completed) return;
 
   const [word] = state.words.splice(state.current, 1);
+  word.correctCount = Math.max(Number(word.correctCount) || 0, 0);
 
   if (shouldRepeat) {
     word.correctCount = 0;
