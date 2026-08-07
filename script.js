@@ -191,6 +191,173 @@ function getCardHint(card) {
   return card.grammar?.case || "";
 }
 
+function cleanTranslation(value) {
+  return String(value || "")
+    .replace(/^\d+\s*/, "")
+    .replace(/\s*\([^)]*\)/g, "")
+    .replace(/[.!?]+$/g, "")
+    .trim();
+}
+
+function firstGermanVariant(value) {
+  return String(value || "")
+    .split(/[,/;]/)[0]
+    .replace(/\s*\([^)]*\)/g, "")
+    .trim();
+}
+
+function getPrepositionExample(card) {
+  const examples = {
+    mit: ["Ich fahre mit dem Bus.", "Я еду на автобусе."],
+    ohne: ["Ich trinke Kaffee ohne Zucker.", "Я пью кофе без сахара."],
+    nach: ["Ich fahre nach Berlin.", "Я еду в Берлин."],
+    vor: ["Ich stehe vor dem Haus.", "Я стою перед домом."],
+    für: ["Das Geschenk ist für dich.", "Этот подарок для тебя."],
+    von: ["Das Geschenk ist von meiner Mutter.", "Этот подарок от моей мамы."],
+    seit: ["Ich lerne seit einem Jahr Deutsch.", "Я учу немецкий уже год."],
+    aus: ["Ich komme aus Deutschland.", "Я из Германии."],
+    bei: ["Ich wohne bei meiner Familie.", "Я живу у своей семьи."],
+    zu: ["Ich gehe zur Schule.", "Я иду в школу."],
+    in: ["Ich bin in der Stadt.", "Я в городе."],
+    auf: ["Das Buch liegt auf dem Tisch.", "Книга лежит на столе."],
+    unter: ["Die Tasche liegt unter dem Tisch.", "Сумка лежит под столом."],
+    über: ["Die Lampe hängt über dem Tisch.", "Лампа висит над столом."]
+  };
+
+  const match = examples[firstGermanVariant(card.front)];
+
+  if (!match) return null;
+
+  return {
+    exampleDe: match[0],
+    exampleRu: match[1]
+  };
+}
+
+function getPronounExample(card) {
+  const examples = {
+    ich: ["Ich bin hier.", "Я здесь."],
+    du: ["Du bist nett.", "Ты милый."],
+    er: ["Er ist zu Hause.", "Он дома."],
+    sie: ["Sie ist hier.", "Она здесь."],
+    es: ["Es ist gut.", "Это хорошо."],
+    wir: ["Wir lernen Deutsch.", "Мы учим немецкий."],
+    ihr: ["Ihr seid Freunde.", "Вы друзья."],
+    Sie: ["Sie sprechen Deutsch.", "Вы говорите по-немецки."]
+  };
+
+  const match = examples[String(card.front || "").trim()];
+
+  if (!match) return null;
+
+  return {
+    exampleDe: match[0],
+    exampleRu: match[1]
+  };
+}
+
+function getAdverbExample(card) {
+  const examples = {
+    hier: ["Ich bin hier.", "Я здесь."],
+    dort: ["Ich bin dort.", "Я там."],
+    irgendwo: ["Ich bin irgendwo in der Stadt.", "Я где-то в городе."],
+    nirgends: ["Ich finde es nirgends.", "Я нигде это не нахожу."],
+    links: ["Ich gehe nach links.", "Я иду налево."],
+    "nach links": ["Ich gehe nach links.", "Я иду налево."],
+    rechts: ["Ich gehe nach rechts.", "Я иду направо."],
+    "nach rechts": ["Ich gehe nach rechts.", "Я иду направо."],
+    vorne: ["Ich sitze vorne.", "Я сижу впереди."],
+    hinten: ["Ich sitze hinten.", "Я сижу сзади."],
+    vorwärts: ["Ich gehe vorwärts.", "Я иду вперёд."],
+    rückwärts: ["Ich gehe rückwärts.", "Я иду назад."],
+    geradeaus: ["Ich gehe geradeaus.", "Я иду прямо."],
+    zurück: ["Ich gehe zurück.", "Я иду назад."],
+    überall: ["Ich sehe überall Menschen.", "Я везде вижу людей."],
+    zuerst: ["Zuerst trinke ich Kaffee.", "Сначала я пью кофе."],
+    plötzlich: ["Plötzlich regnet es.", "Вдруг пошёл дождь."],
+    nie: ["Ich rauche nie.", "Я никогда не курю."],
+    wieder: ["Ich komme wieder.", "Я приду снова."],
+    jetzt: ["Ich lerne jetzt Deutsch.", "Сейчас я учу немецкий."],
+    oft: ["Ich lese oft.", "Я часто читаю."],
+    damals: ["Damals war ich ein Kind.", "Тогда я был ребёнком."],
+    dringend: ["Ich brauche dringend Hilfe.", "Мне срочно нужна помощь."],
+    gewöhnlich: ["Gewöhnlich trinke ich Tee.", "Обычно я пью чай."],
+    möglicherweise: ["Möglicherweise kommt er heute.", "Возможно, он придёт сегодня."],
+    wahrscheinlich: ["Wahrscheinlich kommt sie später.", "Вероятно, она придёт позже."],
+    vielleicht: ["Vielleicht regnet es morgen.", "Может быть, завтра будет дождь."],
+    deshalb: ["Deshalb bleibe ich zu Hause.", "Поэтому я остаюсь дома."],
+    so: ["Mach es so.", "Сделай это так."],
+    auch: ["Ich komme auch.", "Я тоже приду."],
+    ebenfalls: ["Ich komme ebenfalls.", "Я тоже приду."],
+    nur: ["Ich brauche nur Wasser.", "Мне нужна только вода."],
+    genau: ["Das ist genau richtig.", "Это совершенно правильно."],
+    etwa: ["Das kostet etwa zehn Euro.", "Это стоит примерно десять евро."],
+    ungefähr: ["Das dauert ungefähr eine Stunde.", "Это длится примерно час."],
+    fast: ["Ich bin fast fertig.", "Я почти готов."],
+    absichtlich: ["Ich mache das absichtlich.", "Я делаю это намеренно."],
+    zufällig: ["Ich sehe ihn zufällig.", "Я случайно его вижу."],
+    sehr: ["Das ist sehr gut.", "Это очень хорошо."],
+    besonders: ["Das ist besonders wichtig.", "Это особенно важно."]
+  };
+
+  const match = examples[firstGermanVariant(card.front)];
+
+  if (!match) return null;
+
+  return {
+    exampleDe: match[0],
+    exampleRu: match[1]
+  };
+}
+
+function getGeneratedExample(card) {
+  if (card.tenses) return null;
+
+  const prepositionExample = getPrepositionExample(card);
+  if (prepositionExample) return prepositionExample;
+
+  const pronounExample = getPronounExample(card);
+  if (pronounExample) return pronounExample;
+
+  const front = firstGermanVariant(card.front);
+  const translation = cleanTranslation(card.back);
+
+  if (!front || !translation || /[!?]$/.test(front)) return null;
+
+  if (card.grammar?.article) {
+    const isPlural = card.grammar.gender === "Pl";
+
+    return {
+      exampleDe: isPlural
+        ? `Hier sind ${front}.`
+        : `Hier ist ${front}.`,
+      exampleRu: isPlural
+        ? `Здесь ${translation}.`
+        : `Здесь ${translation}.`
+    };
+  }
+
+  if (card.category === "Прилагательные") {
+    return {
+      exampleDe: `Er ist sehr ${front}.`,
+      exampleRu: `Он очень ${translation}.`
+    };
+  }
+
+  if (card.category === "Наречия") {
+    return getAdverbExample(card);
+  }
+
+  if (card.category === "Цвета и формы" && /^[a-zäöüß-]+$/i.test(front)) {
+    return {
+      exampleDe: `Die Farbe ist ${front}.`,
+      exampleRu: `Цвет ${translation}.`
+    };
+  }
+
+  return null;
+}
+
 function formatFront(card) {
   const hint = getCardHint(card);
 
@@ -201,8 +368,9 @@ function formatFront(card) {
 }
 
 function formatBack(card) {
-  const exampleDe = card.exampleDe || card.example || "";
-  const exampleRu = card.exampleRu || "";
+  const generatedExample = getGeneratedExample(card);
+  const exampleDe = card.exampleDe || card.example || generatedExample?.exampleDe || "";
+  const exampleRu = card.exampleRu || generatedExample?.exampleRu || "";
   const hasExample = exampleDe || exampleRu;
 
   return `
