@@ -324,20 +324,10 @@ function getGeneratedExample(card) {
 
   if (!front || !translation || /[!?]$/.test(front)) return null;
 
-  if (card.grammar?.article) {
-    const isPlural = card.grammar.gender === "Pl";
-
-    return {
-      exampleDe: isPlural
-        ? `Hier sind ${front}.`
-        : `Hier ist ${front}.`,
-      exampleRu: isPlural
-        ? `Здесь ${translation}.`
-        : `Здесь ${translation}.`
-    };
-  }
-
-  if (card.category === "Прилагательные") {
+  if (
+    card.category === "Прилагательные" &&
+    /^[a-zäöüß-]+$/.test(front)
+  ) {
     return {
       exampleDe: `Er ist sehr ${front}.`,
       exampleRu: `Он очень ${translation}.`
