@@ -526,8 +526,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 1",
-          "exampleDe": "Ich wende nichts ein.",
-          "exampleRu": "Я ничего не возражаю."
+          "exampleDe": "Ich habe nichts dagegen einzuwenden.",
+          "exampleRu": "Я ничего не имею против."
         },
         {
           "id": 179,
@@ -582,8 +582,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 1",
-          "exampleDe": "Ich komme ins Zimmer herein.",
-          "exampleRu": "Я вхожу в комнату.",
+          "exampleDe": "Komm bitte herein!",
+          "exampleRu": "Заходи, пожалуйста!",
           "grammar": {
             "government": "in + Akk."
           }
@@ -697,8 +697,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 1",
-          "exampleDe": "Ich gehe heute Abend aus.",
-          "exampleRu": "Сегодня вечером я выхожу из дома."
+          "exampleDe": "Ich gehe heute Abend mit Freunden aus.",
+          "exampleRu": "Сегодня вечером я иду гулять с друзьями."
         },
         {
           "id": 182,
@@ -2625,8 +2625,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 2",
-          "exampleDe": "Ich breche den Stift nicht.",
-          "exampleRu": "Я не ломаю ручку.",
+          "exampleDe": "Der Ast bricht unter dem Gewicht des Schnees.",
+          "exampleRu": "Ветка ломается под тяжестью снега.",
           "grammar": {
             "government": "+ Akk."
           }
@@ -3253,8 +3253,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 2",
-          "exampleDe": "Ich unterschätze die Aufgabe nicht.",
-          "exampleRu": "Я не недооцениваю задание."
+          "exampleDe": "Ich neige nicht dazu, die Aufgabe zu unterschätzen.",
+          "exampleRu": "Я не склонен недооценивать это задание."
         },
         {
           "id": 227,
@@ -3872,8 +3872,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 2",
-          "exampleDe": "Ich stoppe an der Ampel.",
-          "exampleRu": "Я останавливаюсь на светофоре."
+          "exampleDe": "Ich stoppe das Auto vor der Ampel.",
+          "exampleRu": "Я останавливаю машину перед светофором."
         },
         {
           "id": 238,
@@ -3885,44 +3885,44 @@ window.FLASHCARDS_DATA = {
           "tenses": [
             {
               "pronoun": "ich",
-              "present": "tworte an",
-              "perfect": "habe angetwortet",
-              "preterite": "twortete an",
+              "present": "antworte",
+              "perfect": "habe geantwortet",
+              "preterite": "antwortete",
               "future": "werde antworten"
             },
             {
               "pronoun": "du",
-              "present": "twortest an",
-              "perfect": "hast angetwortet",
-              "preterite": "twortetest an",
+              "present": "antwortest",
+              "perfect": "hast geantwortet",
+              "preterite": "antwortetest",
               "future": "wirst antworten"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "twortet an",
-              "perfect": "hat angetwortet",
-              "preterite": "twortete an",
+              "present": "antwortet",
+              "perfect": "hat geantwortet",
+              "preterite": "antwortete",
               "future": "wird antworten"
             },
             {
               "pronoun": "wir",
-              "present": "tworten an",
-              "perfect": "haben angetwortet",
-              "preterite": "tworteten an",
+              "present": "antworten",
+              "perfect": "haben geantwortet",
+              "preterite": "antworteten",
               "future": "werden antworten"
             },
             {
               "pronoun": "ihr",
-              "present": "twortet an",
-              "perfect": "habt angetwortet",
-              "preterite": "twortetet an",
+              "present": "antwortet",
+              "perfect": "habt geantwortet",
+              "preterite": "antwortetet",
               "future": "werdet antworten"
             },
             {
               "pronoun": "sie/Sie",
-              "present": "tworten an",
-              "perfect": "haben angetwortet",
-              "preterite": "tworteten an",
+              "present": "antworten",
+              "perfect": "haben geantwortet",
+              "preterite": "antworteten",
               "future": "werden antworten"
             }
           ],
@@ -4281,43 +4281,43 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "falle",
-              "perfect": "habe gefallt",
-              "preterite": "fallte",
+              "perfect": "bin gefallen",
+              "preterite": "fiel",
               "future": "werde fallen"
             },
             {
               "pronoun": "du",
-              "present": "fallst",
-              "perfect": "hast gefallt",
-              "preterite": "falltest",
+              "present": "fällst",
+              "perfect": "bist gefallen",
+              "preterite": "fielst",
               "future": "wirst fallen"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "fallt",
-              "perfect": "hat gefallt",
-              "preterite": "fallte",
+              "present": "fällt",
+              "perfect": "ist gefallen",
+              "preterite": "fiel",
               "future": "wird fallen"
             },
             {
               "pronoun": "wir",
               "present": "fallen",
-              "perfect": "haben gefallt",
-              "preterite": "fallten",
+              "perfect": "sind gefallen",
+              "preterite": "fielen",
               "future": "werden fallen"
             },
             {
               "pronoun": "ihr",
               "present": "fallt",
-              "perfect": "habt gefallt",
-              "preterite": "falltet",
+              "perfect": "seid gefallen",
+              "preterite": "fielt",
               "future": "werdet fallen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "fallen",
-              "perfect": "haben gefallt",
-              "preterite": "fallten",
+              "perfect": "sind gefallen",
+              "preterite": "fielen",
               "future": "werden fallen"
             }
           ],
@@ -4673,43 +4673,43 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "biege ab",
-              "perfect": "habe abgebiegt",
-              "preterite": "biegte ab",
+              "perfect": "bin abgebogen",
+              "preterite": "bog ab",
               "future": "werde abbiegen"
             },
             {
               "pronoun": "du",
               "present": "biegst ab",
-              "perfect": "hast abgebiegt",
-              "preterite": "biegtest ab",
+              "perfect": "bist abgebogen",
+              "preterite": "bogst ab",
               "future": "wirst abbiegen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "biegt ab",
-              "perfect": "hat abgebiegt",
-              "preterite": "biegte ab",
+              "perfect": "ist abgebogen",
+              "preterite": "bog ab",
               "future": "wird abbiegen"
             },
             {
               "pronoun": "wir",
               "present": "biegen ab",
-              "perfect": "haben abgebiegt",
-              "preterite": "biegten ab",
+              "perfect": "sind abgebogen",
+              "preterite": "bogen ab",
               "future": "werden abbiegen"
             },
             {
               "pronoun": "ihr",
               "present": "biegt ab",
-              "perfect": "habt abgebiegt",
-              "preterite": "biegtet ab",
+              "perfect": "seid abgebogen",
+              "preterite": "bogt ab",
               "future": "werdet abbiegen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "biegen ab",
-              "perfect": "haben abgebiegt",
-              "preterite": "biegten ab",
+              "perfect": "sind abgebogen",
+              "preterite": "bogen ab",
               "future": "werden abbiegen"
             }
           ],
@@ -4785,43 +4785,43 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "unterschreibe",
-              "perfect": "habe unterschreibt",
-              "preterite": "unterschreibte",
+              "perfect": "habe unterschrieben",
+              "preterite": "unterschrieb",
               "future": "werde unterschreiben"
             },
             {
               "pronoun": "du",
               "present": "unterschreibst",
-              "perfect": "hast unterschreibt",
-              "preterite": "unterschreibtest",
+              "perfect": "hast unterschrieben",
+              "preterite": "unterschriebst",
               "future": "wirst unterschreiben"
             },
             {
               "pronoun": "er/sie/es",
               "present": "unterschreibt",
-              "perfect": "hat unterschreibt",
-              "preterite": "unterschreibte",
+              "perfect": "hat unterschrieben",
+              "preterite": "unterschrieb",
               "future": "wird unterschreiben"
             },
             {
               "pronoun": "wir",
               "present": "unterschreiben",
-              "perfect": "haben unterschreibt",
-              "preterite": "unterschreibten",
+              "perfect": "haben unterschrieben",
+              "preterite": "unterschrieben",
               "future": "werden unterschreiben"
             },
             {
               "pronoun": "ihr",
               "present": "unterschreibt",
-              "perfect": "habt unterschreibt",
-              "preterite": "unterschreibtet",
+              "perfect": "habt unterschrieben",
+              "preterite": "unterschriebt",
               "future": "werdet unterschreiben"
             },
             {
               "pronoun": "sie/Sie",
               "present": "unterschreiben",
-              "perfect": "haben unterschreibt",
-              "preterite": "unterschreibten",
+              "perfect": "haben unterschrieben",
+              "preterite": "unterschrieben",
               "future": "werden unterschreiben"
             }
           ],
@@ -5788,8 +5788,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich spreche das Wort am Morgen aus.",
-          "exampleRu": "Я утром слово произносю."
+          "exampleDe": "Ich spreche das Wort deutlich aus.",
+          "exampleRu": "Я отчётливо произношу слово."
         },
         {
           "id": 272,
@@ -6074,8 +6074,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich verwechsle am Wochenende.",
-          "exampleRu": "Я на выходных путаю."
+          "exampleDe": "Ich verwechsle oft die beiden Namen.",
+          "exampleRu": "Я часто путаю эти два имени."
         },
         {
           "id": 277,
@@ -6298,8 +6298,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich reserviere das heute.",
-          "exampleRu": "Я сегодня это резервирую."
+          "exampleDe": "Ich reserviere einen Tisch im Restaurant.",
+          "exampleRu": "Я бронирую столик в ресторане."
         },
         {
           "id": 281,
@@ -6354,8 +6354,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich empfehle das morgen.",
-          "exampleRu": "Я завтра это рекомендую."
+          "exampleDe": "Ich empfehle dir dieses Buch.",
+          "exampleRu": "Я рекомендую тебе эту книгу."
         },
         {
           "id": 282,
@@ -6746,8 +6746,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich folge dir am Wochenende.",
-          "exampleRu": "Я на выходных тебе следовать за.",
+          "exampleDe": "Der Hund folgt seinem Besitzer.",
+          "exampleRu": "Собака следует за своим хозяином.",
           "grammar": {
             "government": "+ Dat."
           }
@@ -6973,8 +6973,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich rate dir zu Tee.",
-          "exampleRu": "Я советую тебе чай."
+          "exampleDe": "Ich rate dir, früher schlafen zu gehen.",
+          "exampleRu": "Я советую тебе ложиться спать раньше."
         },
         {
           "id": 293,
@@ -6987,50 +6987,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "stimme zu",
-              "perfect": "habe zugestimmet",
-              "preterite": "stimmete zu",
+              "perfect": "habe zugestimmt",
+              "preterite": "stimmte zu",
               "future": "werde zustimmen"
             },
             {
               "pronoun": "du",
-              "present": "stimmest zu",
-              "perfect": "hast zugestimmet",
-              "preterite": "stimmetest zu",
+              "present": "stimmst zu",
+              "perfect": "hast zugestimmt",
+              "preterite": "stimmtest zu",
               "future": "wirst zustimmen"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "stimmet zu",
-              "perfect": "hat zugestimmet",
-              "preterite": "stimmete zu",
+              "present": "stimmt zu",
+              "perfect": "hat zugestimmt",
+              "preterite": "stimmte zu",
               "future": "wird zustimmen"
             },
             {
               "pronoun": "wir",
               "present": "stimmen zu",
-              "perfect": "haben zugestimmet",
-              "preterite": "stimmeten zu",
+              "perfect": "haben zugestimmt",
+              "preterite": "stimmten zu",
               "future": "werden zustimmen"
             },
             {
               "pronoun": "ihr",
-              "present": "stimmet zu",
-              "perfect": "habt zugestimmet",
-              "preterite": "stimmetet zu",
+              "present": "stimmt zu",
+              "perfect": "habt zugestimmt",
+              "preterite": "stimmtet zu",
               "future": "werdet zustimmen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "stimmen zu",
-              "perfect": "haben zugestimmet",
-              "preterite": "stimmeten zu",
+              "perfect": "haben zugestimmt",
+              "preterite": "stimmten zu",
               "future": "werden zustimmen"
             }
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich stimme zu morgen.",
-          "exampleRu": "Я завтра соглашаюсь.",
+          "exampleDe": "Ich stimme deinem Vorschlag zu.",
+          "exampleRu": "Я согласен с твоим предложением.",
           "grammar": {
             "government": "+ Dat."
           }
@@ -7088,8 +7088,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich bedauere nach Hause am Abend.",
-          "exampleRu": "Я вечером еду домой."
+          "exampleDe": "Ich bedauere meine Entscheidung.",
+          "exampleRu": "Я сожалею о своём решении."
         },
         {
           "id": 295,
@@ -7144,8 +7144,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich schaffe das am Morgen.",
-          "exampleRu": "Я утром это создаю."
+          "exampleDe": "Wir schaffen ein neues System.",
+          "exampleRu": "Мы создаём новую систему."
         },
         {
           "id": 296,
@@ -7200,8 +7200,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich zweifle zu Hause.",
-          "exampleRu": "Я дома сомневаюсь."
+          "exampleDe": "Ich zweifle an seiner Aussage.",
+          "exampleRu": "Я сомневаюсь в его утверждении."
         },
         {
           "id": 297,
@@ -7256,8 +7256,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich bewahre das in der Stadt auf.",
-          "exampleRu": "Я в городе это сохраняю."
+          "exampleDe": "Ich bewahre die Unterlagen im Schrank auf.",
+          "exampleRu": "Я храню документы в шкафу."
         },
         {
           "id": 298,
@@ -7427,8 +7427,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich steige am Wochenende herab.",
-          "exampleRu": "Я на выходных спускаюсь."
+          "exampleDe": "Der Wanderer steigt vorsichtig den Berg herab.",
+          "exampleRu": "Турист осторожно спускается с горы."
         },
         {
           "id": 301,
@@ -7483,8 +7483,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich vergleiche das nach dem Essen.",
-          "exampleRu": "Я после еды это сравниваю."
+          "exampleDe": "Ich vergleiche die Preise.",
+          "exampleRu": "Я сравниваю цены."
         },
         {
           "id": 302,
@@ -7651,8 +7651,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich existiere heute.",
-          "exampleRu": "Я сегодня существую."
+          "exampleDe": "Dieses Problem existiert seit Jahren.",
+          "exampleRu": "Эта проблема существует уже много лет."
         },
         {
           "id": 305,
@@ -7707,8 +7707,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich rechne das morgen.",
-          "exampleRu": "Я завтра это считаю."
+          "exampleDe": "Ich rechne die Kosten.",
+          "exampleRu": "Я подсчитываю расходы."
         },
         {
           "id": 306,
@@ -7819,8 +7819,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich verlange das am Morgen.",
-          "exampleRu": "Я утром это требую."
+          "exampleDe": "Der Kunde verlangt eine Antwort.",
+          "exampleRu": "Клиент требует ответа."
         },
         {
           "id": 308,
@@ -7931,8 +7931,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich berühre das in der Stadt.",
-          "exampleRu": "Я в городе это трогаю."
+          "exampleDe": "Bitte berühre das Bild nicht.",
+          "exampleRu": "Пожалуйста, не трогай картину."
         },
         {
           "id": 310,
@@ -8158,8 +8158,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich esse zu Abend nach dem Essen.",
-          "exampleRu": "Я после еды ужинаю."
+          "exampleDe": "Wir essen jeden Abend um sieben zu Abend.",
+          "exampleRu": "Мы каждый вечер ужинаем в семь."
         },
         {
           "id": 314,
@@ -8214,8 +8214,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich schmücke das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это украшаю."
+          "exampleDe": "Wir schmücken den Baum.",
+          "exampleRu": "Мы украшаем ёлку."
         },
         {
           "id": 315,
@@ -8326,8 +8326,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich erwähne das heute.",
-          "exampleRu": "Я сегодня это упоминаю."
+          "exampleDe": "Sie erwähnt den Namen nicht.",
+          "exampleRu": "Она не упоминает имя."
         },
         {
           "id": 317,
@@ -8441,8 +8441,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich prahle am Abend.",
-          "exampleRu": "Я вечером хвастаюсь."
+          "exampleDe": "Er prahlt ständig mit seinem neuen Auto.",
+          "exampleRu": "Он постоянно хвастается своей новой машиной."
         },
         {
           "id": 319,
@@ -8609,8 +8609,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich habe Durst in der Stadt.",
-          "exampleRu": "Я в городе хотеть пю."
+          "exampleDe": "Ich habe Durst.",
+          "exampleRu": "Я хочу пить."
         },
         {
           "id": 322,
@@ -9452,8 +9452,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы А-Е",
-          "exampleDe": "Ich habe Angst am Wochenende.",
-          "exampleRu": "Я на выходных бояюсь."
+          "exampleDe": "Ich habe Angst vor Hunden.",
+          "exampleRu": "Я боюсь собак."
         },
         {
           "id": 8385,
@@ -11771,43 +11771,43 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "erscheine",
-              "perfect": "habe erscheint",
-              "preterite": "erscheinte",
+              "perfect": "bin erschienen",
+              "preterite": "erschien",
               "future": "werde erscheinen"
             },
             {
               "pronoun": "du",
               "present": "erscheinst",
-              "perfect": "hast erscheint",
-              "preterite": "erscheintest",
+              "perfect": "bist erschienen",
+              "preterite": "erschienst",
               "future": "wirst erscheinen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "erscheint",
-              "perfect": "hat erscheint",
-              "preterite": "erscheinte",
+              "perfect": "ist erschienen",
+              "preterite": "erschien",
               "future": "wird erscheinen"
             },
             {
               "pronoun": "wir",
               "present": "erscheinen",
-              "perfect": "haben erscheint",
-              "preterite": "erscheinten",
+              "perfect": "sind erschienen",
+              "preterite": "erschienen",
               "future": "werden erscheinen"
             },
             {
               "pronoun": "ihr",
               "present": "erscheint",
-              "perfect": "habt erscheint",
-              "preterite": "erscheintet",
+              "perfect": "seid erschienen",
+              "preterite": "erschient",
               "future": "werdet erscheinen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "erscheinen",
-              "perfect": "haben erscheint",
-              "preterite": "erscheinten",
+              "perfect": "sind erschienen",
+              "preterite": "erschienen",
               "future": "werden erscheinen"
             }
           ],
@@ -12093,8 +12093,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы А-Е",
-          "exampleDe": "Ich spreche mit … in der Schule mit Anna.",
-          "exampleRu": "Я в школе говорю с Анной."
+          "exampleDe": "Ich spreche mit Anna in der Schule.",
+          "exampleRu": "Я говорю с Анной в школе."
         },
         {
           "id": 8436,
@@ -12266,7 +12266,7 @@ window.FLASHCARDS_DATA = {
         },
         {
           "id": 8440,
-          "front": "sich datieren",
+          "front": "datieren",
           "back": "датироваться",
           "chapter": "РАЗНОЕ",
           "subchapter": "основные глаголы | 550 слов",
@@ -12274,51 +12274,51 @@ window.FLASHCARDS_DATA = {
           "tenses": [
             {
               "pronoun": "ich",
-              "present": "datiere mich",
-              "perfect": "habe mich datiert",
-              "preterite": "datierte mich",
-              "future": "werde mich datieren"
+              "present": "datiere",
+              "perfect": "habe datiert",
+              "preterite": "datierte",
+              "future": "werde datieren"
             },
             {
               "pronoun": "du",
-              "present": "datierst dich",
-              "perfect": "hast dich datiert",
-              "preterite": "datiertest dich",
-              "future": "wirst dich datieren"
+              "present": "datierst",
+              "perfect": "hast datiert",
+              "preterite": "datiertest",
+              "future": "wirst datieren"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "datiert sich",
-              "perfect": "hat sich datiert",
-              "preterite": "datierte sich",
-              "future": "wird sich datieren"
+              "present": "datiert",
+              "perfect": "hat datiert",
+              "preterite": "datierte",
+              "future": "wird datieren"
             },
             {
               "pronoun": "wir",
-              "present": "datieren uns",
-              "perfect": "haben uns datiert",
-              "preterite": "datierten uns",
-              "future": "werden uns datieren"
+              "present": "datieren",
+              "perfect": "haben datiert",
+              "preterite": "datierten",
+              "future": "werden datieren"
             },
             {
               "pronoun": "ihr",
-              "present": "datiert euch",
-              "perfect": "habt euch datiert",
-              "preterite": "datiertet euch",
-              "future": "werdet euch datieren"
+              "present": "datiert",
+              "perfect": "habt datiert",
+              "preterite": "datiertet",
+              "future": "werdet datieren"
             },
             {
               "pronoun": "sie/Sie",
-              "present": "datieren sich",
-              "perfect": "haben sich datiert",
-              "preterite": "datierten sich",
-              "future": "werden sich datieren"
+              "present": "datieren",
+              "perfect": "haben datiert",
+              "preterite": "datierten",
+              "future": "werden datieren"
             }
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы А-Е",
-          "exampleDe": "Der Brief datiert sich auf Mai.",
-          "exampleRu": "Письмо датируется маем."
+          "exampleDe": "Der Brief ist auf den 12. Mai datiert.",
+          "exampleRu": "Письмо датировано 12 мая."
         },
         {
           "id": 8441,
@@ -12429,8 +12429,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы А-Е",
-          "exampleDe": "Ich ziehe einen Schluss.",
-          "exampleRu": "Я делаю вывод."
+          "exampleDe": "Aus diesen Zahlen ziehen wir einen Schluss.",
+          "exampleRu": "Из этих цифр мы делаем вывод."
         },
         {
           "id": 8444,
@@ -12882,59 +12882,59 @@ window.FLASHCARDS_DATA = {
         },
         {
           "id": 8453,
-          "front": "schlagen",
-          "back": "драться (в драке)",
+          "front": "sich schlagen",
+          "back": "драться",
           "chapter": "РАЗНОЕ",
           "subchapter": "основные глаголы | 550 слов",
           "paragraph": "Глаголы А-Е",
           "tenses": [
             {
               "pronoun": "ich",
-              "present": "schlage",
-              "perfect": "habe geschlagen",
-              "preterite": "schlug",
-              "future": "werde schlagen"
+              "present": "schlage mich",
+              "perfect": "habe mich geschlagen",
+              "preterite": "schlug mich",
+              "future": "werde mich schlagen"
             },
             {
               "pronoun": "du",
-              "present": "schlägst",
-              "perfect": "hast geschlagen",
-              "preterite": "schlugst",
-              "future": "wirst schlagen"
+              "present": "schlägst dich",
+              "perfect": "hast dich geschlagen",
+              "preterite": "schlugst dich",
+              "future": "wirst dich schlagen"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "schlägt",
-              "perfect": "hat geschlagen",
-              "preterite": "schlug",
-              "future": "wird schlagen"
+              "present": "schlägt sich",
+              "perfect": "hat sich geschlagen",
+              "preterite": "schlug sich",
+              "future": "wird sich schlagen"
             },
             {
               "pronoun": "wir",
-              "present": "schlagen",
-              "perfect": "haben geschlagen",
-              "preterite": "schlugen",
-              "future": "werden schlagen"
+              "present": "schlagen uns",
+              "perfect": "haben uns geschlagen",
+              "preterite": "schlugen uns",
+              "future": "werden uns schlagen"
             },
             {
               "pronoun": "ihr",
-              "present": "schlagt",
-              "perfect": "habt geschlagen",
-              "preterite": "schlugt",
-              "future": "werdet schlagen"
+              "present": "schlagt euch",
+              "perfect": "habt euch geschlagen",
+              "preterite": "schlugt euch",
+              "future": "werdet euch schlagen"
             },
             {
               "pronoun": "sie/Sie",
-              "present": "schlagen",
-              "perfect": "haben geschlagen",
-              "preterite": "schlugen",
-              "future": "werden schlagen"
+              "present": "schlagen sich",
+              "perfect": "haben sich geschlagen",
+              "preterite": "schlugen sich",
+              "future": "werden sich schlagen"
             }
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы А-Е",
-          "exampleDe": "Ich schlage mich nicht.",
-          "exampleRu": "Я не дерусь."
+          "exampleDe": "Die beiden Männer schlagen sich auf der Straße.",
+          "exampleRu": "Двое мужчин дерутся на улице."
         },
         {
           "id": 8454,
@@ -13885,8 +13885,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Ж-М",
-          "exampleDe": "Ich bestelle das am Morgen.",
-          "exampleRu": "Я утром это заказываю."
+          "exampleDe": "Ich bestelle im Restaurant eine Suppe.",
+          "exampleRu": "Я заказываю в ресторане суп."
         },
         {
           "id": 8476,
@@ -14277,8 +14277,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Ж-М",
-          "exampleDe": "Die Grippe steckt mich an.",
-          "exampleRu": "Грипп заражает меня."
+          "exampleDe": "Er hat seine Kollegin mit Grippe angesteckt.",
+          "exampleRu": "Он заразил свою коллегу гриппом."
         },
         {
           "id": 8485,
@@ -14333,8 +14333,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Ж-М",
-          "exampleDe": "Die Grippe steckt mich an nach der Arbeit.",
-          "exampleRu": "Грипп заражает меня после работы."
+          "exampleDe": "Ich habe mich bei meinem Kollegen mit Grippe angesteckt.",
+          "exampleRu": "Я заразился гриппом от коллеги."
         },
         {
           "id": 8486,
@@ -14389,8 +14389,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Ж-М",
-          "exampleDe": "Ich lade die Batterie.",
-          "exampleRu": "Я заряжаю батарею."
+          "exampleDe": "Der Soldat lädt sein Gewehr.",
+          "exampleRu": "Солдат заряжает своё ружьё."
         },
         {
           "id": 8487,
@@ -14613,8 +14613,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Ж-М",
-          "exampleDe": "Ich mache dich mit Anna bekannt zu Hause.",
-          "exampleRu": "Я знакомлю тебя с Анной дома."
+          "exampleDe": "Ich lerne Anna heute kennen.",
+          "exampleRu": "Сегодня я знакомлюсь с Анной."
         },
         {
           "id": 8495,
@@ -15850,59 +15850,59 @@ window.FLASHCARDS_DATA = {
         },
         {
           "id": 8525,
-          "front": "sich konsultieren mit …",
-          "back": "консультироваться c …",
+          "front": "sich beraten",
+          "back": "советоваться",
           "chapter": "РАЗНОЕ",
           "subchapter": "основные глаголы | 550 слов",
           "paragraph": "Глаголы Ж-М",
           "tenses": [
             {
               "pronoun": "ich",
-              "present": "konsultiere mich mit …",
-              "perfect": "habe mit … konsultiert",
-              "preterite": "konsultierte mich mit …",
-              "future": "werde sich konsultieren mit …"
+              "present": "berate mich",
+              "perfect": "habe mich beraten",
+              "preterite": "beriet mich",
+              "future": "werde mich beraten"
             },
             {
               "pronoun": "du",
-              "present": "konsultierst dich mit …",
-              "perfect": "hast mit … konsultiert",
-              "preterite": "konsultiertest dich mit …",
-              "future": "wirst sich konsultieren mit …"
+              "present": "berätst dich",
+              "perfect": "hast dich beraten",
+              "preterite": "berietst dich",
+              "future": "wirst dich beraten"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "konsultiert sich mit …",
-              "perfect": "hat mit … konsultiert",
-              "preterite": "konsultierte sich mit …",
-              "future": "wird sich konsultieren mit …"
+              "present": "berät sich",
+              "perfect": "hat sich beraten",
+              "preterite": "beriet sich",
+              "future": "wird sich beraten"
             },
             {
               "pronoun": "wir",
-              "present": "konsultieren uns mit …",
-              "perfect": "haben mit … konsultiert",
-              "preterite": "konsultierten uns mit …",
-              "future": "werden sich konsultieren mit …"
+              "present": "beraten uns",
+              "perfect": "haben uns beraten",
+              "preterite": "berieten uns",
+              "future": "werden uns beraten"
             },
             {
               "pronoun": "ihr",
-              "present": "konsultiert euch mit …",
-              "perfect": "habt mit … konsultiert",
-              "preterite": "konsultiertet euch mit …",
-              "future": "werdet sich konsultieren mit …"
+              "present": "beratet euch",
+              "perfect": "habt euch beraten",
+              "preterite": "berietet euch",
+              "future": "werdet euch beraten"
             },
             {
               "pronoun": "sie/Sie",
-              "present": "konsultieren sich mit …",
-              "perfect": "haben mit … konsultiert",
-              "preterite": "konsultierten sich mit …",
-              "future": "werden sich konsultieren mit …"
+              "present": "beraten sich",
+              "perfect": "haben sich beraten",
+              "preterite": "berieten sich",
+              "future": "werden sich beraten"
             }
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Ж-М",
-          "exampleDe": "Ich konsultiere mich mit dem Arzt.",
-          "exampleRu": "Я консультируюсь с врачом."
+          "exampleDe": "Ich berate mich mit meiner Kollegin.",
+          "exampleRu": "Я советуюсь со своей коллегой."
         },
         {
           "id": 8527,
@@ -16242,7 +16242,7 @@ window.FLASHCARDS_DATA = {
         },
         {
           "id": 8536,
-          "front": "gelegen sein",
+          "front": "liegen",
           "back": "лежать (о предмете)",
           "chapter": "РАЗНОЕ",
           "subchapter": "основные глаголы | 550 слов",
@@ -16250,45 +16250,45 @@ window.FLASHCARDS_DATA = {
           "tenses": [
             {
               "pronoun": "ich",
-              "present": "bin gelegen",
-              "perfect": "bin gelegen gewesen",
-              "preterite": "war gelegen",
-              "future": "werde gelegen sein"
+              "present": "liege",
+              "perfect": "habe gelegen",
+              "preterite": "lag",
+              "future": "werde liegen"
             },
             {
               "pronoun": "du",
-              "present": "bist gelegen",
-              "perfect": "bist gelegen gewesen",
-              "preterite": "warst gelegen",
-              "future": "wirst gelegen sein"
+              "present": "liegst",
+              "perfect": "hast gelegen",
+              "preterite": "lagst",
+              "future": "wirst liegen"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "ist gelegen",
-              "perfect": "ist gelegen gewesen",
-              "preterite": "war gelegen",
-              "future": "wird gelegen sein"
+              "present": "liegt",
+              "perfect": "hat gelegen",
+              "preterite": "lag",
+              "future": "wird liegen"
             },
             {
               "pronoun": "wir",
-              "present": "sind gelegen",
-              "perfect": "sind gelegen gewesen",
-              "preterite": "waren gelegen",
-              "future": "werden gelegen sein"
+              "present": "liegen",
+              "perfect": "haben gelegen",
+              "preterite": "lagen",
+              "future": "werden liegen"
             },
             {
               "pronoun": "ihr",
-              "present": "seid gelegen",
-              "perfect": "seid gelegen gewesen",
-              "preterite": "wart gelegen",
-              "future": "werdet gelegen sein"
+              "present": "liegt",
+              "perfect": "habt gelegen",
+              "preterite": "lagt",
+              "future": "werdet liegen"
             },
             {
               "pronoun": "sie/Sie",
-              "present": "sind gelegen",
-              "perfect": "sind gelegen gewesen",
-              "preterite": "waren gelegen",
-              "future": "werden gelegen sein"
+              "present": "liegen",
+              "perfect": "haben gelegen",
+              "preterite": "lagen",
+              "future": "werden liegen"
             }
           ],
           "category": "Глаголы",
@@ -17150,43 +17150,43 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "zeichne aus",
-              "perfect": "habe ausgezeichnt",
-              "preterite": "zeichnte aus",
+              "perfect": "habe ausgezeichnet",
+              "preterite": "zeichnete aus",
               "future": "werde auszeichnen"
             },
             {
               "pronoun": "du",
-              "present": "zeichnst aus",
-              "perfect": "hast ausgezeichnt",
-              "preterite": "zeichntest aus",
+              "present": "zeichnest aus",
+              "perfect": "hast ausgezeichnet",
+              "preterite": "zeichnetest aus",
               "future": "wirst auszeichnen"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "zeichnt aus",
-              "perfect": "hat ausgezeichnt",
-              "preterite": "zeichnte aus",
+              "present": "zeichnet aus",
+              "perfect": "hat ausgezeichnet",
+              "preterite": "zeichnete aus",
               "future": "wird auszeichnen"
             },
             {
               "pronoun": "wir",
               "present": "zeichnen aus",
-              "perfect": "haben ausgezeichnt",
-              "preterite": "zeichnten aus",
+              "perfect": "haben ausgezeichnet",
+              "preterite": "zeichneten aus",
               "future": "werden auszeichnen"
             },
             {
               "pronoun": "ihr",
-              "present": "zeichnt aus",
-              "perfect": "habt ausgezeichnt",
-              "preterite": "zeichntet aus",
+              "present": "zeichnet aus",
+              "perfect": "habt ausgezeichnet",
+              "preterite": "zeichnetet aus",
               "future": "werdet auszeichnen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "zeichnen aus",
-              "perfect": "haben ausgezeichnt",
-              "preterite": "zeichnten aus",
+              "perfect": "haben ausgezeichnet",
+              "preterite": "zeichneten aus",
               "future": "werden auszeichnen"
             }
           ],
@@ -17752,8 +17752,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich richte das heute.",
-          "exampleRu": "Я сегодня это направляю."
+          "exampleDe": "Er richtet den Blick nach vorn.",
+          "exampleRu": "Он направляет взгляд вперёд."
         },
         {
           "id": 8571,
@@ -17808,8 +17808,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich erbe dir morgen.",
-          "exampleRu": "Я завтра тебе наследую."
+          "exampleDe": "Sie erbt ein Haus von ihrer Großmutter.",
+          "exampleRu": "Она наследует дом от своей бабушки."
         },
         {
           "id": 8572,
@@ -17864,8 +17864,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich fahre mit dem Bus am Abend.",
-          "exampleRu": "Я еду на автобусе вечером."
+          "exampleDe": "Die Kinder spotten über seinen Akzent.",
+          "exampleRu": "Дети насмехаются над его акцентом."
         },
         {
           "id": 8577,
@@ -18200,8 +18200,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich erleichtere das am Wochenende.",
-          "exampleRu": "Я на выходных это облегчю."
+          "exampleDe": "Diese Hilfe erleichtert mir das Leben.",
+          "exampleRu": "Эта помощь облегчает мне жизнь."
         },
         {
           "id": 8587,
@@ -18256,8 +18256,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich wechsle nach dem Essen.",
-          "exampleRu": "Я после еды обмениваюсь."
+          "exampleDe": "Wir wechseln einige Worte miteinander.",
+          "exampleRu": "Мы обмениваемся несколькими словами."
         },
         {
           "id": 8588,
@@ -18424,8 +18424,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich bilde das heute.",
-          "exampleRu": "Я сегодня это образовываю."
+          "exampleDe": "Die Schüler bilden einen Kreis.",
+          "exampleRu": "Ученики образуют круг."
         },
         {
           "id": 8591,
@@ -18480,8 +18480,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich ae adressieren … morgen.",
-          "exampleRu": "Я завтра обращаюсь."
+          "exampleDe": "Ich adressiere den Brief an die Firma.",
+          "exampleRu": "Я адресую письмо фирме."
         },
         {
           "id": 8592,
@@ -18648,8 +18648,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich begrenze das zu Hause.",
-          "exampleRu": "Я дома это ограничиваю."
+          "exampleDe": "Der Zaun begrenzt den Garten.",
+          "exampleRu": "Забор ограничивает сад."
         },
         {
           "id": 8598,
@@ -18928,8 +18928,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich beleuchte das nach dem Essen.",
-          "exampleRu": "Я после еды это освещаю."
+          "exampleDe": "Die Lampe beleuchtet den Tisch.",
+          "exampleRu": "Лампа освещает стол."
         },
         {
           "id": 8605,
@@ -19040,8 +19040,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich erschwere das nach der Arbeit.",
-          "exampleRu": "Я после работы это осложню."
+          "exampleDe": "Der Regen erschwert die Fahrt.",
+          "exampleRu": "Дождь осложняет поездку."
         },
         {
           "id": 8607,
@@ -19096,8 +19096,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich wage heute.",
-          "exampleRu": "Я сегодня осмеливаюсь."
+          "exampleDe": "Er wagt einen neuen Versuch.",
+          "exampleRu": "Он решается на новую попытку."
         },
         {
           "id": 8608,
@@ -19152,8 +19152,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich vergesse den Namen morgen.",
-          "exampleRu": "Я забываю имя завтра."
+          "exampleDe": "Ich lasse meine Tasche nicht im Zug liegen.",
+          "exampleRu": "Я не оставляю свою сумку в поезде."
         },
         {
           "id": 8610,
@@ -19264,8 +19264,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich wende mich am Morgen ab.",
-          "exampleRu": "Я утром отворачиваюсь."
+          "exampleDe": "Sie wendet sich von ihm ab.",
+          "exampleRu": "Она отворачивается от него."
         },
         {
           "id": 8613,
@@ -19376,8 +19376,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich errate das in der Stadt.",
-          "exampleRu": "Я в городе это отгадаю."
+          "exampleDe": "Ich errate das Passwort.",
+          "exampleRu": "Я угадываю пароль."
         },
         {
           "id": 8615,
@@ -19600,8 +19600,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich entdecke das nach dem Essen.",
-          "exampleRu": "Я после еды это открываю."
+          "exampleDe": "Die Forscher entdecken eine Insel.",
+          "exampleRu": "Исследователи открывают остров."
         },
         {
           "id": 8619,
@@ -19656,8 +19656,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich unterscheide mich vor dem Unterricht.",
-          "exampleRu": "Я перед уроком отличаюсь."
+          "exampleDe": "Diese beiden Modelle unterscheiden sich im Preis.",
+          "exampleRu": "Эти две модели различаются по цене."
         },
         {
           "id": 8620,
@@ -19712,8 +19712,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich schaffe das nach der Arbeit ab.",
-          "exampleRu": "Я после работы это отменю."
+          "exampleDe": "Die Regierung schafft die alte Regelung ab.",
+          "exampleRu": "Правительство отменяет старое правило."
         },
         {
           "id": 8621,
@@ -19768,8 +19768,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich markiere das heute.",
-          "exampleRu": "Я сегодня это отметю."
+          "exampleDe": "Ich markiere den Ort auf der Karte.",
+          "exampleRu": "Я отмечаю место на карте."
         },
         {
           "id": 8622,
@@ -19992,8 +19992,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich schneide das zu Hause ab.",
-          "exampleRu": "Я дома это отрезаю."
+          "exampleDe": "Ich schneide ein Stück Brot ab.",
+          "exampleRu": "Я отрезаю кусок хлеба."
         },
         {
           "id": 8627,
@@ -20048,8 +20048,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich verneine das in der Stadt.",
-          "exampleRu": "Я в городе это отрицаю."
+          "exampleDe": "Er verneint die Frage.",
+          "exampleRu": "Он отвечает на вопрос отрицательно."
         },
         {
           "id": 8628,
@@ -20328,8 +20328,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich reinige das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это очищаю."
+          "exampleDe": "Ich reinige die Schuhe.",
+          "exampleRu": "Я чищу обувь."
         },
         {
           "id": 8634,
@@ -20384,8 +20384,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich mache einen Fehler nach der Arbeit.",
-          "exampleRu": "Я после работы ошибаюсь."
+          "exampleDe": "Ich mache oft diesen Fehler.",
+          "exampleRu": "Я часто допускаю эту ошибку."
         },
         {
           "id": 8635,
@@ -20664,8 +20664,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich überschätze das zu Hause.",
-          "exampleRu": "Я дома это переоцениваю."
+          "exampleDe": "Er überschätzt seine Kraft.",
+          "exampleRu": "Он переоценивает свои силы."
         },
         {
           "id": 8641,
@@ -20776,8 +20776,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich trinke im Büro.",
-          "exampleRu": "Я в офисе пью."
+          "exampleDe": "Ich trinke morgens ein Glas Wasser.",
+          "exampleRu": "Утром я выпиваю стакан воды."
         },
         {
           "id": 8647,
@@ -20846,43 +20846,43 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "biege ab",
-              "perfect": "habe abgebiegt",
-              "preterite": "biegte ab",
+              "perfect": "bin abgebogen",
+              "preterite": "bog ab",
               "future": "werde abbiegen"
             },
             {
               "pronoun": "du",
               "present": "biegst ab",
-              "perfect": "hast abgebiegt",
-              "preterite": "biegtest ab",
+              "perfect": "bist abgebogen",
+              "preterite": "bogst ab",
               "future": "wirst abbiegen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "biegt ab",
-              "perfect": "hat abgebiegt",
-              "preterite": "biegte ab",
+              "perfect": "ist abgebogen",
+              "preterite": "bog ab",
               "future": "wird abbiegen"
             },
             {
               "pronoun": "wir",
               "present": "biegen ab",
-              "perfect": "haben abgebiegt",
-              "preterite": "biegten ab",
+              "perfect": "sind abgebogen",
+              "preterite": "bogen ab",
               "future": "werden abbiegen"
             },
             {
               "pronoun": "ihr",
               "present": "biegt ab",
-              "perfect": "habt abgebiegt",
-              "preterite": "biegtet ab",
+              "perfect": "seid abgebogen",
+              "preterite": "bogt ab",
               "future": "werdet abbiegen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "biegen ab",
-              "perfect": "haben abgebiegt",
-              "preterite": "biegten ab",
+              "perfect": "sind abgebogen",
+              "preterite": "bogen ab",
               "future": "werden abbiegen"
             }
           ],
@@ -20944,8 +20944,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich bereite das nach dem Essen vor.",
-          "exampleRu": "Я после еды это подготовю."
+          "exampleDe": "Wir bereiten die Prüfung gemeinsam vor.",
+          "exampleRu": "Мы вместе готовимся к экзамену."
         },
         {
           "id": 8651,
@@ -21283,8 +21283,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich nähere mich am Morgen.",
-          "exampleRu": "Я утром подходю."
+          "exampleDe": "Der Zug nähert sich dem Bahnhof.",
+          "exampleRu": "Поезд приближается к вокзалу."
         },
         {
           "id": 8658,
@@ -21395,8 +21395,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich unterordne mich in der Stadt.",
-          "exampleRu": "Я в городе подчиняюсь."
+          "exampleDe": "Er ordnet sich den Regeln der Gruppe unter.",
+          "exampleRu": "Он подчиняется правилам группы."
         },
         {
           "id": 8660,
@@ -21678,8 +21678,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich benutze vor dem Unterricht.",
-          "exampleRu": "Я перед уроком пользуюсь."
+          "exampleDe": "Ich benutze jeden Tag meinen Computer.",
+          "exampleRu": "Я каждый день пользуюсь компьютером."
         },
         {
           "id": 8666,
@@ -21790,8 +21790,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich erinnere mich heute.",
-          "exampleRu": "Я сегодня помню.",
+          "exampleDe": "Ich erinnere mich an unseren Urlaub.",
+          "exampleRu": "Я помню наш отпуск.",
           "grammar": {
             "government": "an + Akk."
           }
@@ -21849,8 +21849,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich versuche morgen.",
-          "exampleRu": "Я завтра попытаюсь."
+          "exampleDe": "Ich versuche, die Tür zu öffnen.",
+          "exampleRu": "Я пытаюсь открыть дверь."
         },
         {
           "id": 8671,
@@ -21905,8 +21905,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich widme das Buch am Abend.",
-          "exampleRu": "Я вечером книгу посвящаю."
+          "exampleDe": "Der Autor widmet das Buch seiner Mutter.",
+          "exampleRu": "Автор посвящает книгу своей матери."
         },
         {
           "id": 8672,
@@ -21919,43 +21919,43 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "erscheine",
-              "perfect": "habe erscheint",
-              "preterite": "erscheinte",
+              "perfect": "bin erschienen",
+              "preterite": "erschien",
               "future": "werde erscheinen"
             },
             {
               "pronoun": "du",
               "present": "erscheinst",
-              "perfect": "hast erscheint",
-              "preterite": "erscheintest",
+              "perfect": "bist erschienen",
+              "preterite": "erschienst",
               "future": "wirst erscheinen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "erscheint",
-              "perfect": "hat erscheint",
-              "preterite": "erscheinte",
+              "perfect": "ist erschienen",
+              "preterite": "erschien",
               "future": "wird erscheinen"
             },
             {
               "pronoun": "wir",
               "present": "erscheinen",
-              "perfect": "haben erscheint",
-              "preterite": "erscheinten",
+              "perfect": "sind erschienen",
+              "preterite": "erschienen",
               "future": "werden erscheinen"
             },
             {
               "pronoun": "ihr",
               "present": "erscheint",
-              "perfect": "habt erscheint",
-              "preterite": "erscheintet",
+              "perfect": "seid erschienen",
+              "preterite": "erschient",
               "future": "werdet erscheinen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "erscheinen",
-              "perfect": "haben erscheint",
-              "preterite": "erscheinten",
+              "perfect": "sind erschienen",
+              "preterite": "erschienen",
               "future": "werden erscheinen"
             }
           ],
@@ -22017,8 +22017,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich vermute das zu Hause.",
-          "exampleRu": "Я дома это предполагаю."
+          "exampleDe": "Ich vermute einen Fehler.",
+          "exampleRu": "Я предполагаю ошибку."
         },
         {
           "id": 8677,
@@ -22073,8 +22073,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich unternehme das in der Stadt.",
-          "exampleRu": "Я в городе это предпринимаю."
+          "exampleDe": "Wir unternehmen einen Ausflug.",
+          "exampleRu": "Мы отправляемся на прогулку."
         },
         {
           "id": 8678,
@@ -22185,8 +22185,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich stelle mir in der Schule vor.",
-          "exampleRu": "Я в школе представлять себе."
+          "exampleDe": "Ich stelle mir ein kleines Haus am See vor.",
+          "exampleRu": "Я представляю себе маленький дом у озера."
         },
         {
           "id": 8681,
@@ -22241,8 +22241,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich verachte das am Wochenende.",
-          "exampleRu": "Я на выходных это презираю."
+          "exampleDe": "Sie verachtet Gewalt.",
+          "exampleRu": "Она презирает насилие."
         },
         {
           "id": 8682,
@@ -22353,8 +22353,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich überwiege das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это преобладаю."
+          "exampleDe": "Die Vorteile überwiegen klar.",
+          "exampleRu": "Преимущества явно преобладают."
         },
         {
           "id": 8684,
@@ -22633,8 +22633,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich binde das am Morgen an.",
-          "exampleRu": "Я утром это привязываю."
+          "exampleDe": "Ich binde den Hund an einem Baum an.",
+          "exampleRu": "Я привязываю собаку к дереву."
         },
         {
           "id": 8690,
@@ -22745,8 +22745,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich gebe zu den Fehler in der Stadt.",
-          "exampleRu": "Я в городе ошибку признаваю."
+          "exampleDe": "Ich gebe meinen Fehler zu.",
+          "exampleRu": "Я признаю свою ошибку."
         },
         {
           "id": 8692,
@@ -22801,8 +22801,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich gestehe im Büro.",
-          "exampleRu": "Я в офисе признаваюсь."
+          "exampleDe": "Er gesteht seine Schuld.",
+          "exampleRu": "Он признаёт свою вину."
         },
         {
           "id": 8694,
@@ -22857,8 +22857,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich gehöre dir in der Schule.",
-          "exampleRu": "Я в школе тебе принадлежаю.",
+          "exampleDe": "Das Fahrrad gehört meinem Bruder.",
+          "exampleRu": "Велосипед принадлежит моему брату.",
           "grammar": {
             "government": "+ Dat."
           }
@@ -22972,8 +22972,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich schließe mich nach dem Essen an.",
-          "exampleRu": "Я после еды присоединяюсь."
+          "exampleDe": "Ich schließe mich der Gruppe an.",
+          "exampleRu": "Я присоединяюсь к группе."
         },
         {
           "id": 8697,
@@ -23140,8 +23140,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich provoziere das heute.",
-          "exampleRu": "Я сегодня это провоцирую."
+          "exampleDe": "Er provoziert einen Streit.",
+          "exampleRu": "Он провоцирует спор."
         },
         {
           "id": 8700,
@@ -23252,8 +23252,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich komme voran am Abend.",
-          "exampleRu": "Я вечером продвигаюсь."
+          "exampleDe": "Wir kommen mit dem Projekt gut voran.",
+          "exampleRu": "Мы хорошо продвигаемся в работе над проектом."
         },
         {
           "id": 8704,
@@ -23364,8 +23364,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich projektiere das zu Hause.",
-          "exampleRu": "Я дома это проектирую."
+          "exampleDe": "Der Ingenieur projektiert eine Brücke.",
+          "exampleRu": "Инженер проектирует мост."
         },
         {
           "id": 8707,
@@ -23420,8 +23420,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich vergieße das in der Stadt.",
-          "exampleRu": "Я в городе это пролю."
+          "exampleDe": "Sie vergießt Tränen vor Freude.",
+          "exampleRu": "Она проливает слёзы радости."
         },
         {
           "id": 8708,
@@ -23532,8 +23532,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich versäume das in der Schule.",
-          "exampleRu": "Я в школе это пропускаю."
+          "exampleDe": "Der Schüler versäumt den Unterricht.",
+          "exampleRu": "Ученик пропускает занятие."
         },
         {
           "id": 8711,
@@ -23588,8 +23588,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich verschütte am Wochenende.",
-          "exampleRu": "Я на выходных просыпаюсь."
+          "exampleDe": "Das Kind verschüttet den Reis auf dem Boden.",
+          "exampleRu": "Ребёнок рассыпает рис на пол."
         },
         {
           "id": 8712,
@@ -23700,8 +23700,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich versuche vor dem Unterricht.",
-          "exampleRu": "Я перед уроком пытаюсь."
+          "exampleDe": "Ich versuche, die Aufgabe zu lösen.",
+          "exampleRu": "Я пытаюсь решить задачу."
         },
         {
           "id": 8718,
@@ -23812,8 +23812,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich zertrete die Flasche nicht.",
-          "exampleRu": "Я не раздавливаю бутылку."
+          "exampleDe": "Pass auf, dass du die Ameise nicht zertrittst!",
+          "exampleRu": "Смотри, не раздави муравья!"
         },
         {
           "id": 8720,
@@ -24036,13 +24036,13 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich vervielfältige das zu Hause.",
-          "exampleRu": "Я дома это размножю."
+          "exampleDe": "Das Gerät vervielfältigt die Dokumente.",
+          "exampleRu": "Устройство размножает документы."
         },
         {
           "id": 8724,
           "front": "zerreißen",
-          "back": "разорваться (о верёвке)",
+          "back": "рваться (о верёвке)",
           "chapter": "РАЗНОЕ",
           "subchapter": "основные глаголы | 550 слов",
           "paragraph": "Глаголы Р-Т",
@@ -24050,50 +24050,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "zerreiße",
-              "perfect": "habe zerrissen",
+              "perfect": "bin zerrissen",
               "preterite": "zerriss",
               "future": "werde zerreißen"
             },
             {
               "pronoun": "du",
               "present": "zerreißt",
-              "perfect": "hast zerrissen",
+              "perfect": "bist zerrissen",
               "preterite": "zerrissest",
               "future": "wirst zerreißen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "zerreißt",
-              "perfect": "hat zerrissen",
+              "perfect": "ist zerrissen",
               "preterite": "zerriss",
               "future": "wird zerreißen"
             },
             {
               "pronoun": "wir",
               "present": "zerreißen",
-              "perfect": "haben zerrissen",
+              "perfect": "sind zerrissen",
               "preterite": "zerrissen",
               "future": "werden zerreißen"
             },
             {
               "pronoun": "ihr",
               "present": "zerreißt",
-              "perfect": "habt zerrissen",
+              "perfect": "seid zerrissen",
               "preterite": "zerrisst",
               "future": "werdet zerreißen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "zerreißen",
-              "perfect": "haben zerrissen",
+              "perfect": "sind zerrissen",
               "preterite": "zerrissen",
               "future": "werden zerreißen"
             }
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich zerreiße in der Stadt.",
-          "exampleRu": "Я в городе разорваюсь."
+          "exampleDe": "Das Seil zerreißt unter der Last.",
+          "exampleRu": "Верёвка рвётся под тяжестью груза."
         },
         {
           "id": 8725,
@@ -24260,8 +24260,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich verbreite das am Wochenende.",
-          "exampleRu": "Я на выходных это распространяю."
+          "exampleDe": "Sie verbreiten Flugblätter.",
+          "exampleRu": "Они распространяют листовки."
         },
         {
           "id": 8728,
@@ -24316,8 +24316,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich verbreite das nach dem Essen.",
-          "exampleRu": "Я после еды это распространяю."
+          "exampleDe": "Der Duft verbreitet sich im Raum.",
+          "exampleRu": "Запах распространяется по комнате."
         },
         {
           "id": 8729,
@@ -24431,8 +24431,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich erörtere die Frage nach der Arbeit.",
-          "exampleRu": "Я после работы вопрос рассмотрею."
+          "exampleDe": "Wir erörtern die Frage in der Sitzung.",
+          "exampleRu": "Мы обсуждаем вопрос на заседании."
         },
         {
           "id": 8732,
@@ -24655,8 +24655,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich entscheide das am Morgen.",
-          "exampleRu": "Я утром это решаю."
+          "exampleDe": "Wir entscheiden die Frage morgen.",
+          "exampleRu": "Мы решаем вопрос завтра."
         },
         {
           "id": 8737,
@@ -24935,8 +24935,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich glänze am Wochenende.",
-          "exampleRu": "Я на выходных светюсь."
+          "exampleDe": "Die Sterne glänzen am Nachthimmel.",
+          "exampleRu": "Звёзды сияют на ночном небе."
         },
         {
           "id": 8744,
@@ -24991,8 +24991,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich binde das nach dem Essen.",
-          "exampleRu": "Я после еды это связываю."
+          "exampleDe": "Ich binde das Paket mit Schnur.",
+          "exampleRu": "Я связываю посылку верёвкой."
         },
         {
           "id": 8745,
@@ -25159,8 +25159,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich setze mich heute.",
-          "exampleRu": "Я сегодня сесть."
+          "exampleDe": "Ich setze mich neben meine Schwester.",
+          "exampleRu": "Я сажусь рядом с сестрой."
         },
         {
           "id": 8748,
@@ -25607,8 +25607,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich nehme das am Wochenende ab.",
-          "exampleRu": "Я на выходных это снимаю."
+          "exampleDe": "Ich nehme den Hut ab.",
+          "exampleRu": "Я снимаю шляпу."
         },
         {
           "id": 8765,
@@ -25663,8 +25663,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich teile das nach dem Essen mit.",
-          "exampleRu": "Я после еды это сообщаю."
+          "exampleDe": "Ich teile dir die Neuigkeit morgen mit.",
+          "exampleRu": "Я сообщу тебе новость завтра."
         },
         {
           "id": 8766,
@@ -25775,8 +25775,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich erstelle das nach der Arbeit.",
-          "exampleRu": "Я после работы это составляю."
+          "exampleDe": "Ich erstelle eine Liste.",
+          "exampleRu": "Я составляю список."
         },
         {
           "id": 8768,
@@ -25887,8 +25887,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich erhalte mich morgen.",
-          "exampleRu": "Я завтра сохранюсь."
+          "exampleDe": "Das alte Gebäude hat sich gut erhalten.",
+          "exampleRu": "Старое здание хорошо сохранилось."
         },
         {
           "id": 8770,
@@ -26111,8 +26111,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich werde in der Stadt.",
-          "exampleRu": "Я в городе становюсь."
+          "exampleDe": "Es wird langsam dunkel.",
+          "exampleRu": "Постепенно темнеет."
         },
         {
           "id": 8777,
@@ -26338,8 +26338,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich wünsche dir Glück nach dem Essen.",
-          "exampleRu": "Я желаю тебе удачи после еды."
+          "exampleDe": "Sie strebt eine Beförderung an.",
+          "exampleRu": "Она стремится получить повышение."
         },
         {
           "id": 8783,
@@ -26394,8 +26394,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich klopfe die Tür vor dem Unterricht an.",
-          "exampleRu": "Я перед уроком дверь стучаю."
+          "exampleDe": "Jemand klopft an die Tür.",
+          "exampleRu": "Кто-то стучит в дверь."
         },
         {
           "id": 8784,
@@ -26674,8 +26674,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich verliere das am Morgen.",
-          "exampleRu": "Я утром это теряю."
+          "exampleDe": "Ich verliere oft meinen Schlüssel.",
+          "exampleRu": "Я часто теряю ключ."
         },
         {
           "id": 8790,
@@ -26730,8 +26730,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich schiebe das zu Hause.",
-          "exampleRu": "Я дома это толкаю."
+          "exampleDe": "Er schiebt den Wagen.",
+          "exampleRu": "Он толкает тележку."
         },
         {
           "id": 8791,
@@ -26842,8 +26842,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich treibe zur Eile im Büro an.",
-          "exampleRu": "Я в офисе торопю."
+          "exampleDe": "Der Chef treibt seine Mitarbeiter zur Eile an.",
+          "exampleRu": "Начальник торопит своих сотрудников."
         },
         {
           "id": 8794,
@@ -26898,8 +26898,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich transformiere das in der Schule.",
-          "exampleRu": "Я в школе это трансформирую."
+          "exampleDe": "Die Firma transformiert ihre Produktionsprozesse.",
+          "exampleRu": "Компания преобразует свои производственные процессы."
         },
         {
           "id": 8796,
@@ -27122,8 +27122,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich berste nach der Arbeit.",
-          "exampleRu": "Я после работы трескаюсь."
+          "exampleDe": "Das Glas birst durch die Hitze.",
+          "exampleRu": "Стекло трескается от жары."
         },
         {
           "id": 8800,
@@ -27570,8 +27570,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich vergrößere das in der Schule.",
-          "exampleRu": "Я в школе это увеличиваю."
+          "exampleDe": "Ich vergrößere das Foto.",
+          "exampleRu": "Я увеличиваю фотографию."
         },
         {
           "id": 8809,
@@ -27626,8 +27626,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich vergrößere mich am Wochenende.",
-          "exampleRu": "Я на выходных увеличиваюсь."
+          "exampleDe": "Die Stadt vergrößert sich jedes Jahr.",
+          "exampleRu": "Город увеличивается с каждым годом."
         },
         {
           "id": 8810,
@@ -27738,8 +27738,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich entferne das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это удаляю."
+          "exampleDe": "Ich entferne den Fleck.",
+          "exampleRu": "Я удаляю пятно."
         },
         {
           "id": 8813,
@@ -27794,8 +27794,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich verdopple das nach der Arbeit.",
-          "exampleRu": "Я после работы это удваиваю."
+          "exampleDe": "Die Firma verdoppelt den Preis.",
+          "exampleRu": "Компания удваивает цену."
         },
         {
           "id": 8814,
@@ -28018,8 +28018,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich befriedige nach Hause am Morgen.",
-          "exampleRu": "Я утром еду домой."
+          "exampleDe": "Das Ergebnis befriedigt die Kunden.",
+          "exampleRu": "Результат удовлетворяет клиентов."
         },
         {
           "id": 8818,
@@ -28130,8 +28130,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich erkundige mich nach … in der Stadt.",
-          "exampleRu": "Я в городе узнаваю."
+          "exampleDe": "Ich erkundige mich nach der Adresse.",
+          "exampleRu": "Я узнаю адрес."
         },
         {
           "id": 8821,
@@ -28354,8 +28354,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich befestige das nach dem Essen.",
-          "exampleRu": "Я после еды это укрепляю."
+          "exampleDe": "Der Erfolg festigt seine Position.",
+          "exampleRu": "Успех укрепляет его положение."
         },
         {
           "id": 8825,
@@ -28410,8 +28410,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich regle das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это улаживаю."
+          "exampleDe": "Wir regeln das Problem ruhig.",
+          "exampleRu": "Мы спокойно улаживаем проблему."
         },
         {
           "id": 8827,
@@ -28466,8 +28466,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich verringere das nach der Arbeit.",
-          "exampleRu": "Я после работы это уменьшаю."
+          "exampleDe": "Sport verringert Stress.",
+          "exampleRu": "Спорт уменьшает стресс."
         },
         {
           "id": 8828,
@@ -28522,8 +28522,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich multipliziere das heute.",
-          "exampleRu": "Я сегодня это умножаю."
+          "exampleDe": "Ich multipliziere drei mit vier.",
+          "exampleRu": "Я умножаю три на четыре."
         },
         {
           "id": 8829,
@@ -28634,8 +28634,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Die Polizei vernichtet die Beweise.",
-          "exampleRu": "Полиция уничтожает улики."
+          "exampleDe": "Der Täter vernichtet die Beweise.",
+          "exampleRu": "Преступник уничтожает улики."
         },
         {
           "id": 8831,
@@ -29026,8 +29026,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich veranstalte das nach dem Essen.",
-          "exampleRu": "Я после еды это устраиваю."
+          "exampleDe": "Wir veranstalten am Samstag eine Party.",
+          "exampleRu": "В субботу мы устраиваем вечеринку."
         },
         {
           "id": 8839,
@@ -29082,8 +29082,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich beseitige das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это устраняю."
+          "exampleDe": "Wir beseitigen das Hindernis.",
+          "exampleRu": "Мы устраняем препятствие."
         },
         {
           "id": 8840,
@@ -29194,8 +29194,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich behaupte das heute.",
-          "exampleRu": "Я сегодня это утверждаю."
+          "exampleDe": "Er behauptet, dass er recht hat.",
+          "exampleRu": "Он утверждает, что он прав."
         },
         {
           "id": 8842,
@@ -29530,8 +29530,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich ziele auf … im Büro.",
-          "exampleRu": "Я в офисе целюсь."
+          "exampleDe": "Ich ziele auf die Mitte.",
+          "exampleRu": "Я целюсь в середину."
         },
         {
           "id": 8851,
@@ -29586,8 +29586,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich zitiere das in der Schule.",
-          "exampleRu": "Я в школе это цитирую."
+          "exampleDe": "Die Studentin zitiert Goethe.",
+          "exampleRu": "Студентка цитирует Гёте."
         },
         {
           "id": 8852,
@@ -30143,7 +30143,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Прилагательные",
-          "subcategory": "Противоположности"
+          "subcategory": "Противоположности",
+          "exampleDe": "Der Arzt verbietet ihm das Rauchen.",
+          "exampleRu": "Врач запрещает ему курить."
         },
         {
           "id": 705,
@@ -30197,7 +30199,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Прилагательные",
-          "subcategory": "Противоположности"
+          "subcategory": "Противоположности",
+          "exampleDe": "Meine Eltern erlauben mir die Reise.",
+          "exampleRu": "Родители разрешают мне поездку."
         },
         {
           "id": 706,
@@ -30359,7 +30363,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Прилагательные",
-          "subcategory": "Противоположности"
+          "subcategory": "Противоположности",
+          "exampleDe": "Der Offizier befiehlt den Soldaten, zu warten.",
+          "exampleRu": "Офицер приказывает солдатам ждать."
         },
         {
           "id": 715,
@@ -30489,7 +30495,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Прилагательные",
-          "subcategory": "Противоположности"
+          "subcategory": "Противоположности",
+          "exampleDe": "Die Pflanze stirbt ohne Wasser.",
+          "exampleRu": "Растение погибает без воды."
         },
         {
           "id": 722,
@@ -36132,7 +36140,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Числа. Математические действия"
+          "subcategory": "Числа. Математические действия",
+          "exampleDe": "Wir subtrahieren drei von zehn.",
+          "exampleRu": "Мы вычитаем три из десяти."
         },
         {
           "id": 141,
@@ -36202,7 +36212,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Числа. Математические действия"
+          "subcategory": "Числа. Математические действия",
+          "exampleDe": "Wir dividieren zwölf durch vier.",
+          "exampleRu": "Мы делим двенадцать на четыре."
         },
         {
           "id": 143,
@@ -36272,7 +36284,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Числа. Математические действия"
+          "subcategory": "Числа. Математические действия",
+          "exampleDe": "Wir addieren fünf und sieben.",
+          "exampleRu": "Мы складываем пять и семь."
         },
         {
           "id": 145,
@@ -36326,7 +36340,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Числа. Математические действия"
+          "subcategory": "Числа. Математические действия",
+          "exampleDe": "Bitte füge noch etwas Salz hinzu.",
+          "exampleRu": "Добавь, пожалуйста, ещё немного соли."
         },
         {
           "id": 146,
@@ -36396,7 +36412,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Числа. Математические действия"
+          "subcategory": "Числа. Математические действия",
+          "exampleDe": "Wir multiplizieren sechs mit drei.",
+          "exampleRu": "Мы умножаем шесть на три."
         },
         {
           "id": 148,
@@ -36562,7 +36580,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Числа. Разное"
+          "subcategory": "Числа. Разное",
+          "exampleDe": "Das Kind zählt bis zehn.",
+          "exampleRu": "Ребёнок считает до десяти."
         },
         {
           "id": 156,
@@ -36616,7 +36636,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Числа. Разное"
+          "subcategory": "Числа. Разное",
+          "exampleDe": "Sie berechnet die Gesamtkosten.",
+          "exampleRu": "Она подсчитывает общие расходы."
         },
         {
           "id": 157,
@@ -36670,7 +36692,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Числа. Разное"
+          "subcategory": "Числа. Разное",
+          "exampleDe": "Wir vergleichen die beiden Angebote.",
+          "exampleRu": "Мы сравниваем оба предложения."
         },
         {
           "id": 158,
@@ -38963,7 +38987,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Время. Разное"
+          "subcategory": "Время. Разное",
+          "exampleDe": "Wir verschieben den Termin auf Montag.",
+          "exampleRu": "Мы переносим встречу на понедельник."
         },
         {
           "id": 665,
@@ -39767,7 +39793,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Часы"
+          "subcategory": "Часы",
+          "exampleDe": "Meine Uhr geht fünf Minuten vor.",
+          "exampleRu": "Мои часы спешат на пять минут."
         },
         {
           "id": 1213,
@@ -39821,7 +39849,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Часы"
+          "subcategory": "Часы",
+          "exampleDe": "Diese Uhr geht zwei Minuten nach.",
+          "exampleRu": "Эти часы отстают на две минуты."
         },
         {
           "id": 1214,
@@ -39955,7 +39985,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Числа и время",
-          "subcategory": "Часы"
+          "subcategory": "Часы",
+          "exampleDe": "Er repariert sein Fahrrad.",
+          "exampleRu": "Он ремонтирует свой велосипед."
         }
       ]
     },
@@ -42089,7 +42121,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Семья. Родственники"
+          "subcategory": "Семья. Родственники",
+          "exampleDe": "Das Paar adoptiert einen Jungen.",
+          "exampleRu": "Пара усыновляет мальчика."
         },
         {
           "id": 1603,
@@ -42143,7 +42177,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Семья. Родственники"
+          "subcategory": "Семья. Родственники",
+          "exampleDe": "Sie adoptieren ein Mädchen.",
+          "exampleRu": "Они удочеряют девочку."
         },
         {
           "id": 1604,
@@ -43247,7 +43283,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Супруги. Супружеская жизнь"
+          "subcategory": "Супруги. Супружеская жизнь",
+          "exampleDe": "Sie küsst ihr Kind auf die Stirn.",
+          "exampleRu": "Она целует своего ребёнка в лоб."
         },
         {
           "id": 1690,
@@ -43449,7 +43487,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Супруги. Супружеская жизнь"
+          "subcategory": "Супруги. Супружеская жизнь",
+          "exampleDe": "Ich liebe meine Familie.",
+          "exampleRu": "Я люблю свою семью."
         },
         {
           "id": 1701,
@@ -43623,7 +43663,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Супруги. Супружеская жизнь"
+          "subcategory": "Супруги. Супружеская жизнь",
+          "exampleDe": "Sie heiratet ihren langjährigen Freund.",
+          "exampleRu": "Она выходит замуж за своего давнего друга."
         },
         {
           "id": 1711,
@@ -43677,7 +43719,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Супруги. Супружеская жизнь"
+          "subcategory": "Супруги. Супружеская жизнь",
+          "exampleDe": "Er heiratet seine Freundin.",
+          "exampleRu": "Он женится на своей девушке."
         },
         {
           "id": 1712,
@@ -43883,7 +43927,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Супруги. Супружеская жизнь"
+          "subcategory": "Супруги. Супружеская жизнь",
+          "exampleDe": "Die Geschwister streiten um das Spielzeug.",
+          "exampleRu": "Брат и сестра ссорятся из-за игрушки."
         },
         {
           "id": 1724,
@@ -44151,7 +44197,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Первобытные люди"
+          "subcategory": "Первобытные люди",
+          "exampleDe": "Der Fuchs jagt Mäuse.",
+          "exampleRu": "Лиса охотится на мышей."
         },
         {
           "id": 5982,
@@ -44343,7 +44391,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Первобытные люди"
+          "subcategory": "Первобытные люди",
+          "exampleDe": "Menschen domestizierten vor langer Zeit verschiedene Tierarten.",
+          "exampleRu": "Люди давно одомашнили разные виды животных."
         },
         {
           "id": 5992,
@@ -44413,7 +44463,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Семья и люди",
-          "subcategory": "Первобытные люди"
+          "subcategory": "Первобытные люди",
+          "exampleDe": "Die Gläubigen beten ihre Gottheit an.",
+          "exampleRu": "Верующие поклоняются своему божеству."
         },
         {
           "id": 5994,
@@ -46605,7 +46657,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Дом. Жилище"
+          "subcategory": "Дом. Жилище",
+          "exampleDe": "Wir gehen die Treppe hinauf.",
+          "exampleRu": "Мы поднимаемся по лестнице."
         },
         {
           "id": 2706,
@@ -46659,7 +46713,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Дом. Жилище"
+          "subcategory": "Дом. Жилище",
+          "exampleDe": "Der Wanderer steigt vorsichtig den Hang herab.",
+          "exampleRu": "Турист осторожно спускается по склону."
         },
         {
           "id": 2707,
@@ -46713,7 +46769,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Дом. Жилище"
+          "subcategory": "Дом. Жилище",
+          "exampleDe": "Nächsten Monat ziehen wir nach Berlin um.",
+          "exampleRu": "В следующем месяце мы переезжаем в Берлин."
         },
         {
           "id": 2708,
@@ -47209,7 +47267,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Дом. Дверь. Замок"
+          "subcategory": "Дом. Дверь. Замок",
+          "exampleDe": "Sie schließt die Haustür auf.",
+          "exampleRu": "Она отпирает входную дверь."
         },
         {
           "id": 2737,
@@ -47263,7 +47323,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Дом. Дверь. Замок"
+          "subcategory": "Дом. Дверь. Замок",
+          "exampleDe": "Er öffnet das Fenster.",
+          "exampleRu": "Он открывает окно."
         },
         {
           "id": 2738,
@@ -47317,7 +47379,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Дом. Дверь. Замок"
+          "subcategory": "Дом. Дверь. Замок",
+          "exampleDe": "Bitte schließ die Tür.",
+          "exampleRu": "Закрой, пожалуйста, дверь."
         },
         {
           "id": 2739,
@@ -47403,7 +47467,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Дом. Дверь. Замок"
+          "subcategory": "Дом. Дверь. Замок",
+          "exampleDe": "Die alte Treppe knarrt bei jedem Schritt.",
+          "exampleRu": "Старая лестница скрипит при каждом шаге."
         },
         {
           "id": 2742,
@@ -47585,7 +47651,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Дом. Дверь. Замок"
+          "subcategory": "Дом. Дверь. Замок",
+          "exampleDe": "Jemand klingelt an der Tür.",
+          "exampleRu": "Кто-то звонит в дверь."
         },
         {
           "id": 2751,
@@ -47703,7 +47771,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Дом. Дверь. Замок"
+          "subcategory": "Дом. Дверь. Замок",
+          "exampleDe": "Er klopft an die Tür.",
+          "exampleRu": "Он стучит в дверь."
         },
         {
           "id": 2756,
@@ -48013,7 +48083,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Загородный дом. Дом в деревне"
+          "subcategory": "Загородный дом. Дом в деревне",
+          "exampleDe": "Im Winter heizen wir mit Holz.",
+          "exampleRu": "Зимой мы отапливаем дом дровами."
         },
         {
           "id": 2773,
@@ -48259,7 +48331,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Особняк. Вилла"
+          "subcategory": "Особняк. Вилла",
+          "exampleDe": "Sie pflegt den Garten jeden Samstag.",
+          "exampleRu": "Она ухаживает за садом каждую субботу."
         },
         {
           "id": 2786,
@@ -48897,7 +48971,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Квартира. Уборка"
+          "subcategory": "Квартира. Уборка",
+          "exampleDe": "Wir räumen heute die Wohnung auf.",
+          "exampleRu": "Сегодня мы убираем квартиру."
         },
         {
           "id": 2826,
@@ -48951,7 +49027,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Квартира. Уборка"
+          "subcategory": "Квартира. Уборка",
+          "exampleDe": "Leg bitte die Kleidung weg und räum sie in den Schrank.",
+          "exampleRu": "Убери, пожалуйста, одежду и положи её в шкаф."
         },
         {
           "id": 2827,
@@ -49067,7 +49145,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Квартира. Уборка"
+          "subcategory": "Квартира. Уборка",
+          "exampleDe": "Er fegt den Boden in der Küche.",
+          "exampleRu": "Он подметает пол на кухне."
         },
         {
           "id": 2833,
@@ -50421,7 +50501,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Кухня"
+          "subcategory": "Кухня",
+          "exampleDe": "Wir filtern das Wasser vor dem Trinken.",
+          "exampleRu": "Мы фильтруем воду перед тем, как пить."
         },
         {
           "id": 2925,
@@ -50639,7 +50721,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Ванная комната"
+          "subcategory": "Ванная комната",
+          "exampleDe": "Ich wasche mir die Hände.",
+          "exampleRu": "Я мою руки."
         },
         {
           "id": 2938,
@@ -50905,7 +50989,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Ванная комната"
+          "subcategory": "Ванная комната",
+          "exampleDe": "Sie wäscht die Wäsche bei 40 Grad.",
+          "exampleRu": "Она стирает бельё при 40 градусах."
         },
         {
           "id": 2953,
@@ -51391,7 +51477,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Ремонт"
+          "subcategory": "Ремонт",
+          "exampleDe": "Wir renovieren das Wohnzimmer.",
+          "exampleRu": "Мы делаем ремонт в гостиной."
         },
         {
           "id": 2982,
@@ -51445,7 +51533,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Ремонт"
+          "subcategory": "Ремонт",
+          "exampleDe": "Der Mechaniker repariert mein Fahrrad.",
+          "exampleRu": "Механик ремонтирует мой велосипед."
         },
         {
           "id": 2983,
@@ -51535,7 +51625,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Ремонт"
+          "subcategory": "Ремонт",
+          "exampleDe": "Wir streichen die Wände weiß.",
+          "exampleRu": "Мы красим стены в белый цвет."
         },
         {
           "id": 2987,
@@ -51637,7 +51729,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Ремонт"
+          "subcategory": "Ремонт",
+          "exampleDe": "Früher weißte man die Wände mit Kalk.",
+          "exampleRu": "Раньше стены белили известью."
         },
         {
           "id": 2992,
@@ -51691,7 +51785,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Ремонт"
+          "subcategory": "Ремонт",
+          "exampleDe": "Sie tapezieren das Schlafzimmer neu.",
+          "exampleRu": "Они заново оклеивают спальню обоями."
         },
         {
           "id": 2993,
@@ -51761,7 +51857,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Ремонт"
+          "subcategory": "Ремонт",
+          "exampleDe": "Er lackiert die Holztür.",
+          "exampleRu": "Он покрывает деревянную дверь лаком."
         },
         {
           "id": 2999,
@@ -51831,7 +51929,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Водопровод"
+          "subcategory": "Водопровод",
+          "exampleDe": "Wasser tropft aus dem Wasserhahn.",
+          "exampleRu": "Из крана капает вода."
         },
         {
           "id": 3001,
@@ -51885,7 +51985,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Водопровод"
+          "subcategory": "Водопровод",
+          "exampleDe": "Regenwasser sickert durch die Decke durch.",
+          "exampleRu": "Дождевая вода просачивается через потолок."
         },
         {
           "id": 3002,
@@ -52029,7 +52131,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Водопровод"
+          "subcategory": "Водопровод",
+          "exampleDe": "Dreh bitte das Wasser ab.",
+          "exampleRu": "Перекрой, пожалуйста, воду."
         },
         {
           "id": 3010,
@@ -52083,7 +52187,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Водопровод"
+          "subcategory": "Водопровод",
+          "exampleDe": "Dreh den Wasserhahn fest zu.",
+          "exampleRu": "Плотно закрой водопроводный кран."
         },
         {
           "id": 3011,
@@ -52137,7 +52243,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Водопровод"
+          "subcategory": "Водопровод",
+          "exampleDe": "Wir reinigen das verstopfte Rohr.",
+          "exampleRu": "Мы прочищаем засорившуюся трубу."
         },
         {
           "id": 3012,
@@ -52507,7 +52615,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Das Feuer flammt plötzlich wieder auf.",
+          "exampleRu": "Огонь внезапно вспыхивает снова."
         },
         {
           "id": 3035,
@@ -52561,7 +52671,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Das Holz brennt im Kamin.",
+          "exampleRu": "Дрова горят в камине."
         },
         {
           "id": 3036,
@@ -52615,7 +52727,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Das Papier ist vollständig verbrannt.",
+          "exampleRu": "Бумага полностью сгорела."
         },
         {
           "id": 3037,
@@ -52807,7 +52921,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Das Kind schreit vor Angst.",
+          "exampleRu": "Ребёнок кричит от страха."
         },
         {
           "id": 3047,
@@ -52887,7 +53003,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Die Feuerwehr rettet die Bewohner.",
+          "exampleRu": "Пожарные спасают жильцов."
         },
         {
           "id": 3050,
@@ -52941,7 +53059,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Der Zug kommt um acht Uhr an.",
+          "exampleRu": "Поезд прибывает в восемь часов."
         },
         {
           "id": 3051,
@@ -52995,7 +53115,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Die Feuerwehr löscht den Brand.",
+          "exampleRu": "Пожарные тушат пожар."
         },
         {
           "id": 3053,
@@ -53081,7 +53203,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Nach dem Erdbeben brach das Gebäude zusammen.",
+          "exampleRu": "После землетрясения здание рухнуло."
         },
         {
           "id": 3056,
@@ -53135,7 +53259,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Ein Teil der Decke ist eingefallen.",
+          "exampleRu": "Часть потолка обвалилась."
         },
         {
           "id": 3057,
@@ -53189,7 +53315,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Die alte Brücke ist eingestürzt.",
+          "exampleRu": "Старый мост обрушился."
         },
         {
           "id": 3058,
@@ -53275,7 +53403,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Пожар"
+          "subcategory": "Пожар",
+          "exampleDe": "Ohne Sauerstoff kann man ersticken.",
+          "exampleRu": "Без кислорода можно задохнуться."
         },
         {
           "id": 3061,
@@ -53387,7 +53517,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Праздник. Событие"
+          "subcategory": "Праздник. Событие",
+          "exampleDe": "Wir feiern heute ihren Geburtstag.",
+          "exampleRu": "Сегодня мы празднуем её день рождения."
         },
         {
           "id": 5693,
@@ -53553,7 +53685,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Праздник. Событие"
+          "subcategory": "Праздник. Событие",
+          "exampleDe": "Die Stadt begeht ihr hundertjähriges Jubiläum.",
+          "exampleRu": "Город отмечает свой столетний юбилей."
         },
         {
           "id": 5701,
@@ -53742,7 +53876,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Праздник. Событие",
           "grammar": {
             "government": "zu + Dat."
-          }
+          },
+          "exampleDe": "Wir laden unsere Freunde zum Abendessen ein.",
+          "exampleRu": "Мы приглашаем друзей на ужин."
         },
         {
           "id": 5711,
@@ -53828,7 +53964,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Праздник. Событие"
+          "subcategory": "Праздник. Событие",
+          "exampleDe": "Am Sonntag besuchen wir unsere Großeltern.",
+          "exampleRu": "В воскресенье мы навещаем бабушку и дедушку."
         },
         {
           "id": 5714,
@@ -53908,7 +54046,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Праздник. Событие"
+          "subcategory": "Праздник. Событие",
+          "exampleDe": "Ich schenke meiner Schwester ein Buch.",
+          "exampleRu": "Я дарю сестре книгу."
         },
         {
           "id": 5717,
@@ -54007,7 +54147,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Праздник. Событие",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Wir gratulieren dir zum Geburtstag.",
+          "exampleRu": "Мы поздравляем тебя с днём рождения."
         },
         {
           "id": 5721,
@@ -54113,7 +54255,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Праздник. Событие"
+          "subcategory": "Праздник. Событие",
+          "exampleDe": "Die Gastgeber bewirten ihre Gäste mit Kaffee und Kuchen.",
+          "exampleRu": "Хозяева угощают гостей кофе и пирогом."
         },
         {
           "id": 5726,
@@ -54241,7 +54385,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Дом и быт",
-          "subcategory": "Праздник. Событие"
+          "subcategory": "Праздник. Событие",
+          "exampleDe": "Die Kinder tanzen zur Musik.",
+          "exampleRu": "Дети танцуют под музыку."
         },
         {
           "id": 5732,
@@ -57845,7 +57991,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Блюда"
+          "subcategory": "Блюда",
+          "exampleDe": "Ich koche heute eine Gemüsesuppe.",
+          "exampleRu": "Сегодня я варю овощной суп."
         },
         {
           "id": 1450,
@@ -57958,7 +58106,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Блюда"
+          "subcategory": "Блюда",
+          "exampleDe": "Sie brät Kartoffeln in der Pfanne.",
+          "exampleRu": "Она жарит картошку на сковороде."
         },
         {
           "id": 1452,
@@ -58012,7 +58162,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Блюда"
+          "subcategory": "Блюда",
+          "exampleDe": "Ich wärme die Suppe noch einmal auf.",
+          "exampleRu": "Я ещё раз разогреваю суп."
         },
         {
           "id": 1453,
@@ -58066,7 +58218,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Блюда"
+          "subcategory": "Блюда",
+          "exampleDe": "Salze die Suppe erst am Ende.",
+          "exampleRu": "Посоли суп только в конце."
         },
         {
           "id": 1454,
@@ -58120,7 +58274,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Блюда"
+          "subcategory": "Блюда",
+          "exampleDe": "Er pfeffert das Fleisch vor dem Braten.",
+          "exampleRu": "Он перчит мясо перед жаркой."
         },
         {
           "id": 1455,
@@ -58174,7 +58330,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Блюда"
+          "subcategory": "Блюда",
+          "exampleDe": "Ich reibe den Käse für die Pizza.",
+          "exampleRu": "Я натираю сыр для пиццы."
         },
         {
           "id": 1456,
@@ -58244,7 +58402,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Блюда"
+          "subcategory": "Блюда",
+          "exampleDe": "Sie schält die Kartoffeln.",
+          "exampleRu": "Она чистит картошку."
         },
         {
           "id": 1461,
@@ -58618,7 +58778,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Приём пищи"
+          "subcategory": "Приём пищи",
+          "exampleDe": "Wir essen heute zusammen zu Abend.",
+          "exampleRu": "Сегодня мы ужинаем вместе."
         },
         {
           "id": 1482,
@@ -58688,7 +58850,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Приём пищи"
+          "subcategory": "Приём пищи",
+          "exampleDe": "Am Wochenende frühstücken wir spät.",
+          "exampleRu": "По выходным мы завтракаем поздно."
         },
         {
           "id": 1484,
@@ -58820,7 +58984,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Приём пищи"
+          "subcategory": "Приём пищи",
+          "exampleDe": "Kannst du die Dose öffnen?",
+          "exampleRu": "Можешь открыть банку?"
         },
         {
           "id": 1491,
@@ -58874,7 +59040,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Приём пищи"
+          "subcategory": "Приём пищи",
+          "exampleDe": "Er hat den Kaffee auf den Tisch verschüttet.",
+          "exampleRu": "Он пролил кофе на стол."
         },
         {
           "id": 1492,
@@ -58938,7 +59106,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Приём пищи"
+          "subcategory": "Приём пищи",
+          "exampleDe": "Das Wasser kocht schon.",
+          "exampleRu": "Вода уже кипит."
         },
         {
           "id": 1494,
@@ -58992,7 +59162,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Приём пищи"
+          "subcategory": "Приём пищи",
+          "exampleDe": "Wir kochen das Wasser vor dem Trinken ab.",
+          "exampleRu": "Мы кипятим воду перед употреблением."
         },
         {
           "id": 1495,
@@ -59056,7 +59228,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Приём пищи"
+          "subcategory": "Приём пищи",
+          "exampleDe": "Wir kühlen die Getränke im Kühlschrank.",
+          "exampleRu": "Мы охлаждаем напитки в холодильнике."
         },
         {
           "id": 1497,
@@ -59110,7 +59284,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Приём пищи"
+          "subcategory": "Приём пищи",
+          "exampleDe": "Lass den Tee etwas abkühlen.",
+          "exampleRu": "Дай чаю немного остыть."
         },
         {
           "id": 1498,
@@ -59546,7 +59722,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Еда и напитки",
-          "subcategory": "Ресторан"
+          "subcategory": "Ресторан",
+          "exampleDe": "Ich bestelle ein vegetarisches Gericht.",
+          "exampleRu": "Я заказываю вегетарианское блюдо."
         },
         {
           "id": 1532,
@@ -60974,7 +61152,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Одежда",
-          "subcategory": "Обувь"
+          "subcategory": "Обувь",
+          "exampleDe": "Das Kind schnürt seine Schuhe selbst.",
+          "exampleRu": "Ребёнок сам шнурует ботинки."
         },
         {
           "id": 1080,
@@ -61608,7 +61788,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Одежда",
-          "subcategory": "Одежда. Разное"
+          "subcategory": "Одежда. Разное",
+          "exampleDe": "Ein Knopf ist von meiner Jacke abgegangen.",
+          "exampleRu": "От моей куртки оторвалась пуговица."
         },
         {
           "id": 1137,
@@ -61662,7 +61844,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Одежда",
-          "subcategory": "Одежда. Разное"
+          "subcategory": "Одежда. Разное",
+          "exampleDe": "Meine Mutter näht ein Kleid.",
+          "exampleRu": "Моя мама шьёт платье."
         },
         {
           "id": 1138,
@@ -61716,7 +61900,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Одежда",
-          "subcategory": "Одежда. Разное"
+          "subcategory": "Одежда. Разное",
+          "exampleDe": "Sie stickt Blumen auf das Kissen.",
+          "exampleRu": "Она вышивает цветы на подушке."
         },
         {
           "id": 1139,
@@ -61870,7 +62056,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Одежда",
-          "subcategory": "Одежда. Разное"
+          "subcategory": "Одежда. Разное",
+          "exampleDe": "Er hat beim Öffnen den Brief zerrissen.",
+          "exampleRu": "Он порвал письмо, открывая его."
         },
         {
           "id": 1147,
@@ -63328,7 +63516,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Офис. Работа в офисе"
+          "subcategory": "Офис. Работа в офисе",
+          "exampleDe": "Bitte vervielfältigen Sie dieses Dokument.",
+          "exampleRu": "Пожалуйста, размножьте этот документ."
         },
         {
           "id": 3095,
@@ -63402,7 +63592,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Офис. Работа в офисе"
+          "subcategory": "Офис. Работа в офисе",
+          "exampleDe": "Ich rufe dich heute Abend an.",
+          "exampleRu": "Я позвоню тебе сегодня вечером."
         },
         {
           "id": 3098,
@@ -63459,7 +63651,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Офис. Работа в офисе",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Sie antwortet auf meine Frage.",
+          "exampleRu": "Она отвечает на мой вопрос."
         },
         {
           "id": 3099,
@@ -63513,7 +63707,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Офис. Работа в офисе"
+          "subcategory": "Офис. Работа в офисе",
+          "exampleDe": "Die Telefonistin verbindet mich mit dem Büro.",
+          "exampleRu": "Телефонистка соединяет меня с офисом."
         },
         {
           "id": 3100,
@@ -63567,7 +63763,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Офис. Работа в офисе"
+          "subcategory": "Офис. Работа в офисе",
+          "exampleDe": "Wir machen einen Termin für Montag aus.",
+          "exampleRu": "Мы договариваемся о встрече на понедельник."
         },
         {
           "id": 3101,
@@ -63621,7 +63819,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Офис. Работа в офисе"
+          "subcategory": "Офис. Работа в офисе",
+          "exampleDe": "Er demonstriert die neue Funktion.",
+          "exampleRu": "Он демонстрирует новую функцию."
         },
         {
           "id": 3102,
@@ -63675,7 +63875,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Офис. Работа в офисе"
+          "subcategory": "Офис. Работа в офисе",
+          "exampleDe": "Heute fehlen drei Mitarbeiter.",
+          "exampleRu": "Сегодня отсутствуют трое сотрудников."
         },
         {
           "id": 3103,
@@ -64015,7 +64217,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 1"
+          "subcategory": "Работа. Бизнес-процессы - 1",
+          "exampleDe": "Die beiden Firmen konkurrieren miteinander.",
+          "exampleRu": "Эти две фирмы конкурируют друг с другом."
         },
         {
           "id": 3123,
@@ -64265,7 +64469,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 1"
+          "subcategory": "Работа. Бизнес-процессы - 1",
+          "exampleDe": "Das Unternehmen handelt mit Möbeln.",
+          "exampleRu": "Предприятие торгует мебелью."
         },
         {
           "id": 3137,
@@ -64547,7 +64753,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Die Lehrerin korrigiert die Fehler.",
+          "exampleRu": "Учительница исправляет ошибки."
         },
         {
           "id": 3153,
@@ -64633,7 +64841,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Der Techniker kontrolliert die Maschine.",
+          "exampleRu": "Техник проверяет машину."
         },
         {
           "id": 3156,
@@ -64851,7 +65061,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Die Regierung schafft die alte Regel ab.",
+          "exampleRu": "Правительство отменяет старое правило."
         },
         {
           "id": 3168,
@@ -64937,7 +65149,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Die Firma lässt ihre Erfindung patentieren.",
+          "exampleRu": "Фирма оформляет патент на своё изобретение."
         },
         {
           "id": 3171,
@@ -64991,7 +65205,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Wir planen eine Reise nach Österreich.",
+          "exampleRu": "Мы планируем поездку в Австрию."
         },
         {
           "id": 3172,
@@ -65087,7 +65303,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Die Behörde prüft den Antrag.",
+          "exampleRu": "Ведомство рассматривает заявление."
         },
         {
           "id": 3176,
@@ -65189,7 +65407,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Sie leitet die Abteilung seit fünf Jahren.",
+          "exampleRu": "Она руководит отделом уже пять лет."
         },
         {
           "id": 3180,
@@ -65307,7 +65527,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Ich versichere mein Auto gegen Diebstahl.",
+          "exampleRu": "Я страхую машину от кражи."
         },
         {
           "id": 3185,
@@ -65393,7 +65615,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Bitte benachrichtigen Sie mich rechtzeitig.",
+          "exampleRu": "Пожалуйста, уведомите меня заблаговременно."
         },
         {
           "id": 3188,
@@ -65495,7 +65719,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Работа. Бизнес-процессы - 2"
+          "subcategory": "Работа. Бизнес-процессы - 2",
+          "exampleDe": "Die Heizung funktioniert nicht mehr.",
+          "exampleRu": "Отопление больше не работает."
         },
         {
           "id": 3192,
@@ -65729,7 +65955,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Die Fabrik produziert Kunststoffteile.",
+          "exampleRu": "Завод производит пластиковые детали."
         },
         {
           "id": 3205,
@@ -65895,7 +66123,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Wir besprechen morgen den Vertrag.",
+          "exampleRu": "Завтра мы обсудим договор."
         },
         {
           "id": 3213,
@@ -66087,7 +66317,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Er hat die Vorschriften übertreten.",
+          "exampleRu": "Он нарушил предписания."
         },
         {
           "id": 3223,
@@ -66173,7 +66405,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Die Beschäftigten streiken für höhere Löhne.",
+          "exampleRu": "Работники бастуют за повышение зарплаты."
         },
         {
           "id": 3226,
@@ -66243,7 +66477,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Wer hat das Telefon erfunden?",
+          "exampleRu": "Кто изобрёл телефон?"
         },
         {
           "id": 3228,
@@ -66329,7 +66565,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Wir verbessern den Kundenservice.",
+          "exampleRu": "Мы улучшаем обслуживание клиентов."
         },
         {
           "id": 3231,
@@ -66447,7 +66685,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Die Arbeiter laden die Kisten auf den Lkw.",
+          "exampleRu": "Рабочие грузят ящики в грузовик."
         },
         {
           "id": 3236,
@@ -66517,7 +66757,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Sie entladen den Lastwagen.",
+          "exampleRu": "Они разгружают грузовик."
         },
         {
           "id": 3238,
@@ -66619,7 +66861,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Der Spediteur transportiert die Möbel.",
+          "exampleRu": "Перевозчик транспортирует мебель."
         },
         {
           "id": 3242,
@@ -66785,7 +67029,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Производство"
+          "subcategory": "Производство",
+          "exampleDe": "Wir verpacken die Ware sorgfältig.",
+          "exampleRu": "Мы тщательно упаковываем товар."
         },
         {
           "id": 3251,
@@ -66856,48 +67102,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "unterschreibe",
-              "perfect": "habe geunterschreibt",
-              "preterite": "unterschreibte",
+              "perfect": "habe unterschrieben",
+              "preterite": "unterschrieb",
               "future": "werde unterschreiben"
             },
             {
               "pronoun": "du",
               "present": "unterschreibst",
-              "perfect": "hast geunterschreibt",
-              "preterite": "unterschreibtest",
+              "perfect": "hast unterschrieben",
+              "preterite": "unterschriebst",
               "future": "wirst unterschreiben"
             },
             {
               "pronoun": "er/sie/es",
               "present": "unterschreibt",
-              "perfect": "hat geunterschreibt",
-              "preterite": "unterschreibte",
+              "perfect": "hat unterschrieben",
+              "preterite": "unterschrieb",
               "future": "wird unterschreiben"
             },
             {
               "pronoun": "wir",
               "present": "unterschreiben",
-              "perfect": "haben geunterschreibt",
-              "preterite": "unterschreibten",
+              "perfect": "haben unterschrieben",
+              "preterite": "unterschrieben",
               "future": "werden unterschreiben"
             },
             {
               "pronoun": "ihr",
               "present": "unterschreibt",
-              "perfect": "habt geunterschreibt",
-              "preterite": "unterschreibtet",
+              "perfect": "habt unterschrieben",
+              "preterite": "unterschriebt",
               "future": "werdet unterschreiben"
             },
             {
               "pronoun": "sie/Sie",
               "present": "unterschreiben",
-              "perfect": "haben geunterschreibt",
-              "preterite": "unterschreibten",
+              "perfect": "haben unterschrieben",
+              "preterite": "unterschrieben",
               "future": "werden unterschreiben"
             }
           ],
           "category": "Работа",
-          "subcategory": "Контракт"
+          "subcategory": "Контракт",
+          "exampleDe": "Bitte unterschreiben Sie hier.",
+          "exampleRu": "Пожалуйста, подпишите здесь."
         },
         {
           "id": 3256,
@@ -67153,7 +67401,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Импорт-Экспорт"
+          "subcategory": "Импорт-Экспорт",
+          "exampleDe": "Deutschland importiert Waren aus vielen Ländern.",
+          "exampleRu": "Германия импортирует товары из многих стран."
         },
         {
           "id": 3270,
@@ -67249,7 +67499,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Импорт-Экспорт"
+          "subcategory": "Импорт-Экспорт",
+          "exampleDe": "Die Firma exportiert Maschinen nach Frankreich.",
+          "exampleRu": "Фирма экспортирует оборудование во Францию."
         },
         {
           "id": 3274,
@@ -67669,7 +67921,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Финансы"
+          "subcategory": "Финансы",
+          "exampleDe": "Das Unternehmen investiert in neue Technik.",
+          "exampleRu": "Компания инвестирует в новую технику."
         },
         {
           "id": 3300,
@@ -68025,7 +68279,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Финансы"
+          "subcategory": "Финансы",
+          "exampleDe": "Wir müssen die Kosten reduzieren.",
+          "exampleRu": "Нам нужно сократить расходы."
         },
         {
           "id": 3323,
@@ -68271,7 +68527,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Маркетинг"
+          "subcategory": "Маркетинг",
+          "exampleDe": "Die Forscher analysieren die Ergebnisse.",
+          "exampleRu": "Исследователи анализируют результаты."
         },
         {
           "id": 3337,
@@ -68341,7 +68599,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Маркетинг"
+          "subcategory": "Маркетинг",
+          "exampleDe": "Die Firma positioniert ihre Marke im Premiumsegment.",
+          "exampleRu": "Компания позиционирует свой бренд в премиальном сегменте."
         },
         {
           "id": 3339,
@@ -68418,48 +68678,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "werbe",
-              "perfect": "habe gewerbt",
-              "preterite": "werbte",
+              "perfect": "habe geworben",
+              "preterite": "warb",
               "future": "werde werben"
             },
             {
               "pronoun": "du",
-              "present": "werbst",
-              "perfect": "hast gewerbt",
-              "preterite": "werbtest",
+              "present": "wirbst",
+              "perfect": "hast geworben",
+              "preterite": "warbst",
               "future": "wirst werben"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "werbt",
-              "perfect": "hat gewerbt",
-              "preterite": "werbte",
+              "present": "wirbt",
+              "perfect": "hat geworben",
+              "preterite": "warb",
               "future": "wird werben"
             },
             {
               "pronoun": "wir",
               "present": "werben",
-              "perfect": "haben gewerbt",
-              "preterite": "werbten",
+              "perfect": "haben geworben",
+              "preterite": "warben",
               "future": "werden werben"
             },
             {
               "pronoun": "ihr",
               "present": "werbt",
-              "perfect": "habt gewerbt",
-              "preterite": "werbtet",
+              "perfect": "habt geworben",
+              "preterite": "warbt",
               "future": "werdet werben"
             },
             {
               "pronoun": "sie/Sie",
               "present": "werben",
-              "perfect": "haben gewerbt",
-              "preterite": "werbten",
+              "perfect": "haben geworben",
+              "preterite": "warben",
               "future": "werden werben"
             }
           ],
           "category": "Работа",
-          "subcategory": "Реклама"
+          "subcategory": "Реклама",
+          "exampleDe": "Die Firma wirbt für ihr neues Produkt.",
+          "exampleRu": "Фирма рекламирует свой новый продукт."
         },
         {
           "id": 3344,
@@ -68965,7 +69227,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Банк"
+          "subcategory": "Банк",
+          "exampleDe": "Ich zahle hundert Euro auf mein Konto ein.",
+          "exampleRu": "Я кладу сто евро на свой счёт."
         },
         {
           "id": 3376,
@@ -69019,7 +69283,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Банк"
+          "subcategory": "Банк",
+          "exampleDe": "Ich hebe fünfzig Euro am Geldautomaten ab.",
+          "exampleRu": "Я снимаю пятьдесят евро в банкомате."
         },
         {
           "id": 3377,
@@ -69115,7 +69381,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Банк"
+          "subcategory": "Банк",
+          "exampleDe": "Ich überweise die Miete jeden Monat.",
+          "exampleRu": "Я перевожу деньги за аренду каждый месяц."
         },
         {
           "id": 3381,
@@ -69411,7 +69679,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Телефон. Общение по телефону"
+          "subcategory": "Телефон. Общение по телефону",
+          "exampleDe": "Ich rufe morgen meine Schwester an.",
+          "exampleRu": "Завтра я позвоню сестре."
         },
         {
           "id": 3401,
@@ -69504,7 +69774,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Телефон. Общение по телефону",
           "grammar": {
             "government": "nach + Dat. / + Akk."
-          }
+          },
+          "exampleDe": "Ich frage den Lehrer nach dem Weg.",
+          "exampleRu": "Я спрашиваю учителя, как пройти."
         },
         {
           "id": 3406,
@@ -69558,7 +69830,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Телефон. Общение по телефону"
+          "subcategory": "Телефон. Общение по телефону",
+          "exampleDe": "Ich höre Musik im Radio.",
+          "exampleRu": "Я слушаю музыку по радио."
         },
         {
           "id": 3407,
@@ -69674,7 +69948,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Телефон. Общение по телефону"
+          "subcategory": "Телефон. Общение по телефону",
+          "exampleDe": "Nach dem Gespräch legt sie auf.",
+          "exampleRu": "После разговора она кладёт трубку."
         },
         {
           "id": 3413,
@@ -69738,7 +70014,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Телефон. Общение по телефону"
+          "subcategory": "Телефон. Общение по телефону",
+          "exampleDe": "Das Telefon läutet schon wieder.",
+          "exampleRu": "Телефон снова звонит."
         },
         {
           "id": 3415,
@@ -69976,7 +70254,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Телефон. Мобильный телефон"
+          "subcategory": "Телефон. Мобильный телефон",
+          "exampleDe": "Du kannst eine Farbe auswählen.",
+          "exampleRu": "Ты можешь выбрать цвет."
         },
         {
           "id": 3430,
@@ -70526,7 +70806,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Документы. Названия документов"
+          "subcategory": "Документы. Названия документов",
+          "exampleDe": "Bitte füllen Sie dieses Formular aus.",
+          "exampleRu": "Пожалуйста, заполните этот бланк."
         },
         {
           "id": 3466,
@@ -70596,7 +70878,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Документы. Названия документов"
+          "subcategory": "Документы. Названия документов",
+          "exampleDe": "Streich das falsche Wort durch.",
+          "exampleRu": "Зачеркни неправильное слово."
         },
         {
           "id": 3468,
@@ -70772,7 +71056,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Документы. Названия документов"
+          "subcategory": "Документы. Названия документов",
+          "exampleDe": "Bitte zeigen Sie Ihren Ausweis vor.",
+          "exampleRu": "Пожалуйста, предъявите удостоверение личности."
         },
         {
           "id": 3481,
@@ -72205,7 +72491,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Выставка",
           "grammar": {
             "government": "an + Dat."
-          }
+          },
+          "exampleDe": "Wir nehmen an der Konferenz teil.",
+          "exampleRu": "Мы участвуем в конференции."
         },
         {
           "id": 3574,
@@ -72307,7 +72595,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Выставка"
+          "subcategory": "Выставка",
+          "exampleDe": "Die Stadt veranstaltet ein Konzert.",
+          "exampleRu": "Город организует концерт."
         },
         {
           "id": 3579,
@@ -72377,7 +72667,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Выставка"
+          "subcategory": "Выставка",
+          "exampleDe": "Füllen Sie bitte den Antrag vollständig aus.",
+          "exampleRu": "Пожалуйста, заполните заявление полностью."
         },
         {
           "id": 3581,
@@ -72473,7 +72765,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Выставка"
+          "subcategory": "Выставка",
+          "exampleDe": "Der Preis schließt die Lieferung ein.",
+          "exampleRu": "В стоимость входит доставка."
         },
         {
           "id": 3586,
@@ -72527,7 +72821,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Выставка"
+          "subcategory": "Выставка",
+          "exampleDe": "Ich zahle die Rechnung heute.",
+          "exampleRu": "Сегодня я оплачиваю счёт."
         },
         {
           "id": 3587,
@@ -72629,7 +72925,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Выставка"
+          "subcategory": "Выставка",
+          "exampleDe": "Wir registrieren die neuen Teilnehmer.",
+          "exampleRu": "Мы регистрируем новых участников."
         },
         {
           "id": 3592,
@@ -72699,7 +72997,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Выставка"
+          "subcategory": "Выставка",
+          "exampleDe": "Wir reservieren einen Stand für die Messe.",
+          "exampleRu": "Мы бронируем стенд на выставке."
         },
         {
           "id": 3594,
@@ -72785,7 +73085,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Выставка"
+          "subcategory": "Выставка",
+          "exampleDe": "Wir stellen den Tisch ans Fenster.",
+          "exampleRu": "Мы ставим стол к окну."
         },
         {
           "id": 3598,
@@ -72881,7 +73183,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Выставка"
+          "subcategory": "Выставка",
+          "exampleDe": "Die Firma liefert Möbel nach Berlin.",
+          "exampleRu": "Фирма поставляет мебель в Берлин."
         },
         {
           "id": 3602,
@@ -73041,7 +73345,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Выставка"
+          "subcategory": "Выставка",
+          "exampleDe": "Morgen besuchen wir unsere Großeltern.",
+          "exampleRu": "Завтра мы навестим бабушку и дедушку."
         },
         {
           "id": 3611,
@@ -73287,7 +73593,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Средства массовой информации"
+          "subcategory": "Средства массовой информации",
+          "exampleDe": "Ich abonniere eine Tageszeitung.",
+          "exampleRu": "Я подписываюсь на ежедневную газету."
         },
         {
           "id": 3628,
@@ -73373,7 +73681,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Средства массовой информации"
+          "subcategory": "Средства массовой информации",
+          "exampleDe": "Ich lese jeden Abend ein Buch.",
+          "exampleRu": "Я каждый вечер читаю книгу."
         },
         {
           "id": 3631,
@@ -73845,7 +74155,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Der Bauer pflügt das Feld.",
+          "exampleRu": "Фермер пашет поле."
         },
         {
           "id": 3660,
@@ -73931,7 +74243,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Im Frühjahr säen wir Weizen.",
+          "exampleRu": "Весной мы сеем пшеницу."
         },
         {
           "id": 3663,
@@ -74033,7 +74347,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Er mäht den Rasen am Samstag.",
+          "exampleRu": "В субботу он косит газон."
         },
         {
           "id": 3667,
@@ -74103,7 +74419,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Wir graben ein Loch im Garten.",
+          "exampleRu": "Мы копаем яму в саду."
         },
         {
           "id": 3669,
@@ -74173,7 +74491,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Sie jätet Unkraut im Gemüsebeet.",
+          "exampleRu": "Она пропалывает сорняки на овощной грядке."
         },
         {
           "id": 3671,
@@ -74259,7 +74579,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Ich gieße die Blumen jeden Morgen.",
+          "exampleRu": "Я поливаю цветы каждое утро."
         },
         {
           "id": 3674,
@@ -74377,7 +74699,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Der Landwirt düngt den Boden.",
+          "exampleRu": "Фермер удобряет почву."
         },
         {
           "id": 3679,
@@ -74511,7 +74835,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Die Kühe weiden auf der Wiese.",
+          "exampleRu": "Коровы пасутся на лугу."
         },
         {
           "id": 3685,
@@ -74719,7 +75045,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Im Herbst ernten wir die Äpfel.",
+          "exampleRu": "Осенью мы собираем урожай яблок."
         },
         {
           "id": 3696,
@@ -74805,7 +75133,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Сельское хозяйство"
+          "subcategory": "Сельское хозяйство",
+          "exampleDe": "Die Mühle mahlt das Getreide zu Mehl.",
+          "exampleRu": "Мельница перемалывает зерно в муку."
         },
         {
           "id": 3699,
@@ -74907,7 +75237,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Стройка. Строительные работы"
+          "subcategory": "Стройка. Строительные работы",
+          "exampleDe": "Sie bauen ein neues Haus.",
+          "exampleRu": "Они строят новый дом."
         },
         {
           "id": 3703,
@@ -75217,7 +75549,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Стройка. Строительные работы"
+          "subcategory": "Стройка. Строительные работы",
+          "exampleDe": "Die Arbeiter verputzen die Wände.",
+          "exampleRu": "Рабочие штукатурят стены."
         },
         {
           "id": 3721,
@@ -75287,7 +75621,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Стройка. Строительные работы"
+          "subcategory": "Стройка. Строительные работы",
+          "exampleDe": "Sie färbt den Stoff blau.",
+          "exampleRu": "Она красит ткань в синий цвет."
         },
         {
           "id": 3723,
@@ -75373,7 +75709,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Стройка. Строительные работы"
+          "subcategory": "Стройка. Строительные работы",
+          "exampleDe": "Er hebt den Schlüssel vom Boden auf.",
+          "exampleRu": "Он поднимает ключ с пола."
         },
         {
           "id": 3726,
@@ -75427,7 +75765,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Стройка. Строительные работы"
+          "subcategory": "Стройка. Строительные работы",
+          "exampleDe": "Lass den Eimer langsam herunter.",
+          "exampleRu": "Медленно опусти ведро."
         },
         {
           "id": 3727,
@@ -75529,7 +75869,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Стройка. Строительные работы"
+          "subcategory": "Стройка. Строительные работы",
+          "exampleDe": "Der Bagger gräbt eine tiefe Baugrube.",
+          "exampleRu": "Экскаватор роет глубокий котлован."
         },
         {
           "id": 3731,
@@ -75785,7 +76127,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Наука. Исследования. Учёные"
+          "subcategory": "Наука. Исследования. Учёные",
+          "exampleDe": "Die Wissenschaftler forschen an neuen Medikamenten.",
+          "exampleRu": "Учёные исследуют новые лекарства."
         },
         {
           "id": 3748,
@@ -75983,7 +76327,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Наука. Исследования. Учёные"
+          "subcategory": "Наука. Исследования. Учёные",
+          "exampleDe": "Experten prognostizieren steigende Preise.",
+          "exampleRu": "Эксперты прогнозируют рост цен."
         },
         {
           "id": 3758,
@@ -76479,7 +76825,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Поиск работы. Увольнение"
+          "subcategory": "Поиск работы. Увольнение",
+          "exampleDe": "Die Firma kündigt dem Mitarbeiter.",
+          "exampleRu": "Фирма увольняет сотрудника."
         },
         {
           "id": 3790,
@@ -76783,7 +77131,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Люди в среде бизнеса"
+          "subcategory": "Люди в среде бизнеса",
+          "exampleDe": "Sie gründen gemeinsam ein Unternehmen.",
+          "exampleRu": "Они вместе основывают предприятие."
         },
         {
           "id": 3810,
@@ -80789,7 +81139,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Политика. Правительство - 1"
+          "subcategory": "Политика. Правительство - 1",
+          "exampleDe": "Die Bürger wählen ein neues Parlament.",
+          "exampleRu": "Граждане избирают новый парламент."
         },
         {
           "id": 7875,
@@ -80891,7 +81243,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Политика. Правительство - 1"
+          "subcategory": "Политика. Правительство - 1",
+          "exampleDe": "Das Parlament stimmt über das Gesetz ab.",
+          "exampleRu": "Парламент голосует по закону."
         },
         {
           "id": 7879,
@@ -80977,7 +81331,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Политика. Правительство - 1"
+          "subcategory": "Политика. Правительство - 1",
+          "exampleDe": "Sie kandidiert für das Bürgermeisteramt.",
+          "exampleRu": "Она баллотируется на пост мэра."
         },
         {
           "id": 7882,
@@ -81131,7 +81487,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Политика. Правительство - 1"
+          "subcategory": "Политика. Правительство - 1",
+          "exampleDe": "Die Parteien verhandeln über einen Vertrag.",
+          "exampleRu": "Партии ведут переговоры о договоре."
         },
         {
           "id": 7890,
@@ -81465,7 +81823,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Политика. Правительство - 2"
+          "subcategory": "Политика. Правительство - 2",
+          "exampleDe": "Die Rebellen stürzen die Regierung.",
+          "exampleRu": "Повстанцы свергают правительство."
         },
         {
           "id": 7913,
@@ -81689,7 +82049,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Работа",
-          "subcategory": "Политика. Правительство - 2"
+          "subcategory": "Политика. Правительство - 2",
+          "exampleDe": "Das Unternehmen beutet seine Arbeiter aus.",
+          "exampleRu": "Предприятие эксплуатирует своих работников."
         },
         {
           "id": 7927,
@@ -81909,7 +82271,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Школа"
+          "subcategory": "Школа",
+          "exampleDe": "Sie lehrt Deutsch an einer Schule.",
+          "exampleRu": "Она преподаёт немецкий язык в школе."
         },
         {
           "id": 4327,
@@ -81963,7 +82327,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Школа"
+          "subcategory": "Школа",
+          "exampleDe": "Ich lerne die neuen Wörter.",
+          "exampleRu": "Я учу новые слова."
         },
         {
           "id": 4328,
@@ -82027,7 +82393,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Школа"
+          "subcategory": "Школа",
+          "exampleDe": "Kinder lernen jeden Tag etwas Neues.",
+          "exampleRu": "Дети каждый день узнают что-то новое."
         },
         {
           "id": 4330,
@@ -82313,7 +82681,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Школа"
+          "subcategory": "Школа",
+          "exampleDe": "Der Lehrer korrigiert die Fehler.",
+          "exampleRu": "Учитель исправляет ошибки."
         },
         {
           "id": 4347,
@@ -82425,7 +82795,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Школа"
+          "subcategory": "Школа",
+          "exampleDe": "Heute fehlen drei Schüler im Unterricht.",
+          "exampleRu": "Сегодня на уроке отсутствуют три ученика."
         },
         {
           "id": 4352,
@@ -82479,7 +82851,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Школа"
+          "subcategory": "Школа",
+          "exampleDe": "Er hat gestern den Unterricht versäumt.",
+          "exampleRu": "Вчера он пропустил занятия."
         },
         {
           "id": 4353,
@@ -82533,7 +82907,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Школа"
+          "subcategory": "Школа",
+          "exampleDe": "Die Lehrerin bestraft den Schüler nicht.",
+          "exampleRu": "Учительница не наказывает ученика."
         },
         {
           "id": 4354,
@@ -82779,7 +83155,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Школа"
+          "subcategory": "Школа",
+          "exampleDe": "Wir zeichnen ein Dreieck mit dem Lineal.",
+          "exampleRu": "Мы чертим треугольник с помощью линейки."
         },
         {
           "id": 4367,
@@ -84280,48 +84658,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "unterstreiche",
-              "perfect": "habe geunterstreicht",
-              "preterite": "unterstreichte",
+              "perfect": "habe unterstrichen",
+              "preterite": "unterstrich",
               "future": "werde unterstreichen"
             },
             {
               "pronoun": "du",
               "present": "unterstreichst",
-              "perfect": "hast geunterstreicht",
-              "preterite": "unterstreichtest",
+              "perfect": "hast unterstrichen",
+              "preterite": "unterstrichst",
               "future": "wirst unterstreichen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "unterstreicht",
-              "perfect": "hat geunterstreicht",
-              "preterite": "unterstreichte",
+              "perfect": "hat unterstrichen",
+              "preterite": "unterstrich",
               "future": "wird unterstreichen"
             },
             {
               "pronoun": "wir",
               "present": "unterstreichen",
-              "perfect": "haben geunterstreicht",
-              "preterite": "unterstreichten",
+              "perfect": "haben unterstrichen",
+              "preterite": "unterstrichen",
               "future": "werden unterstreichen"
             },
             {
               "pronoun": "ihr",
               "present": "unterstreicht",
-              "perfect": "habt geunterstreicht",
-              "preterite": "unterstreichtet",
+              "perfect": "habt unterstrichen",
+              "preterite": "unterstricht",
               "future": "werdet unterstreichen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "unterstreichen",
-              "perfect": "haben geunterstreicht",
-              "preterite": "unterstreichten",
+              "perfect": "haben unterstrichen",
+              "preterite": "unterstrichen",
               "future": "werden unterstreichen"
             }
           ],
           "category": "Учёба",
-          "subcategory": "Письмо. Части речи. Орфография"
+          "subcategory": "Письмо. Части речи. Орфография",
+          "exampleDe": "Unterstreiche bitte das richtige Wort.",
+          "exampleRu": "Подчеркни, пожалуйста, правильное слово."
         },
         {
           "id": 4465,
@@ -84417,7 +84797,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Изучение иностранных языков"
+          "subcategory": "Изучение иностранных языков",
+          "exampleDe": "Sie studiert Geschichte an der Universität.",
+          "exampleRu": "Она изучает историю в университете."
         },
         {
           "id": 4469,
@@ -84471,7 +84853,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Изучение иностранных языков"
+          "subcategory": "Изучение иностранных языков",
+          "exampleDe": "Ich lerne seit einem Jahr Spanisch.",
+          "exampleRu": "Я учу испанский язык уже год."
         },
         {
           "id": 4470,
@@ -84525,7 +84909,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Изучение иностранных языков"
+          "subcategory": "Изучение иностранных языков",
+          "exampleDe": "Die Kinder lesen eine kurze Geschichte.",
+          "exampleRu": "Дети читают короткий рассказ."
         },
         {
           "id": 4471,
@@ -84579,7 +84965,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Изучение иностранных языков"
+          "subcategory": "Изучение иностранных языков",
+          "exampleDe": "Wir sprechen heute nur Deutsch.",
+          "exampleRu": "Сегодня мы говорим только по-немецки."
         },
         {
           "id": 4472,
@@ -84633,7 +85021,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Изучение иностранных языков"
+          "subcategory": "Изучение иностранных языков",
+          "exampleDe": "Ich verstehe diese Frage nicht.",
+          "exampleRu": "Я не понимаю этот вопрос."
         },
         {
           "id": 4473,
@@ -84687,7 +85077,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Изучение иностранных языков"
+          "subcategory": "Изучение иностранных языков",
+          "exampleDe": "Schreib bitte deinen Namen auf.",
+          "exampleRu": "Напиши, пожалуйста, своё имя."
         },
         {
           "id": 4474,
@@ -84915,7 +85307,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Изучение иностранных языков"
+          "subcategory": "Изучение иностранных языков",
+          "exampleDe": "Können Sie Ihren Nachnamen buchstabieren?",
+          "exampleRu": "Не могли бы вы произнести вашу фамилию по буквам?"
         },
         {
           "id": 4491,
@@ -85653,7 +86047,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Знаки зодиака"
+          "subcategory": "Знаки зодиака",
+          "exampleDe": "Die Wahrsagerin sagt ihm die Zukunft wahr.",
+          "exampleRu": "Гадалка предсказывает ему будущее."
         },
         {
           "id": 4539,
@@ -85787,7 +86183,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Книга. Чтение"
+          "subcategory": "Книга. Чтение",
+          "exampleDe": "Sie verfasst einen Roman.",
+          "exampleRu": "Она пишет роман."
         },
         {
           "id": 4835,
@@ -85893,7 +86291,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Книга. Чтение"
+          "subcategory": "Книга. Чтение",
+          "exampleDe": "Der Verlag verlegt jedes Jahr neue Bücher.",
+          "exampleRu": "Издательство ежегодно выпускает новые книги."
         },
         {
           "id": 4841,
@@ -85995,7 +86395,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Книга. Чтение"
+          "subcategory": "Книга. Чтение",
+          "exampleDe": "Ihr neuer Roman erscheint im Herbst.",
+          "exampleRu": "Её новый роман выходит осенью."
         },
         {
           "id": 4845,
@@ -86529,7 +86931,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Учёба",
-          "subcategory": "Книга. Чтение"
+          "subcategory": "Книга. Чтение",
+          "exampleDe": "Ich blättere in einer Zeitschrift.",
+          "exampleRu": "Я листаю журнал."
         },
         {
           "id": 4876,
@@ -86654,48 +87058,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "übersetze",
-              "perfect": "habe geübersetzt",
+              "perfect": "habe übersetzt",
               "preterite": "übersetzte",
               "future": "werde übersetzen"
             },
             {
               "pronoun": "du",
-              "present": "übersetzt",
-              "perfect": "hast geübersetzt",
+              "present": "übersetzst",
+              "perfect": "hast übersetzt",
               "preterite": "übersetztest",
               "future": "wirst übersetzen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "übersetzt",
-              "perfect": "hat geübersetzt",
+              "perfect": "hat übersetzt",
               "preterite": "übersetzte",
               "future": "wird übersetzen"
             },
             {
               "pronoun": "wir",
               "present": "übersetzen",
-              "perfect": "haben geübersetzt",
+              "perfect": "haben übersetzt",
               "preterite": "übersetzten",
               "future": "werden übersetzen"
             },
             {
               "pronoun": "ihr",
               "present": "übersetzt",
-              "perfect": "habt geübersetzt",
+              "perfect": "habt übersetzt",
               "preterite": "übersetztet",
               "future": "werdet übersetzen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "übersetzen",
-              "perfect": "haben geübersetzt",
+              "perfect": "haben übersetzt",
               "preterite": "übersetzten",
               "future": "werden übersetzen"
             }
           ],
           "category": "Учёба",
-          "subcategory": "Книга. Чтение"
+          "subcategory": "Книга. Чтение",
+          "exampleDe": "Sie übersetzt den Brief ins Deutsche.",
+          "exampleRu": "Она переводит письмо на немецкий язык."
         },
         {
           "id": 4884,
@@ -87254,7 +87660,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Городской транспорт"
+          "subcategory": "Городской транспорт",
+          "exampleDe": "Ich habe den letzten Bus versäumt.",
+          "exampleRu": "Я опоздал на последний автобус."
         },
         {
           "id": 2522,
@@ -87444,7 +87852,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Городской транспорт"
+          "subcategory": "Городской транспорт",
+          "exampleDe": "Hier darf man nicht parken.",
+          "exampleRu": "Здесь нельзя парковаться."
         },
         {
           "id": 2533,
@@ -87498,7 +87908,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Городской транспорт"
+          "subcategory": "Городской транспорт",
+          "exampleDe": "Er parkt das Auto vor dem Haus.",
+          "exampleRu": "Он паркует машину перед домом."
         },
         {
           "id": 2534,
@@ -89146,7 +89558,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Поезд"
+          "subcategory": "Поезд",
+          "exampleDe": "Der Zug fährt um acht Uhr ab.",
+          "exampleRu": "Поезд отправляется в восемь часов."
         },
         {
           "id": 5323,
@@ -89216,7 +89630,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Поезд"
+          "subcategory": "Поезд",
+          "exampleDe": "Unser Zug kommt pünktlich an.",
+          "exampleRu": "Наш поезд прибывает вовремя."
         },
         {
           "id": 5325,
@@ -89332,7 +89748,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Поезд"
+          "subcategory": "Поезд",
+          "exampleDe": "Der Zug ist gestern entgleist.",
+          "exampleRu": "Вчера поезд сошёл с рельсов."
         },
         {
           "id": 5332,
@@ -90270,7 +90688,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Корабль"
+          "subcategory": "Корабль",
+          "exampleDe": "Das Schiff legt im Hafen an.",
+          "exampleRu": "Корабль причаливает в порту."
         },
         {
           "id": 5390,
@@ -90324,7 +90744,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Корабль"
+          "subcategory": "Корабль",
+          "exampleDe": "Das Boot stößt vom Ufer ab.",
+          "exampleRu": "Лодка отчаливает от берега."
         },
         {
           "id": 5392,
@@ -90458,7 +90880,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Корабль"
+          "subcategory": "Корабль",
+          "exampleDe": "Das Schiff ist vor der Insel gestrandet.",
+          "exampleRu": "Корабль сел на мель возле острова."
         },
         {
           "id": 5398,
@@ -90544,7 +90968,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Корабль"
+          "subcategory": "Корабль",
+          "exampleDe": "Das Schiff geht im Sturm unter.",
+          "exampleRu": "Корабль тонет во время шторма."
         },
         {
           "id": 5401,
@@ -90682,7 +91108,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Аэропорт"
+          "subcategory": "Аэропорт",
+          "exampleDe": "Das Flugzeug fliegt den Flughafen von Süden an.",
+          "exampleRu": "Самолёт подлетает к аэропорту с юга."
         },
         {
           "id": 5411,
@@ -90826,7 +91254,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Аэропорт"
+          "subcategory": "Аэропорт",
+          "exampleDe": "Die Anzeigetafel zeigt die Verspätung an.",
+          "exampleRu": "Табло показывает задержку."
         },
         {
           "id": 5418,
@@ -91050,7 +91480,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Аэропорт"
+          "subcategory": "Аэропорт",
+          "exampleDe": "Das Flugzeug landet um zehn Uhr.",
+          "exampleRu": "Самолёт приземляется в десять часов."
         },
         {
           "id": 5431,
@@ -91226,7 +91658,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Аэропорт"
+          "subcategory": "Аэропорт",
+          "exampleDe": "Ich begleite meine Mutter zum Bahnhof.",
+          "exampleRu": "Я провожаю маму на вокзал."
         },
         {
           "id": 5441,
@@ -92168,7 +92602,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Кузов"
+          "subcategory": "Автомобиль. Кузов",
+          "exampleDe": "Der Fahrer bremst vor der Ampel.",
+          "exampleRu": "Водитель тормозит перед светофором."
         },
         {
           "id": 5500,
@@ -92990,7 +93426,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Салон"
+          "subcategory": "Автомобиль. Салон",
+          "exampleDe": "Ich schalte das Radio ein.",
+          "exampleRu": "Я включаю радио."
         },
         {
           "id": 5554,
@@ -93554,7 +93992,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Авария. Ремонт"
+          "subcategory": "Автомобиль. Авария. Ремонт",
+          "exampleDe": "Er ist mit dem Auto verunglückt.",
+          "exampleRu": "Он попал в автомобильную аварию."
         },
         {
           "id": 5588,
@@ -93650,7 +94090,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Авария. Ремонт"
+          "subcategory": "Автомобиль. Авария. Ремонт",
+          "exampleDe": "Mein Fahrrad ist gestern kaputtgegangen.",
+          "exampleRu": "Вчера мой велосипед сломался."
         },
         {
           "id": 5592,
@@ -93746,7 +94188,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Авария. Ремонт"
+          "subcategory": "Автомобиль. Авария. Ремонт",
+          "exampleDe": "Ich pumpe den Reifen auf.",
+          "exampleRu": "Я накачиваю шину."
         },
         {
           "id": 5596,
@@ -93816,7 +94260,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Авария. Ремонт"
+          "subcategory": "Автомобиль. Авария. Ремонт",
+          "exampleDe": "Der Mechaniker prüft die Bremsen.",
+          "exampleRu": "Механик проверяет тормоза."
         },
         {
           "id": 5598,
@@ -94142,7 +94588,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Авария. Ремонт"
+          "subcategory": "Автомобиль. Авария. Ремонт",
+          "exampleDe": "Beim Anfahren würgt er den Motor ab.",
+          "exampleRu": "При трогании с места он глушит двигатель."
         },
         {
           "id": 5618,
@@ -94242,7 +94690,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Авария. Ремонт"
+          "subcategory": "Автомобиль. Авария. Ремонт",
+          "exampleDe": "Bei Frost friert das Wasser ein.",
+          "exampleRu": "При морозе вода замерзает."
         },
         {
           "id": 5623,
@@ -94296,7 +94746,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Авария. Ремонт"
+          "subcategory": "Автомобиль. Авария. Ремонт",
+          "exampleDe": "Der Luftballon zerplatzt plötzlich.",
+          "exampleRu": "Воздушный шарик внезапно лопается."
         },
         {
           "id": 5626,
@@ -94632,7 +95084,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Дорога"
+          "subcategory": "Автомобиль. Дорога",
+          "exampleDe": "Ich tanke das Auto vor der Fahrt.",
+          "exampleRu": "Я заправляю машину перед поездкой."
         },
         {
           "id": 5646,
@@ -94830,7 +95284,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Дорога"
+          "subcategory": "Автомобиль. Дорога",
+          "exampleDe": "Sie lenkt das Auto vorsichtig durch die Kurve.",
+          "exampleRu": "Она осторожно ведёт машину через поворот."
         },
         {
           "id": 5656,
@@ -94884,7 +95340,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Дорога"
+          "subcategory": "Автомобиль. Дорога",
+          "exampleDe": "An der Kreuzung biegen wir links ab.",
+          "exampleRu": "На перекрёстке мы поворачиваем налево."
         },
         {
           "id": 5657,
@@ -94938,7 +95396,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Дорога"
+          "subcategory": "Автомобиль. Дорога",
+          "exampleDe": "Wir kehren an der nächsten Kreuzung um.",
+          "exampleRu": "Мы разворачиваемся на следующем перекрёстке."
         },
         {
           "id": 5658,
@@ -95008,7 +95468,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Дорога"
+          "subcategory": "Автомобиль. Дорога",
+          "exampleDe": "Der Fahrer hupt vor dem Tor.",
+          "exampleRu": "Водитель сигналит перед воротами."
         },
         {
           "id": 5660,
@@ -95078,7 +95540,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Дорога"
+          "subcategory": "Автомобиль. Дорога",
+          "exampleDe": "Das Auto steckt im Schnee fest.",
+          "exampleRu": "Машина застряла в снегу."
         },
         {
           "id": 5662,
@@ -95132,7 +95596,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Дорога"
+          "subcategory": "Автомобиль. Дорога",
+          "exampleDe": "Die Räder drehen auf dem Eis durch.",
+          "exampleRu": "Колёса буксуют на льду."
         },
         {
           "id": 5663,
@@ -95186,7 +95652,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Дорога"
+          "subcategory": "Автомобиль. Дорога",
+          "exampleDe": "Der Fahrer stoppt den Motor.",
+          "exampleRu": "Водитель глушит двигатель."
         },
         {
           "id": 5664,
@@ -95256,7 +95724,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Автомобиль. Дорога"
+          "subcategory": "Автомобиль. Дорога",
+          "exampleDe": "Die Polizei bestraft den Fahrer wegen zu hoher Geschwindigkeit.",
+          "exampleRu": "Полиция штрафует водителя за превышение скорости."
         },
         {
           "id": 5666,
@@ -95762,7 +96232,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Дорога. Путь"
+          "subcategory": "Дорога. Путь",
+          "exampleDe": "Können Sie mir den Weg zeigen?",
+          "exampleRu": "Вы можете показать мне дорогу?"
         },
         {
           "id": 6111,
@@ -95886,7 +96358,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Дорога. Путь"
+          "subcategory": "Дорога. Путь",
+          "exampleDe": "Plötzlich erscheint ein Mann an der Tür.",
+          "exampleRu": "Внезапно в дверях появляется мужчина."
         },
         {
           "id": 6120,
@@ -96116,7 +96590,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Дорога. Путь"
+          "subcategory": "Дорога. Путь",
+          "exampleDe": "Der Wagen überholt einen Lastwagen.",
+          "exampleRu": "Машина обгоняет грузовик."
         },
         {
           "id": 6135,
@@ -96196,7 +96672,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Транспорт",
-          "subcategory": "Дорога. Путь"
+          "subcategory": "Дорога. Путь",
+          "exampleDe": "Ein umgestürzter Baum blockiert die Straße.",
+          "exampleRu": "Упавшее дерево перекрывает дорогу."
         },
         {
           "id": 6138,
@@ -96554,7 +97032,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Город. Жизнь в городе"
+          "subcategory": "Город. Жизнь в городе",
+          "exampleDe": "Wir überqueren die Straße an der Ampel.",
+          "exampleRu": "Мы переходим улицу на светофоре."
         },
         {
           "id": 2369,
@@ -98170,7 +98650,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Вывески. Указатели"
+          "subcategory": "Вывески. Указатели",
+          "exampleDe": "Der Arzt warnt ihn vor den Risiken.",
+          "exampleRu": "Врач предупреждает его о рисках."
         },
         {
           "id": 2469,
@@ -98772,7 +99254,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Достопримечательности"
+          "subcategory": "Достопримечательности",
+          "exampleDe": "Sie zeigt mir den Weg.",
+          "exampleRu": "Она показывает мне дорогу."
         },
         {
           "id": 2555,
@@ -98829,7 +99313,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Достопримечательности",
           "grammar": {
             "government": "von + Dat. / über + Akk."
-          }
+          },
+          "exampleDe": "Er erzählt eine lustige Geschichte.",
+          "exampleRu": "Он рассказывает забавную историю."
         },
         {
           "id": 2556,
@@ -99016,7 +99502,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Достопримечательности"
+          "subcategory": "Достопримечательности",
+          "exampleDe": "Wir fotografieren die alte Brücke.",
+          "exampleRu": "Мы фотографируем старый мост."
         },
         {
           "id": 2563,
@@ -99224,7 +99712,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Почта"
+          "subcategory": "Почта",
+          "exampleDe": "Ich bekomme morgen eine Antwort.",
+          "exampleRu": "Завтра я получу ответ."
         },
         {
           "id": 2656,
@@ -99278,7 +99768,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Почта"
+          "subcategory": "Почта",
+          "exampleDe": "Ich schicke den Brief heute ab.",
+          "exampleRu": "Я отправляю письмо сегодня."
         },
         {
           "id": 2657,
@@ -99496,7 +99988,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Почта"
+          "subcategory": "Почта",
+          "exampleDe": "Die Verkäuferin wiegt den Käse ab.",
+          "exampleRu": "Продавщица взвешивает сыр."
         },
         {
           "id": 2669,
@@ -104788,7 +105282,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Страны. Разное"
+          "subcategory": "Страны. Разное",
+          "exampleDe": "Viele Menschen wanderten damals nach Kanada aus.",
+          "exampleRu": "В то время многие люди эмигрировали в Канаду."
         },
         {
           "id": 7937,
@@ -105336,7 +105832,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Мировые религии. Конфессии"
+          "subcategory": "Мировые религии. Конфессии",
+          "exampleDe": "Sie glaubt an Gott.",
+          "exampleRu": "Она верит в Бога."
         },
         {
           "id": 7970,
@@ -106260,7 +106758,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Вера. Христианство. Ислам"
+          "subcategory": "Вера. Христианство. Ислам",
+          "exampleDe": "Er bereut, dass er gesündigt hat.",
+          "exampleRu": "Он сожалеет о том, что согрешил."
         },
         {
           "id": 8030,
@@ -107018,7 +107518,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Вера. Христианство. Ислам"
+          "subcategory": "Вера. Христианство. Ислам",
+          "exampleDe": "Die Kirchenglocken läuten am Sonntagmorgen.",
+          "exampleRu": "В воскресенье утром звонят церковные колокола."
         },
         {
           "id": 8083,
@@ -107280,7 +107782,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Вера. Христианство. Ислам"
+          "subcategory": "Вера. Христианство. Ислам",
+          "exampleDe": "Er muss für seine Tat sühnen.",
+          "exampleRu": "Он должен искупить свой поступок."
         },
         {
           "id": 8097,
@@ -107376,7 +107880,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Город и места",
-          "subcategory": "Вера. Христианство. Ислам"
+          "subcategory": "Вера. Христианство. Ислам",
+          "exampleDe": "Sie beichtet ihre Sünden.",
+          "exampleRu": "Она исповедуется в своих грехах."
         },
         {
           "id": 8101,
@@ -107578,7 +108084,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Покупки"
+          "subcategory": "Покупки",
+          "exampleDe": "Ich kaufe frisches Brot.",
+          "exampleRu": "Я покупаю свежий хлеб."
         },
         {
           "id": 2565,
@@ -107870,7 +108378,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Покупки"
+          "subcategory": "Покупки",
+          "exampleDe": "Sie probiert die Jacke an.",
+          "exampleRu": "Она примеряет куртку."
         },
         {
           "id": 2582,
@@ -107927,7 +108437,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Покупки",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Die Schuhe passen mir gut.",
+          "exampleRu": "Эта обувь мне хорошо подходит по размеру."
         },
         {
           "id": 2583,
@@ -107984,7 +108496,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Покупки",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Das neue Kleid gefällt ihr.",
+          "exampleRu": "Новое платье ей нравится."
         },
         {
           "id": 2584,
@@ -108070,7 +108584,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Покупки"
+          "subcategory": "Покупки",
+          "exampleDe": "Wie viel kostet dieses Fahrrad?",
+          "exampleRu": "Сколько стоит этот велосипед?"
         },
         {
           "id": 2587,
@@ -108206,7 +108722,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Покупки"
+          "subcategory": "Покупки",
+          "exampleDe": "Wir leihen uns Fahrräder aus.",
+          "exampleRu": "Мы берём велосипеды напрокат."
         },
         {
           "id": 2595,
@@ -108510,7 +109028,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Деньги"
+          "subcategory": "Деньги",
+          "exampleDe": "Ich leihe meinem Freund zehn Euro.",
+          "exampleRu": "Я одалживаю другу десять евро."
         },
         {
           "id": 2612,
@@ -108564,7 +109084,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Деньги"
+          "subcategory": "Деньги",
+          "exampleDe": "Sie leiht sich ein Buch aus der Bibliothek aus.",
+          "exampleRu": "Она берёт книгу в библиотеке."
         },
         {
           "id": 2613,
@@ -108650,7 +109172,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Деньги"
+          "subcategory": "Деньги",
+          "exampleDe": "Ich zahle hundert Euro auf mein Konto ein.",
+          "exampleRu": "Я кладу сто евро на свой счёт."
         },
         {
           "id": 2616,
@@ -108704,7 +109228,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Деньги"
+          "subcategory": "Деньги",
+          "exampleDe": "Er hebt Geld am Automaten ab.",
+          "exampleRu": "Он снимает деньги в банкомате."
         },
         {
           "id": 2617,
@@ -108976,7 +109502,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Деньги"
+          "subcategory": "Деньги",
+          "exampleDe": "Wir mieten eine Wohnung in der Stadt.",
+          "exampleRu": "Мы снимаем квартиру в городе."
         },
         {
           "id": 2633,
@@ -109062,7 +109590,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Деньги"
+          "subcategory": "Деньги",
+          "exampleDe": "Sie gibt viel Geld für Bücher aus.",
+          "exampleRu": "Она тратит много денег на книги."
         },
         {
           "id": 2636,
@@ -109132,7 +109662,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Деньги"
+          "subcategory": "Деньги",
+          "exampleDe": "Wir sparen für eine Reise.",
+          "exampleRu": "Мы копим на путешествие."
         },
         {
           "id": 2638,
@@ -109196,7 +109728,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Деньги"
+          "subcategory": "Деньги",
+          "exampleDe": "Ich zahle die Rechnung sofort.",
+          "exampleRu": "Я сразу оплачиваю счёт."
         },
         {
           "id": 2640,
@@ -109314,7 +109848,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Деньги"
+          "subcategory": "Деньги",
+          "exampleDe": "Die Polizei bestraft den Fahrer wegen zu schnellen Fahrens.",
+          "exampleRu": "Полиция штрафует водителя за превышение скорости."
         },
         {
           "id": 4952,
@@ -109416,7 +109952,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Казино"
+          "subcategory": "Казино",
+          "exampleDe": "Er setzt zehn Euro auf das Spiel.",
+          "exampleRu": "Он ставит десять евро на игру."
         },
         {
           "id": 4956,
@@ -109580,7 +110118,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Казино"
+          "subcategory": "Казино",
+          "exampleDe": "Unsere Mannschaft gewinnt das Spiel.",
+          "exampleRu": "Наша команда выигрывает матч."
         },
         {
           "id": 4965,
@@ -109650,7 +110190,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Покупки и деньги",
-          "subcategory": "Казино"
+          "subcategory": "Казино",
+          "exampleDe": "Wir verlieren das Spiel knapp.",
+          "exampleRu": "Мы с небольшим отрывом проигрываем матч."
         },
         {
           "id": 4967,
@@ -110750,7 +111292,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Голова"
+          "subcategory": "Голова",
+          "exampleDe": "Er hat einen langen Bart.",
+          "exampleRu": "Он носит длинную бороду."
         },
         {
           "id": 968,
@@ -111732,7 +112276,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Болезни"
+          "subcategory": "Болезни",
+          "exampleDe": "Die Verletzung lähmt seinen rechten Arm.",
+          "exampleRu": "Травма парализует его правую руку."
         },
         {
           "id": 2150,
@@ -112604,7 +113150,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 1"
+          "subcategory": "Симптомы болезней. Лечение - 1",
+          "exampleDe": "Das Kind hustet seit gestern.",
+          "exampleRu": "Ребёнок кашляет со вчерашнего дня."
         },
         {
           "id": 2204,
@@ -112658,7 +113206,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 1"
+          "subcategory": "Симптомы болезней. Лечение - 1",
+          "exampleDe": "Sie muss wegen des Staubs niesen.",
+          "exampleRu": "Она чихает из-за пыли."
         },
         {
           "id": 2205,
@@ -112806,7 +113356,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 1"
+          "subcategory": "Симптомы болезней. Лечение - 1",
+          "exampleDe": "Er hinkt nach dem Sturz.",
+          "exampleRu": "После падения он хромает."
         },
         {
           "id": 2213,
@@ -112876,7 +113428,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 1"
+          "subcategory": "Симптомы болезней. Лечение - 1",
+          "exampleDe": "Sie hat sich beim Sport die Schulter ausgerenkt.",
+          "exampleRu": "Она вывихнула плечо во время занятий спортом."
         },
         {
           "id": 2215,
@@ -113073,7 +113627,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 1"
+          "subcategory": "Симптомы болезней. Лечение - 1",
+          "exampleDe": "Die Nadel sticht mich in den Finger.",
+          "exampleRu": "Игла колет меня в палец."
         },
         {
           "id": 2223,
@@ -113137,7 +113693,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 1"
+          "subcategory": "Симптомы болезней. Лечение - 1",
+          "exampleDe": "Er hat sich beim Fußball am Knie verletzt.",
+          "exampleRu": "Он повредил колено во время игры в футбол."
         },
         {
           "id": 2225,
@@ -113189,57 +113747,59 @@ window.FLASHCARDS_DATA = {
         },
         {
           "id": 2228,
-          "front": "irrereden",
-          "back": "бредить (мед.)",
+          "front": "delirieren",
+          "back": "бредить (в состоянии делирия)",
           "chapter": "ЧЕЛОВЕК",
           "subchapter": "медицина",
           "paragraph": "Симптомы болезней. Лечение - 1",
           "tenses": [
             {
               "pronoun": "ich",
-              "present": "irrerede",
-              "perfect": "habe geirreredt",
-              "preterite": "irreredte",
-              "future": "werde irrereden"
+              "present": "deliriere",
+              "perfect": "habe deliriert",
+              "preterite": "delirierte",
+              "future": "werde delirieren"
             },
             {
               "pronoun": "du",
-              "present": "irreredest",
-              "perfect": "hast geirreredt",
-              "preterite": "irreredtest",
-              "future": "wirst irrereden"
+              "present": "delirierst",
+              "perfect": "hast deliriert",
+              "preterite": "deliriertest",
+              "future": "wirst delirieren"
             },
             {
               "pronoun": "er/sie/es",
-              "present": "irreredet",
-              "perfect": "hat geirreredt",
-              "preterite": "irreredte",
-              "future": "wird irrereden"
+              "present": "deliriert",
+              "perfect": "hat deliriert",
+              "preterite": "delirierte",
+              "future": "wird delirieren"
             },
             {
               "pronoun": "wir",
-              "present": "irrereden",
-              "perfect": "haben geirreredt",
-              "preterite": "irreredten",
-              "future": "werden irrereden"
+              "present": "delirieren",
+              "perfect": "haben deliriert",
+              "preterite": "delirierten",
+              "future": "werden delirieren"
             },
             {
               "pronoun": "ihr",
-              "present": "irreredet",
-              "perfect": "habt geirreredt",
-              "preterite": "irreredtet",
-              "future": "werdet irrereden"
+              "present": "deliriert",
+              "perfect": "habt deliriert",
+              "preterite": "deliriertet",
+              "future": "werdet delirieren"
             },
             {
               "pronoun": "sie/Sie",
-              "present": "irrereden",
-              "perfect": "haben geirreredt",
-              "preterite": "irreredten",
-              "future": "werden irrereden"
+              "present": "delirieren",
+              "perfect": "haben deliriert",
+              "preterite": "delirierten",
+              "future": "werden delirieren"
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 1"
+          "subcategory": "Симптомы болезней. Лечение - 1",
+          "exampleDe": "Der Patient delirierte nach der Operation.",
+          "exampleRu": "После операции пациент находился в состоянии делирия."
         },
         {
           "id": 2229,
@@ -113293,7 +113853,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 1"
+          "subcategory": "Симптомы болезней. Лечение - 1",
+          "exampleDe": "Er stottert, wenn er nervös ist.",
+          "exampleRu": "Он заикается, когда нервничает."
         },
         {
           "id": 2230,
@@ -113479,7 +114041,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 2"
+          "subcategory": "Симптомы болезней. Лечение - 2",
+          "exampleDe": "Sie hat gestern ein gesundes Kind geboren.",
+          "exampleRu": "Вчера она родила здорового ребёнка."
         },
         {
           "id": 2240,
@@ -113597,7 +114161,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 2"
+          "subcategory": "Симптомы болезней. Лечение - 2",
+          "exampleDe": "Atme langsam aus.",
+          "exampleRu": "Медленно выдохни."
         },
         {
           "id": 2245,
@@ -113651,7 +114217,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 2"
+          "subcategory": "Симптомы болезней. Лечение - 2",
+          "exampleDe": "Atme tief ein.",
+          "exampleRu": "Глубоко вдохни."
         },
         {
           "id": 2246,
@@ -114041,7 +114609,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 3"
+          "subcategory": "Симптомы болезней. Лечение - 3",
+          "exampleDe": "Die Krankenschwester pflegt den Patienten.",
+          "exampleRu": "Медсестра ухаживает за пациентом."
         },
         {
           "id": 2271,
@@ -114095,7 +114665,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 3"
+          "subcategory": "Симптомы болезней. Лечение - 3",
+          "exampleDe": "Er pflegt seinen kranken Vater zu Hause.",
+          "exampleRu": "Он ухаживает дома за больным отцом."
         },
         {
           "id": 2272,
@@ -114181,7 +114753,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 3"
+          "subcategory": "Симптомы болезней. Лечение - 3",
+          "exampleDe": "Der Arzt verbindet die Wunde.",
+          "exampleRu": "Врач перевязывает рану."
         },
         {
           "id": 2275,
@@ -114267,7 +114841,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 3"
+          "subcategory": "Симптомы болезней. Лечение - 3",
+          "exampleDe": "Die Ärztin impft das Kind gegen Masern.",
+          "exampleRu": "Врач делает ребёнку прививку от кори."
         },
         {
           "id": 2278,
@@ -114379,7 +114955,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 3"
+          "subcategory": "Симптомы болезней. Лечение - 3",
+          "exampleDe": "Die Chirurgen mussten das Bein amputieren.",
+          "exampleRu": "Хирургам пришлось ампутировать ногу."
         },
         {
           "id": 2283,
@@ -114533,7 +115111,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 3"
+          "subcategory": "Симптомы болезней. Лечение - 3",
+          "exampleDe": "Der Zahnarzt zieht einen Weisheitszahn.",
+          "exampleRu": "Стоматолог удаляет зуб мудрости."
         },
         {
           "id": 2291,
@@ -114603,7 +115183,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 3"
+          "subcategory": "Симптомы болезней. Лечение - 3",
+          "exampleDe": "Die Zahnärztin plombiert den Zahn.",
+          "exampleRu": "Стоматолог пломбирует зуб."
         },
         {
           "id": 2293,
@@ -114673,7 +115255,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Симптомы болезней. Лечение - 3"
+          "subcategory": "Симптомы болезней. Лечение - 3",
+          "exampleDe": "Der Therapeut hypnotisiert den Patienten.",
+          "exampleRu": "Терапевт гипнотизирует пациента."
         },
         {
           "id": 2295,
@@ -114951,7 +115535,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Лекарства. Принадлежности"
+          "subcategory": "Лекарства. Принадлежности",
+          "exampleDe": "Der Arzt verschreibt mir ein Medikament.",
+          "exampleRu": "Врач прописывает мне лекарство."
         },
         {
           "id": 2310,
@@ -115543,7 +116129,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Курение. Табачные изделия"
+          "subcategory": "Курение. Табачные изделия",
+          "exampleDe": "Er raucht seit zehn Jahren nicht mehr.",
+          "exampleRu": "Он уже десять лет не курит."
         },
         {
           "id": 2345,
@@ -115597,7 +116185,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Здоровье и тело",
-          "subcategory": "Курение. Табачные изделия"
+          "subcategory": "Курение. Табачные изделия",
+          "exampleDe": "Er raucht die Zigarette an.",
+          "exampleRu": "Он прикуривает сигарету."
         },
         {
           "id": 2346,
@@ -116519,7 +117109,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Космос"
+          "subcategory": "Космос",
+          "exampleDe": "Die Raumkapsel koppelt an die Station an.",
+          "exampleRu": "Космическая капсула стыкуется со станцией."
         },
         {
           "id": 6386,
@@ -116605,7 +117197,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Космос"
+          "subcategory": "Космос",
+          "exampleDe": "Wir beobachten die Sterne am Himmel.",
+          "exampleRu": "Мы наблюдаем за звёздами на небе."
         },
         {
           "id": 6389,
@@ -116659,7 +117253,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Космос"
+          "subcategory": "Космос",
+          "exampleDe": "Die Wissenschaftler erforschen das Klima.",
+          "exampleRu": "Учёные исследуют климат."
         },
         {
           "id": 6391,
@@ -117467,7 +118063,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Море. Океан"
+          "subcategory": "Море. Океан",
+          "exampleDe": "Das Meer umspült die Felsen.",
+          "exampleRu": "Море омывает скалы."
         },
         {
           "id": 6446,
@@ -117893,7 +118491,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Море. Океан"
+          "subcategory": "Море. Океан",
+          "exampleDe": "Sie taucht ins kalte Wasser.",
+          "exampleRu": "Она ныряет в холодную воду."
         },
         {
           "id": 6471,
@@ -117947,7 +118547,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Море. Океан"
+          "subcategory": "Море. Океан",
+          "exampleDe": "Das Schiff versinkt langsam im Meer.",
+          "exampleRu": "Корабль медленно тонет в море."
         },
         {
           "id": 6472,
@@ -118891,7 +119493,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Горы"
+          "subcategory": "Горы",
+          "exampleDe": "Die Bergsteiger bezwingen den Gipfel.",
+          "exampleRu": "Альпинисты покоряют вершину."
         },
         {
           "id": 6529,
@@ -119129,7 +119733,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Река"
+          "subcategory": "Река",
+          "exampleDe": "Der Fluss überflutet die Felder.",
+          "exampleRu": "Река затопляет поля."
         },
         {
           "id": 6558,
@@ -119395,7 +120001,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Река"
+          "subcategory": "Река",
+          "exampleDe": "Der See friert im Winter zu.",
+          "exampleRu": "Зимой озеро замерзает."
         },
         {
           "id": 6589,
@@ -119651,7 +120259,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лес"
+          "subcategory": "Лес",
+          "exampleDe": "Im Herbst fallen die Blätter von den Bäumen.",
+          "exampleRu": "Осенью листья опадают с деревьев."
         },
         {
           "id": 6603,
@@ -119913,7 +120523,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лес"
+          "subcategory": "Лес",
+          "exampleDe": "Die Arbeiter roden ein Stück Wald.",
+          "exampleRu": "Рабочие расчищают участок леса от деревьев."
         },
         {
           "id": 6617,
@@ -119967,7 +120579,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лес"
+          "subcategory": "Лес",
+          "exampleDe": "Sie fällen den alten Baum.",
+          "exampleRu": "Они рубят старое дерево."
         },
         {
           "id": 6618,
@@ -120021,7 +120635,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лес"
+          "subcategory": "Лес",
+          "exampleDe": "Die Firma holzt große Waldflächen ab.",
+          "exampleRu": "Компания вырубает большие площади леса."
         },
         {
           "id": 6619,
@@ -120123,7 +120739,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лес"
+          "subcategory": "Лес",
+          "exampleDe": "Die Feuerwehr löscht den Brand.",
+          "exampleRu": "Пожарные тушат пожар."
         },
         {
           "id": 6623,
@@ -120209,7 +120827,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лес"
+          "subcategory": "Лес",
+          "exampleDe": "Wir müssen die Natur beschützen.",
+          "exampleRu": "Мы должны защищать природу."
         },
         {
           "id": 6626,
@@ -120295,7 +120915,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лес"
+          "subcategory": "Лес",
+          "exampleDe": "Im Herbst sammeln wir Pilze im Wald.",
+          "exampleRu": "Осенью мы собираем грибы в лесу."
         },
         {
           "id": 6629,
@@ -120349,7 +120971,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лес"
+          "subcategory": "Лес",
+          "exampleDe": "Die Kinder pflücken Erdbeeren.",
+          "exampleRu": "Дети собирают клубнику."
         },
         {
           "id": 6630,
@@ -120477,7 +121101,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Природные ресурсы"
+          "subcategory": "Природные ресурсы",
+          "exampleDe": "In dieser Mine gewinnt man Eisenerz.",
+          "exampleRu": "В этой шахте добывают железную руду."
         },
         {
           "id": 6636,
@@ -122589,7 +123215,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Домашние животные"
+          "subcategory": "Домашние животные",
+          "exampleDe": "Er zähmt ein wildes Pferd.",
+          "exampleRu": "Он приручает дикую лошадь."
         },
         {
           "id": 6897,
@@ -122643,7 +123271,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Домашние животные"
+          "subcategory": "Домашние животные",
+          "exampleDe": "Der Bauer züchtet Schafe.",
+          "exampleRu": "Фермер разводит овец."
         },
         {
           "id": 6898,
@@ -123161,7 +123791,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Der Hund bellt laut.",
+          "exampleRu": "Собака громко лает."
         },
         {
           "id": 6928,
@@ -123215,7 +123847,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Die Katze miaut vor der Tür.",
+          "exampleRu": "Кошка мяукает перед дверью."
         },
         {
           "id": 6929,
@@ -123269,7 +123903,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Die Katze schnurrt auf meinem Schoß.",
+          "exampleRu": "Кошка мурлычет у меня на коленях."
         },
         {
           "id": 6930,
@@ -123323,7 +123959,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Die Kühe muhen auf der Weide.",
+          "exampleRu": "Коровы мычат на пастбище."
         },
         {
           "id": 6931,
@@ -123377,7 +124015,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Der Löwe brüllt im Zoo.",
+          "exampleRu": "Лев рычит в зоопарке."
         },
         {
           "id": 6932,
@@ -123431,7 +124071,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Der Hund knurrt den Fremden an.",
+          "exampleRu": "Собака рычит на незнакомца."
         },
         {
           "id": 6933,
@@ -123501,7 +124143,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Die Wölfe heulen in der Nacht.",
+          "exampleRu": "Волки воют ночью."
         },
         {
           "id": 6935,
@@ -123555,7 +124199,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Der Welpe winselt leise.",
+          "exampleRu": "Щенок тихо скулит."
         },
         {
           "id": 6936,
@@ -123609,7 +124255,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Die Ziege meckert im Stall.",
+          "exampleRu": "Коза блеет в хлеву."
         },
         {
           "id": 6937,
@@ -123663,7 +124311,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Das Schwein grunzt im Stall.",
+          "exampleRu": "Свинья хрюкает в хлеву."
         },
         {
           "id": 6938,
@@ -123717,7 +124367,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Der Papagei kreischt laut.",
+          "exampleRu": "Попугай громко визжит."
         },
         {
           "id": 6939,
@@ -123771,7 +124423,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Die Frösche quaken am Teich.",
+          "exampleRu": "Лягушки квакают у пруда."
         },
         {
           "id": 6940,
@@ -123825,7 +124479,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Die Bienen summen um die Blumen.",
+          "exampleRu": "Пчёлы жужжат вокруг цветов."
         },
         {
           "id": 6941,
@@ -123879,7 +124535,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Звуки, издаваемые животными"
+          "subcategory": "Звуки, издаваемые животными",
+          "exampleDe": "Die Grillen zirpen in der Nacht.",
+          "exampleRu": "Сверчки стрекочут ночью."
         },
         {
           "id": 6942,
@@ -125053,7 +125711,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Птицы. Пение. Звуки"
+          "subcategory": "Птицы. Пение. Звуки",
+          "exampleDe": "Der Vogel singt am Morgen.",
+          "exampleRu": "Птица поёт утром."
         },
         {
           "id": 7016,
@@ -125107,7 +125767,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Птицы. Пение. Звуки"
+          "subcategory": "Птицы. Пение. Звуки",
+          "exampleDe": "Die Möwen schreien über dem Hafen.",
+          "exampleRu": "Чайки кричат над гаванью."
         },
         {
           "id": 7017,
@@ -125187,7 +125849,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Птицы. Пение. Звуки"
+          "subcategory": "Птицы. Пение. Звуки",
+          "exampleDe": "Die Henne gackert im Hof.",
+          "exampleRu": "Курица кудахчет во дворе."
         },
         {
           "id": 7020,
@@ -125241,7 +125905,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Птицы. Пение. Звуки"
+          "subcategory": "Птицы. Пение. Звуки",
+          "exampleDe": "Der Rabe krächzt auf dem Baum.",
+          "exampleRu": "Ворон каркает на дереве."
         },
         {
           "id": 7021,
@@ -125295,7 +125961,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Птицы. Пение. Звуки"
+          "subcategory": "Птицы. Пение. Звуки",
+          "exampleDe": "Die Enten schnattern am See.",
+          "exampleRu": "Утки крякают у озера."
         },
         {
           "id": 7022,
@@ -125349,7 +126017,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Птицы. Пение. Звуки"
+          "subcategory": "Птицы. Пение. Звуки",
+          "exampleDe": "Die Küken piepsen im Nest.",
+          "exampleRu": "Птенцы пищат в гнезде."
         },
         {
           "id": 7023,
@@ -125403,7 +126073,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Птицы. Пение. Звуки"
+          "subcategory": "Птицы. Пение. Звуки",
+          "exampleDe": "Die Spatzen zwitschern im Garten.",
+          "exampleRu": "Воробьи чирикают в саду."
         },
         {
           "id": 7024,
@@ -127083,7 +127755,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Viele Vögel fliegen im Herbst nach Süden.",
+          "exampleRu": "Осенью многие птицы летят на юг."
         },
         {
           "id": 7129,
@@ -127137,7 +127811,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Schwalben fliegen über dem See herum.",
+          "exampleRu": "Ласточки кружат над озером."
         },
         {
           "id": 7130,
@@ -127191,7 +127867,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Der Vogel fliegt plötzlich weg.",
+          "exampleRu": "Птица внезапно улетает."
         },
         {
           "id": 7131,
@@ -127245,7 +127923,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Der Adler schlägt kräftig mit den Flügeln.",
+          "exampleRu": "Орёл сильно машет крыльями."
         },
         {
           "id": 7132,
@@ -127299,7 +127979,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Hühner picken Körner vom Boden.",
+          "exampleRu": "Куры клюют зёрна с земли."
         },
         {
           "id": 7133,
@@ -127353,7 +128035,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Der Vogel bebrütet seine Eier.",
+          "exampleRu": "Птица высиживает яйца."
         },
         {
           "id": 7134,
@@ -127407,7 +128091,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Küken schlüpfen aus den Eiern.",
+          "exampleRu": "Птенцы вылупляются из яиц."
         },
         {
           "id": 7135,
@@ -127471,7 +128157,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Schlange kriecht durch das Gras.",
+          "exampleRu": "Змея ползёт по траве."
         },
         {
           "id": 7137,
@@ -127525,7 +128213,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Wespe sticht mich in den Arm.",
+          "exampleRu": "Оса жалит меня в руку."
         },
         {
           "id": 7138,
@@ -127579,7 +128269,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Der Hund beißt den Mann.",
+          "exampleRu": "Собака кусает мужчину."
         },
         {
           "id": 7139,
@@ -127633,7 +128325,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Der Hund schnüffelt an der Tasche.",
+          "exampleRu": "Собака обнюхивает сумку."
         },
         {
           "id": 7141,
@@ -127687,7 +128381,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Schlange zischt laut.",
+          "exampleRu": "Змея громко шипит."
         },
         {
           "id": 7142,
@@ -127741,7 +128437,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Der laute Knall erschreckt das Pferd.",
+          "exampleRu": "Громкий хлопок пугает лошадь."
         },
         {
           "id": 7143,
@@ -127795,7 +128493,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Der Hund greift den Eindringling an.",
+          "exampleRu": "Собака нападает на незваного гостя."
         },
         {
           "id": 7144,
@@ -127849,7 +128549,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Maus nagt am Käse.",
+          "exampleRu": "Мышь грызёт сыр."
         },
         {
           "id": 7145,
@@ -127903,7 +128605,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Katze kratzt an der Tür.",
+          "exampleRu": "Кошка царапает дверь."
         },
         {
           "id": 7146,
@@ -127967,7 +128671,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Welpen spielen im Garten.",
+          "exampleRu": "Щенки играют в саду."
         },
         {
           "id": 7148,
@@ -128021,7 +128727,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Der Fuchs jagt eine Maus.",
+          "exampleRu": "Лиса охотится на мышь."
         },
         {
           "id": 7149,
@@ -128085,7 +128793,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Животные. Действия"
+          "subcategory": "Животные. Действия",
+          "exampleDe": "Die Dinosaurier sind vor Millionen Jahren ausgestorben.",
+          "exampleRu": "Динозавры вымерли миллионы лет назад."
         },
         {
           "id": 7151,
@@ -128501,7 +129211,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Уход за животными"
+          "subcategory": "Уход за животными",
+          "exampleDe": "Mein Onkel züchtet Pferde.",
+          "exampleRu": "Мой дядя разводит лошадей."
         },
         {
           "id": 7185,
@@ -128587,7 +129299,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Уход за животными"
+          "subcategory": "Уход за животными",
+          "exampleDe": "Die Kinder füttern die Enten.",
+          "exampleRu": "Дети кормят уток."
         },
         {
           "id": 7189,
@@ -128641,7 +129355,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Уход за животными"
+          "subcategory": "Уход за животными",
+          "exampleDe": "Sie dressiert ihren Hund.",
+          "exampleRu": "Она дрессирует свою собаку."
         },
         {
           "id": 7190,
@@ -129029,7 +129745,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Der Hufschmied beschlägt das Pferd.",
+          "exampleRu": "Кузнец подковывает лошадь."
         },
         {
           "id": 7216,
@@ -129195,7 +129913,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Der Trainer reitet das junge Pferd zu.",
+          "exampleRu": "Тренер объезжает молодую лошадь."
         },
         {
           "id": 7224,
@@ -129249,7 +129969,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Sie sattelt ihr Pferd.",
+          "exampleRu": "Она седлает свою лошадь."
         },
         {
           "id": 7225,
@@ -129303,7 +130025,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Er besteigt sein Pferd.",
+          "exampleRu": "Он садится на лошадь."
         },
         {
           "id": 7226,
@@ -129373,7 +130097,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Das Pferd galoppiert über die Wiese.",
+          "exampleRu": "Лошадь скачет галопом по лугу."
         },
         {
           "id": 7228,
@@ -129501,7 +130227,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Der Bauer tränkt die Pferde.",
+          "exampleRu": "Фермер поит лошадей."
         },
         {
           "id": 7236,
@@ -129555,12 +130283,14 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Sie striegelt das Pferd vor dem Ausritt.",
+          "exampleRu": "Она чистит лошадь перед прогулкой верхом."
         },
         {
           "id": 7237,
           "front": "koppeln",
-          "back": "стреножить",
+          "back": "сцеплять; соединять",
           "chapter": "ПРИРОДА",
           "subchapter": "фауна",
           "paragraph": "Лошадь",
@@ -129609,7 +130339,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Die Arbeiter koppeln die beiden Wagen.",
+          "exampleRu": "Рабочие сцепляют два вагона."
         },
         {
           "id": 7238,
@@ -129663,7 +130395,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Die Kühe weiden auf der Wiese.",
+          "exampleRu": "Коровы пасутся на лугу."
         },
         {
           "id": 7239,
@@ -129717,7 +130451,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Das Pferd wiehert laut.",
+          "exampleRu": "Лошадь громко ржёт."
         },
         {
           "id": 7240,
@@ -129771,7 +130507,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Лошадь"
+          "subcategory": "Лошадь",
+          "exampleDe": "Das Pferd schlägt mit den Hinterbeinen aus.",
+          "exampleRu": "Лошадь лягается задними ногами."
         },
         {
           "id": 7242,
@@ -131487,7 +132225,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Цветы. Растения"
+          "subcategory": "Цветы. Растения",
+          "exampleDe": "Die Rosen blühen im Juni.",
+          "exampleRu": "Розы цветут в июне."
         },
         {
           "id": 7378,
@@ -131541,7 +132281,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Цветы. Растения"
+          "subcategory": "Цветы. Растения",
+          "exampleDe": "Ohne Wasser welken die Blumen.",
+          "exampleRu": "Без воды цветы вянут."
         },
         {
           "id": 7379,
@@ -131611,7 +132353,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Цветы. Растения"
+          "subcategory": "Цветы. Растения",
+          "exampleDe": "Sie schneidet eine Rose ab.",
+          "exampleRu": "Она срезает розу."
         },
         {
           "id": 7381,
@@ -131665,7 +132409,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Природа и животные",
-          "subcategory": "Цветы. Растения"
+          "subcategory": "Цветы. Растения",
+          "exampleDe": "Das Kind pflückt eine Blume.",
+          "exampleRu": "Ребёнок срывает цветок."
         },
         {
           "id": 7382,
@@ -132179,7 +132925,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Погода"
+          "subcategory": "Погода",
+          "exampleDe": "Die Sonne scheint heute den ganzen Tag.",
+          "exampleRu": "Сегодня солнце светит весь день."
         },
         {
           "id": 6683,
@@ -132243,7 +132991,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Погода"
+          "subcategory": "Погода",
+          "exampleDe": "Die Sonne geht um sechs Uhr auf.",
+          "exampleRu": "Солнце восходит в шесть часов."
         },
         {
           "id": 6685,
@@ -132297,7 +133047,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Погода"
+          "subcategory": "Погода",
+          "exampleDe": "Die Sonne geht hinter den Bergen unter.",
+          "exampleRu": "Солнце заходит за горами."
         },
         {
           "id": 6686,
@@ -132439,7 +133191,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Погода"
+          "subcategory": "Погода",
+          "exampleDe": "Seit dem Morgen nieselt es.",
+          "exampleRu": "С утра моросит дождь."
         },
         {
           "id": 6694,
@@ -132551,7 +133305,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Погода"
+          "subcategory": "Погода",
+          "exampleDe": "Ohne Regenschirm werde ich nass.",
+          "exampleRu": "Без зонта я промокну."
         },
         {
           "id": 6699,
@@ -132689,7 +133445,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Стихия"
+          "subcategory": "Стихия",
+          "exampleDe": "Während des Gewitters blitzt es.",
+          "exampleRu": "Во время грозы сверкают молнии."
         },
         {
           "id": 6706,
@@ -132759,7 +133517,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Стихия"
+          "subcategory": "Стихия",
+          "exampleDe": "Draußen donnert es.",
+          "exampleRu": "На улице гремит гром."
         },
         {
           "id": 6708,
@@ -132849,7 +133609,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Стихия"
+          "subcategory": "Стихия",
+          "exampleDe": "Der Fluss überflutet die Straßen.",
+          "exampleRu": "Река затапливает улицы."
         },
         {
           "id": 6712,
@@ -133545,7 +134307,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Зима"
+          "subcategory": "Зима",
+          "exampleDe": "Viele Menschen erkranken im Winter an Grippe.",
+          "exampleRu": "Зимой многие люди заболевают гриппом."
         },
         {
           "id": 6786,
@@ -133657,7 +134421,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Погода",
-          "subcategory": "Зима"
+          "subcategory": "Зима",
+          "exampleDe": "Im Januar friert der See oft zu.",
+          "exampleRu": "В январе озеро часто замерзает."
         },
         {
           "id": 6791,
@@ -133837,7 +134603,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Гостиница"
+          "subcategory": "Гостиница",
+          "exampleDe": "Wir steigen für zwei Nächte in einem Hotel ab.",
+          "exampleRu": "Мы останавливаемся в отеле на две ночи."
         },
         {
           "id": 4806,
@@ -133939,7 +134707,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Гостиница"
+          "subcategory": "Гостиница",
+          "exampleDe": "Ich reserviere ein Doppelzimmer.",
+          "exampleRu": "Я бронирую двухместный номер."
         },
         {
           "id": 4810,
@@ -134321,7 +135091,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Охота. Рыбалка"
+          "subcategory": "Охота. Рыбалка",
+          "exampleDe": "Die Jäger jagen im Wald.",
+          "exampleRu": "Охотники охотятся в лесу."
         },
         {
           "id": 4894,
@@ -134350,48 +135122,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "schieße",
-              "perfect": "habe geschießt",
-              "preterite": "schießte",
+              "perfect": "habe geschossen",
+              "preterite": "schoss",
               "future": "werde schießen"
             },
             {
               "pronoun": "du",
               "present": "schießt",
-              "perfect": "hast geschießt",
-              "preterite": "schießtest",
+              "perfect": "hast geschossen",
+              "preterite": "schossest",
               "future": "wirst schießen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "schießt",
-              "perfect": "hat geschießt",
-              "preterite": "schießte",
+              "perfect": "hat geschossen",
+              "preterite": "schoss",
               "future": "wird schießen"
             },
             {
               "pronoun": "wir",
               "present": "schießen",
-              "perfect": "haben geschießt",
-              "preterite": "schießten",
+              "perfect": "haben geschossen",
+              "preterite": "schossen",
               "future": "werden schießen"
             },
             {
               "pronoun": "ihr",
               "present": "schießt",
-              "perfect": "habt geschießt",
-              "preterite": "schießtet",
+              "perfect": "habt geschossen",
+              "preterite": "schosst",
               "future": "werdet schießen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "schießen",
-              "perfect": "haben geschießt",
-              "preterite": "schießten",
+              "perfect": "haben geschossen",
+              "preterite": "schossen",
               "future": "werden schießen"
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Охота. Рыбалка"
+          "subcategory": "Охота. Рыбалка",
+          "exampleDe": "Der Jäger schießt auf ein Wildschwein.",
+          "exampleRu": "Охотник стреляет в кабана."
         },
         {
           "id": 4896,
@@ -134657,7 +135431,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Охота. Рыбалка"
+          "subcategory": "Охота. Рыбалка",
+          "exampleDe": "Am Wochenende angeln wir am See.",
+          "exampleRu": "На выходных мы ловим рыбу на озере."
         },
         {
           "id": 4911,
@@ -134801,7 +135577,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Охота. Рыбалка"
+          "subcategory": "Охота. Рыбалка",
+          "exampleDe": "Endlich beißt ein Fisch an.",
+          "exampleRu": "Наконец-то рыба клюёт."
         },
         {
           "id": 4918,
@@ -135305,7 +136083,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Игры. Карты"
+          "subcategory": "Игры. Карты",
+          "exampleDe": "Der Geber gibt die Karten aus.",
+          "exampleRu": "Раздающий сдаёт карты."
         },
         {
           "id": 4949,
@@ -135359,7 +136139,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Игры. Карты"
+          "subcategory": "Игры. Карты",
+          "exampleDe": "Sie mischt die Karten gründlich.",
+          "exampleRu": "Она тщательно тасует карты."
         },
         {
           "id": 4950,
@@ -135445,7 +136227,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Отдых. Игры. Разное"
+          "subcategory": "Отдых. Игры. Разное",
+          "exampleDe": "Nach dem Essen gehen wir spazieren.",
+          "exampleRu": "После еды мы идём гулять."
         },
         {
           "id": 4974,
@@ -135627,7 +136411,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Отдых. Игры. Разное"
+          "subcategory": "Отдых. Игры. Разное",
+          "exampleDe": "Er sammelt alte Briefmarken.",
+          "exampleRu": "Он коллекционирует старые марки."
         },
         {
           "id": 4983,
@@ -135857,7 +136643,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Отдых. Игры. Разное"
+          "subcategory": "Отдых. Игры. Разное",
+          "exampleDe": "Abends sehen wir zusammen fern.",
+          "exampleRu": "По вечерам мы вместе смотрим телевизор."
         },
         {
           "id": 4995,
@@ -136199,7 +136987,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Фотография"
+          "subcategory": "Фотография",
+          "exampleDe": "Sie fotografiert die Landschaft.",
+          "exampleRu": "Она фотографирует пейзаж."
         },
         {
           "id": 5014,
@@ -136253,7 +137043,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Фотография"
+          "subcategory": "Фотография",
+          "exampleDe": "Die Kamera nimmt ein Video auf.",
+          "exampleRu": "Камера записывает видео."
         },
         {
           "id": 5015,
@@ -136459,7 +137251,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Фотография"
+          "subcategory": "Фотография",
+          "exampleDe": "Der Drucker druckt die Rechnung.",
+          "exampleRu": "Принтер печатает счёт."
         },
         {
           "id": 5027,
@@ -136671,7 +137465,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Пляж"
+          "subcategory": "Пляж",
+          "exampleDe": "Die Kinder schwimmen im See.",
+          "exampleRu": "Дети плавают в озере."
         },
         {
           "id": 5039,
@@ -136895,7 +137691,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Пляж"
+          "subcategory": "Пляж",
+          "exampleDe": "Er taucht bis zum Grund des Beckens.",
+          "exampleRu": "Он ныряет до дна бассейна."
         },
         {
           "id": 5053,
@@ -137023,7 +137821,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Пляж"
+          "subcategory": "Пляж",
+          "exampleDe": "Wir spielen am Strand Volleyball.",
+          "exampleRu": "Мы играем в волейбол на пляже."
         },
         {
           "id": 5059,
@@ -137103,7 +137903,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Пляж"
+          "subcategory": "Пляж",
+          "exampleDe": "Sie bläst den Schwimmring auf.",
+          "exampleRu": "Она надувает плавательный круг."
         },
         {
           "id": 5062,
@@ -137199,7 +138001,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Пляж"
+          "subcategory": "Пляж",
+          "exampleDe": "Ohne Hilfe wäre er beinahe ertrunken.",
+          "exampleRu": "Без помощи он едва не утонул."
         },
         {
           "id": 5066,
@@ -137253,7 +138057,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Пляж"
+          "subcategory": "Пляж",
+          "exampleDe": "Der Rettungsschwimmer rettet das Kind.",
+          "exampleRu": "Спасатель спасает ребёнка."
         },
         {
           "id": 5067,
@@ -137339,7 +138145,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Путешествия",
-          "subcategory": "Пляж"
+          "subcategory": "Пляж",
+          "exampleDe": "Wir beobachten die Vögel am See.",
+          "exampleRu": "Мы наблюдаем за птицами у озера."
         }
       ]
     },
@@ -137431,7 +138239,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Schalte bitte den Computer ein.",
+          "exampleRu": "Включи, пожалуйста, компьютер."
         },
         {
           "id": 5073,
@@ -137485,7 +138295,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Er stellt den Motor ab.",
+          "exampleRu": "Он выключает двигатель."
         },
         {
           "id": 5074,
@@ -137763,7 +138575,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Öffne bitte die Datei.",
+          "exampleRu": "Открой, пожалуйста, файл."
         },
         {
           "id": 5089,
@@ -137817,7 +138631,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Schließe das Fenster auf dem Bildschirm.",
+          "exampleRu": "Закрой окно на экране."
         },
         {
           "id": 5090,
@@ -137871,7 +138687,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Speichere das Dokument vor dem Schließen.",
+          "exampleRu": "Сохрани документ перед закрытием."
         },
         {
           "id": 5091,
@@ -137925,7 +138743,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Ich lösche die alte Datei.",
+          "exampleRu": "Я удаляю старый файл."
         },
         {
           "id": 5092,
@@ -137979,7 +138799,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Kopiere den Text in das Dokument.",
+          "exampleRu": "Скопируй текст в документ."
         },
         {
           "id": 5093,
@@ -138033,7 +138855,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Das Programm sortiert die Namen alphabetisch.",
+          "exampleRu": "Программа сортирует имена по алфавиту."
         },
         {
           "id": 5094,
@@ -138087,7 +138911,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Wir transferieren die Dateien auf den neuen Rechner.",
+          "exampleRu": "Мы переносим файлы на новый компьютер."
         },
         {
           "id": 5095,
@@ -138189,7 +139015,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Sie programmiert eine kleine App.",
+          "exampleRu": "Она программирует небольшое приложение."
         },
         {
           "id": 5099,
@@ -138291,7 +139119,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Der Techniker entdeckt einen Fehler.",
+          "exampleRu": "Техник обнаруживает ошибку."
         },
         {
           "id": 5103,
@@ -138425,7 +139255,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Schalte das Gerät vor der Reparatur ab.",
+          "exampleRu": "Отключи прибор перед ремонтом."
         },
         {
           "id": 5109,
@@ -138479,7 +139311,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Компьютер"
+          "subcategory": "Компьютер",
+          "exampleDe": "Ich schließe den Drucker an den Computer an.",
+          "exampleRu": "Я подключаю принтер к компьютеру."
         },
         {
           "id": 5110,
@@ -138767,7 +139601,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Интернет. E-mail"
+          "subcategory": "Интернет. E-mail",
+          "exampleDe": "Ich sende dir die Unterlagen per E-Mail.",
+          "exampleRu": "Я отправляю тебе документы по электронной почте."
         },
         {
           "id": 5126,
@@ -138853,7 +139689,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Интернет. E-mail"
+          "subcategory": "Интернет. E-mail",
+          "exampleDe": "Hast du meine Nachricht empfangen?",
+          "exampleRu": "Ты получил моё сообщение?"
         },
         {
           "id": 5129,
@@ -138933,7 +139771,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Интернет. E-mail"
+          "subcategory": "Интернет. E-mail",
+          "exampleDe": "Ich lade die Datei herunter.",
+          "exampleRu": "Я скачиваю файл."
         },
         {
           "id": 5133,
@@ -138987,7 +139827,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Интернет. E-mail"
+          "subcategory": "Интернет. E-mail",
+          "exampleDe": "Sie schafft ein neues Benutzerkonto.",
+          "exampleRu": "Она создаёт новую учётную запись."
         },
         {
           "id": 5135,
@@ -139157,7 +139999,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Интернет. E-mail"
+          "subcategory": "Интернет. E-mail",
+          "exampleDe": "Wähle eine Datei aus.",
+          "exampleRu": "Выбери файл."
         },
         {
           "id": 5144,
@@ -139211,7 +140055,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Интернет. E-mail"
+          "subcategory": "Интернет. E-mail",
+          "exampleDe": "Ich suche ein bestimmtes Dokument.",
+          "exampleRu": "Я ищу определённый документ."
         },
         {
           "id": 5145,
@@ -139403,7 +140249,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Электричество"
+          "subcategory": "Электричество",
+          "exampleDe": "Er schaltet das Licht ein.",
+          "exampleRu": "Он включает свет."
         },
         {
           "id": 5155,
@@ -139457,7 +140305,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Электричество"
+          "subcategory": "Электричество",
+          "exampleDe": "Sie schaltet den Fernseher aus.",
+          "exampleRu": "Она выключает телевизор."
         },
         {
           "id": 5156,
@@ -139521,7 +140371,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Электричество"
+          "subcategory": "Электричество",
+          "exampleDe": "Die Glühbirne ist durchgebrannt.",
+          "exampleRu": "Лампочка перегорела."
         },
         {
           "id": 5158,
@@ -139847,7 +140699,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Электричество"
+          "subcategory": "Электричество",
+          "exampleDe": "Der Elektriker lötet zwei Drähte zusammen.",
+          "exampleRu": "Электрик спаивает два провода."
         },
         {
           "id": 5176,
@@ -140045,7 +140899,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Er sägt ein Brett in zwei Teile.",
+          "exampleRu": "Он распиливает доску на две части."
         },
         {
           "id": 5186,
@@ -140115,7 +140971,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Der Tischler hobelt das Holz glatt.",
+          "exampleRu": "Столяр гладко строгает древесину."
         },
         {
           "id": 5190,
@@ -140265,7 +141123,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Sie bohrt ein Loch in die Wand.",
+          "exampleRu": "Она сверлит отверстие в стене."
         },
         {
           "id": 5197,
@@ -140397,7 +141257,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Nach langer Benutzung wird das Messer stumpf.",
+          "exampleRu": "После долгого использования нож тупится."
         },
         {
           "id": 5204,
@@ -140451,7 +141313,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Er schärft das Messer.",
+          "exampleRu": "Он точит нож."
         },
         {
           "id": 5205,
@@ -140681,7 +141545,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Sie misst die Länge des Tisches.",
+          "exampleRu": "Она измеряет длину стола."
         },
         {
           "id": 5217,
@@ -141055,7 +141921,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Dreh bitte den Wasserhahn zu.",
+          "exampleRu": "Закрой, пожалуйста, кран."
         },
         {
           "id": 5240,
@@ -141109,7 +141977,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Er dreht den Deckel von der Flasche ab.",
+          "exampleRu": "Он откручивает крышку бутылки."
         },
         {
           "id": 5241,
@@ -141163,7 +142033,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Sie drückt die beiden Teile zusammen.",
+          "exampleRu": "Она сжимает две детали вместе."
         },
         {
           "id": 5242,
@@ -141217,7 +142089,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Ich klebe das Etikett an die Schachtel an.",
+          "exampleRu": "Я приклеиваю этикетку к коробке."
         },
         {
           "id": 5243,
@@ -141271,7 +142145,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Er schneidet das Papier mit einer Schere.",
+          "exampleRu": "Он режет бумагу ножницами."
         },
         {
           "id": 5244,
@@ -141357,7 +142233,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Die Werkstatt repariert mein Fahrrad.",
+          "exampleRu": "Мастерская ремонтирует мой велосипед."
         },
         {
           "id": 5247,
@@ -141411,7 +142289,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Der Techniker stellt die Temperatur am Gerät ein.",
+          "exampleRu": "Техник настраивает температуру на приборе."
         },
         {
           "id": 5248,
@@ -141465,7 +142345,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Die Mechanikerin prüft die Bremsen.",
+          "exampleRu": "Механик проверяет тормоза."
         },
         {
           "id": 5249,
@@ -141571,7 +142453,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Техника и интернет",
-          "subcategory": "Инструменты"
+          "subcategory": "Инструменты",
+          "exampleDe": "Ohne Schutz verrostet das Metall.",
+          "exampleRu": "Без защиты металл ржавеет."
         },
         {
           "id": 5254,
@@ -141707,7 +142591,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Приветствия. Прощания. Извинения. Благодарность"
+          "subcategory": "Приветствия. Прощания. Извинения. Благодарность",
+          "exampleDe": "Er grüßt seine Nachbarn freundlich.",
+          "exampleRu": "Он приветливо здоровается с соседями."
         },
         {
           "id": 17,
@@ -141787,7 +142673,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Приветствия. Прощания. Извинения. Благодарность"
+          "subcategory": "Приветствия. Прощания. Извинения. Благодарность",
+          "exampleDe": "Die Lehrerin begrüßt die neue Schülerin.",
+          "exampleRu": "Учительница приветствует новую ученицу."
         },
         {
           "id": 20,
@@ -141991,7 +142879,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Приветствия. Прощания. Извинения. Благодарность"
+          "subcategory": "Приветствия. Прощания. Извинения. Благодарность",
+          "exampleDe": "Bitte entschuldige meinen Fehler.",
+          "exampleRu": "Пожалуйста, извини мою ошибку."
         },
         {
           "id": 36,
@@ -142078,7 +142968,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Приветствия. Прощания. Извинения. Благодарность",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Kannst du mir verzeihen?",
+          "exampleRu": "Ты можешь меня простить?"
         },
         {
           "id": 40,
@@ -142666,7 +143558,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Чувства. Состояние человека"
+          "subcategory": "Чувства. Состояние человека",
+          "exampleDe": "Die Nachricht beunruhigt ihre Eltern.",
+          "exampleRu": "Эта новость тревожит её родителей."
         },
         {
           "id": 1748,
@@ -142720,7 +143614,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Чувства. Состояние человека"
+          "subcategory": "Чувства. Состояние человека",
+          "exampleDe": "Ich sorge mich um meine Familie.",
+          "exampleRu": "Я беспокоюсь о своей семье."
         },
         {
           "id": 1749,
@@ -142826,7 +143722,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Чувства. Состояние человека"
+          "subcategory": "Чувства. Состояние человека",
+          "exampleDe": "Als er die Nachricht hörte, verfiel er in Panik.",
+          "exampleRu": "Услышав новость, он запаниковал."
         },
         {
           "id": 1754,
@@ -142899,7 +143797,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Чувства. Состояние человека",
           "grammar": {
             "government": "auf + Akk."
-          }
+          },
+          "exampleDe": "Ich hoffe auf gutes Wetter.",
+          "exampleRu": "Я надеюсь на хорошую погоду."
         },
         {
           "id": 1756,
@@ -143045,7 +143945,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Чувства. Состояние человека"
+          "subcategory": "Чувства. Состояние человека",
+          "exampleDe": "Der laute Knall erschreckt das Kind.",
+          "exampleRu": "Громкий хлопок пугает ребёнка."
         },
         {
           "id": 1765,
@@ -143179,7 +144081,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Чувства. Состояние человека"
+          "subcategory": "Чувства. Состояние человека",
+          "exampleDe": "Ich bedauere meine Entscheidung.",
+          "exampleRu": "Я сожалею о своём решении."
         },
         {
           "id": 1771,
@@ -143467,7 +144371,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Черты характера. Личность"
+          "subcategory": "Черты характера. Личность",
+          "exampleDe": "Sie kann sehr gut schwimmen.",
+          "exampleRu": "Она очень хорошо умеет плавать."
         },
         {
           "id": 1787,
@@ -143890,7 +144796,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Черты характера. Личность",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Ich vertraue meinem Arzt.",
+          "exampleRu": "Я доверяю своему врачу."
         },
         {
           "id": 1818,
@@ -144168,7 +145076,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Сон. Состояние сна"
+          "subcategory": "Сон. Состояние сна",
+          "exampleDe": "Das Baby schläft tief und fest.",
+          "exampleRu": "Малыш крепко спит."
         },
         {
           "id": 1839,
@@ -144257,7 +145167,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Сон. Состояние сна",
           "grammar": {
             "government": "von + Dat."
-          }
+          },
+          "exampleDe": "Ich träume oft von meiner Kindheit.",
+          "exampleRu": "Мне часто снится моё детство."
         },
         {
           "id": 1842,
@@ -144453,7 +145365,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Сон. Состояние сна"
+          "subcategory": "Сон. Состояние сна",
+          "exampleDe": "Er gähnt vor Müdigkeit.",
+          "exampleRu": "Он зевает от усталости."
         },
         {
           "id": 1854,
@@ -144527,7 +145441,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Сон. Состояние сна"
+          "subcategory": "Сон. Состояние сна",
+          "exampleDe": "Das Kind schläft schnell ein.",
+          "exampleRu": "Ребёнок быстро засыпает."
         },
         {
           "id": 1857,
@@ -144613,7 +145529,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Сон. Состояние сна"
+          "subcategory": "Сон. Состояние сна",
+          "exampleDe": "Mein Großvater schnarcht laut.",
+          "exampleRu": "Мой дедушка громко храпит."
         },
         {
           "id": 1860,
@@ -144683,7 +145601,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Сон. Состояние сна"
+          "subcategory": "Сон. Состояние сна",
+          "exampleDe": "Bitte weck mich um sieben Uhr auf.",
+          "exampleRu": "Разбуди меня, пожалуйста, в семь часов."
         },
         {
           "id": 1862,
@@ -144737,7 +145657,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Сон. Состояние сна"
+          "subcategory": "Сон. Состояние сна",
+          "exampleDe": "Sie erwacht früh am Morgen.",
+          "exampleRu": "Она просыпается рано утром."
         },
         {
           "id": 1863,
@@ -144791,7 +145713,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Сон. Состояние сна"
+          "subcategory": "Сон. Состояние сна",
+          "exampleDe": "Ich stehe jeden Tag um sechs Uhr auf.",
+          "exampleRu": "Я каждый день встаю в шесть часов."
         },
         {
           "id": 1864,
@@ -144933,7 +145857,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Юмор. Смех. Радость"
+          "subcategory": "Юмор. Смех. Радость",
+          "exampleDe": "Sie lächelt freundlich.",
+          "exampleRu": "Она приветливо улыбается."
         },
         {
           "id": 1872,
@@ -144997,7 +145923,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Юмор. Смех. Радость"
+          "subcategory": "Юмор. Смех. Радость",
+          "exampleDe": "Die Kinder lachen über den Witz.",
+          "exampleRu": "Дети смеются над шуткой."
         },
         {
           "id": 1874,
@@ -145255,7 +146183,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 1"
+          "subcategory": "Общение. Диалог. Разговор - 1",
+          "exampleDe": "Die Geschwister streiten um das Spielzeug.",
+          "exampleRu": "Брат и сестра спорят из-за игрушки."
         },
         {
           "id": 1890,
@@ -145405,7 +146335,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 1"
+          "subcategory": "Общение. Диалог. Разговор - 1",
+          "exampleDe": "Wir besprechen morgen den Plan.",
+          "exampleRu": "Завтра мы обсудим план."
         },
         {
           "id": 1897,
@@ -145617,7 +146549,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 1"
+          "subcategory": "Общение. Диалог. Разговор - 1",
+          "exampleDe": "Er schwört, die Wahrheit zu sagen.",
+          "exampleRu": "Он клянётся говорить правду."
         },
         {
           "id": 1909,
@@ -145687,7 +146621,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 1"
+          "subcategory": "Общение. Диалог. Разговор - 1",
+          "exampleDe": "Ich verspreche dir meine Hilfe.",
+          "exampleRu": "Я обещаю тебе свою помощь."
         },
         {
           "id": 1911,
@@ -145757,7 +146693,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 1"
+          "subcategory": "Общение. Диалог. Разговор - 1",
+          "exampleDe": "Der Arzt rät mir zu mehr Bewegung.",
+          "exampleRu": "Врач советует мне больше двигаться."
         },
         {
           "id": 1913,
@@ -145821,7 +146759,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 1"
+          "subcategory": "Общение. Диалог. Разговор - 1",
+          "exampleDe": "Das Kind gehorcht seinen Eltern.",
+          "exampleRu": "Ребёнок слушается родителей."
         },
         {
           "id": 1915,
@@ -146119,7 +147059,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Wir respektieren die Entscheidung.",
+          "exampleRu": "Мы уважаем это решение."
         },
         {
           "id": 1932,
@@ -146225,7 +147167,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Ich beabsichtige, Deutsch zu lernen.",
+          "exampleRu": "Я намереваюсь изучать немецкий язык."
         },
         {
           "id": 1937,
@@ -146295,7 +147239,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Ich wünsche dir viel Glück.",
+          "exampleRu": "Я желаю тебе удачи."
         },
         {
           "id": 1939,
@@ -146365,7 +147311,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Seine Antwort erstaunt mich.",
+          "exampleRu": "Его ответ меня удивляет."
         },
         {
           "id": 1941,
@@ -146419,7 +147367,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Ich staune über seine Geduld.",
+          "exampleRu": "Я удивляюсь его терпению."
         },
         {
           "id": 1942,
@@ -146473,7 +147423,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Sie gibt mir das Buch.",
+          "exampleRu": "Она даёт мне книгу."
         },
         {
           "id": 1943,
@@ -146527,7 +147479,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Er nimmt den Schlüssel vom Tisch.",
+          "exampleRu": "Он берёт ключ со стола."
         },
         {
           "id": 1944,
@@ -146581,7 +147535,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Der Verlag gibt das Buch heraus.",
+          "exampleRu": "Издательство выпускает книгу."
         },
         {
           "id": 1945,
@@ -146635,7 +147591,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Bitte gib mir meinen Stift zurück.",
+          "exampleRu": "Верни мне, пожалуйста, мою ручку."
         },
         {
           "id": 1947,
@@ -146708,7 +147666,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Общение. Диалог. Разговор - 2",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Kannst du mir verzeihen?",
+          "exampleRu": "Ты можешь меня простить?"
         },
         {
           "id": 1949,
@@ -146762,7 +147722,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Wir sprechen über unsere Reise.",
+          "exampleRu": "Мы разговариваем о нашей поездке."
         },
         {
           "id": 1950,
@@ -146941,7 +147903,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Ich verstehe deine Frage.",
+          "exampleRu": "Я понимаю твой вопрос."
         },
         {
           "id": 1953,
@@ -146995,7 +147959,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Zeig mir bitte das Foto.",
+          "exampleRu": "Покажи мне, пожалуйста, фотографию."
         },
         {
           "id": 1954,
@@ -147049,7 +148015,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Sie sieht sich das Bild an.",
+          "exampleRu": "Она рассматривает картину."
         },
         {
           "id": 1955,
@@ -147162,7 +148130,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Der Lärm stört mich beim Lesen.",
+          "exampleRu": "Шум мешает мне читать."
         },
         {
           "id": 1957,
@@ -147216,7 +148186,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Er übergibt ihr das Geschenk.",
+          "exampleRu": "Он вручает ей подарок."
         },
         {
           "id": 1958,
@@ -147289,7 +148261,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Общение. Диалог. Разговор - 2",
           "grammar": {
             "government": "um + Akk."
-          }
+          },
+          "exampleDe": "Ich bitte dich um Hilfe.",
+          "exampleRu": "Я прошу тебя о помощи."
         },
         {
           "id": 1960,
@@ -147359,7 +148333,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Der Kunde verlangt eine Erklärung.",
+          "exampleRu": "Клиент требует объяснений."
         },
         {
           "id": 1962,
@@ -147413,7 +148389,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Die Kinder necken ihren Bruder.",
+          "exampleRu": "Дети дразнят своего брата."
         },
         {
           "id": 1963,
@@ -147426,48 +148404,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "spotte",
-              "perfect": "habe gespottt",
-              "preterite": "spottte",
+              "perfect": "habe gespottet",
+              "preterite": "spottete",
               "future": "werde spotten"
             },
             {
               "pronoun": "du",
               "present": "spottest",
-              "perfect": "hast gespottt",
-              "preterite": "spotttest",
+              "perfect": "hast gespottet",
+              "preterite": "spottetest",
               "future": "wirst spotten"
             },
             {
               "pronoun": "er/sie/es",
               "present": "spottet",
-              "perfect": "hat gespottt",
-              "preterite": "spottte",
+              "perfect": "hat gespottet",
+              "preterite": "spottete",
               "future": "wird spotten"
             },
             {
               "pronoun": "wir",
               "present": "spotten",
-              "perfect": "haben gespottt",
-              "preterite": "spottten",
+              "perfect": "haben gespottet",
+              "preterite": "spotteten",
               "future": "werden spotten"
             },
             {
               "pronoun": "ihr",
               "present": "spottet",
-              "perfect": "habt gespottt",
-              "preterite": "spotttet",
+              "perfect": "habt gespottet",
+              "preterite": "spottetet",
               "future": "werdet spotten"
             },
             {
               "pronoun": "sie/Sie",
               "present": "spotten",
-              "perfect": "haben gespottt",
-              "preterite": "spottten",
+              "perfect": "haben gespottet",
+              "preterite": "spotteten",
               "future": "werden spotten"
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Er spottet über den Fehler.",
+          "exampleRu": "Он насмехается над ошибкой."
         },
         {
           "id": 1964,
@@ -147569,7 +148549,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Sie deutet ein Problem an.",
+          "exampleRu": "Она намекает на проблему."
         },
         {
           "id": 1968,
@@ -147623,7 +148605,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Was meinst du damit?",
+          "exampleRu": "Что ты этим подразумеваешь?"
         },
         {
           "id": 1969,
@@ -147693,7 +148677,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Beschreib mir bitte den Weg.",
+          "exampleRu": "Опиши мне, пожалуйста, дорогу."
         },
         {
           "id": 1971,
@@ -147763,7 +148749,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Die Lehrerin lobt den Schüler.",
+          "exampleRu": "Учительница хвалит ученика."
         },
         {
           "id": 1973,
@@ -147833,7 +148821,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Sein Verhalten enttäuscht mich.",
+          "exampleRu": "Его поведение меня разочаровывает."
         },
         {
           "id": 1975,
@@ -147913,7 +148903,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Ich vermute, dass er zu Hause ist.",
+          "exampleRu": "Я предполагаю, что он дома."
         },
         {
           "id": 1978,
@@ -147983,7 +148975,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 2"
+          "subcategory": "Общение. Диалог. Разговор - 2",
+          "exampleDe": "Sie warnt uns vor dem Sturm.",
+          "exampleRu": "Она предупреждает нас о буре."
         },
         {
           "id": 1980,
@@ -148037,7 +149031,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Er überredet mich, mitzukommen.",
+          "exampleRu": "Он уговаривает меня пойти вместе с ним."
         },
         {
           "id": 1981,
@@ -148091,7 +149087,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Die Mutter beruhigt das Kind.",
+          "exampleRu": "Мать успокаивает ребёнка."
         },
         {
           "id": 1982,
@@ -148161,7 +149159,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Er schweigt während des Gesprächs.",
+          "exampleRu": "Он молчит во время разговора."
         },
         {
           "id": 1984,
@@ -148215,7 +149215,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Sie flüstert mir etwas ins Ohr.",
+          "exampleRu": "Она шепчет мне что-то на ухо."
         },
         {
           "id": 1985,
@@ -148383,7 +149385,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Er blickt sie erstaunt an.",
+          "exampleRu": "Он удивлённо смотрит на неё."
         },
         {
           "id": 1995,
@@ -148447,7 +149451,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Sie blinzelt in der Sonne.",
+          "exampleRu": "Она щурится и моргает на солнце."
         },
         {
           "id": 1997,
@@ -148501,7 +149507,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Er zwinkert mir zu.",
+          "exampleRu": "Он подмигивает мне."
         },
         {
           "id": 1998,
@@ -148555,7 +149563,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Sie nickt zustimmend.",
+          "exampleRu": "Она согласно кивает."
         },
         {
           "id": 1999,
@@ -148625,7 +149635,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Er seufzt leise auf.",
+          "exampleRu": "Он тихо вздыхает."
         },
         {
           "id": 2001,
@@ -148679,7 +149691,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Beim Knall zuckt sie zusammen.",
+          "exampleRu": "От хлопка она вздрагивает."
         },
         {
           "id": 2002,
@@ -148749,7 +149763,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Bitte berühre das Bild nicht.",
+          "exampleRu": "Пожалуйста, не трогай картину."
         },
         {
           "id": 2004,
@@ -148803,7 +149819,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Er ergreift ihre Hand.",
+          "exampleRu": "Он берёт её за руку."
         },
         {
           "id": 2005,
@@ -148857,7 +149875,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Общение. Диалог. Разговор - 3"
+          "subcategory": "Общение. Диалог. Разговор - 3",
+          "exampleDe": "Er klopft mir auf die Schulter.",
+          "exampleRu": "Он хлопает меня по плечу."
         },
         {
           "id": 2006,
@@ -148980,7 +150000,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Согласие. Несогласие. Одобрение",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Ich stimme deinem Vorschlag zu.",
+          "exampleRu": "Я согласен с твоим предложением."
         },
         {
           "id": 2013,
@@ -149050,7 +150072,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Согласие. Несогласие. Одобрение"
+          "subcategory": "Согласие. Несогласие. Одобрение",
+          "exampleDe": "Der Chef billigt den Plan.",
+          "exampleRu": "Начальник одобряет план."
         },
         {
           "id": 2015,
@@ -149200,7 +150224,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Согласие. Несогласие. Одобрение"
+          "subcategory": "Согласие. Несогласие. Одобрение",
+          "exampleDe": "Sie lehnt die Einladung ab.",
+          "exampleRu": "Она отклоняет приглашение."
         },
         {
           "id": 2025,
@@ -149213,48 +150239,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "unterstütze",
-              "perfect": "habe geunterstützt",
+              "perfect": "habe unterstützt",
               "preterite": "unterstützte",
               "future": "werde unterstützen"
             },
             {
               "pronoun": "du",
-              "present": "unterstützt",
-              "perfect": "hast geunterstützt",
+              "present": "unterstützst",
+              "perfect": "hast unterstützt",
               "preterite": "unterstütztest",
               "future": "wirst unterstützen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "unterstützt",
-              "perfect": "hat geunterstützt",
+              "perfect": "hat unterstützt",
               "preterite": "unterstützte",
               "future": "wird unterstützen"
             },
             {
               "pronoun": "wir",
               "present": "unterstützen",
-              "perfect": "haben geunterstützt",
+              "perfect": "haben unterstützt",
               "preterite": "unterstützten",
               "future": "werden unterstützen"
             },
             {
               "pronoun": "ihr",
               "present": "unterstützt",
-              "perfect": "habt geunterstützt",
+              "perfect": "habt unterstützt",
               "preterite": "unterstütztet",
               "future": "werdet unterstützen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "unterstützen",
-              "perfect": "haben geunterstützt",
+              "perfect": "haben unterstützt",
               "preterite": "unterstützten",
               "future": "werden unterstützen"
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Согласие. Несогласие. Одобрение"
+          "subcategory": "Согласие. Несогласие. Одобрение",
+          "exampleDe": "Wir unterstützen deinen Vorschlag.",
+          "exampleRu": "Мы поддерживаем твоё предложение."
         },
         {
           "id": 2026,
@@ -149308,7 +150336,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Согласие. Несогласие. Одобрение"
+          "subcategory": "Согласие. Несогласие. Одобрение",
+          "exampleDe": "Ich akzeptiere deine Entscheidung.",
+          "exampleRu": "Я принимаю твоё решение."
         },
         {
           "id": 2027,
@@ -149362,7 +150392,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Согласие. Несогласие. Одобрение"
+          "subcategory": "Согласие. Несогласие. Одобрение",
+          "exampleDe": "Er bestätigt den Termin.",
+          "exampleRu": "Он подтверждает встречу."
         },
         {
           "id": 2028,
@@ -149448,7 +150480,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Согласие. Несогласие. Одобрение"
+          "subcategory": "Согласие. Несогласие. Одобрение",
+          "exampleDe": "Meine Eltern erlauben mir die Reise.",
+          "exampleRu": "Родители разрешают мне поездку."
         },
         {
           "id": 2031,
@@ -149518,7 +150552,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Согласие. Несогласие. Одобрение"
+          "subcategory": "Согласие. Несогласие. Одобрение",
+          "exampleDe": "Sie schweigt zu dem Vorwurf.",
+          "exampleRu": "Она ничего не говорит в ответ на обвинение."
         },
         {
           "id": 2033,
@@ -149802,7 +150838,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Успех. Удача. Поражение"
+          "subcategory": "Успех. Удача. Поражение",
+          "exampleDe": "Unsere Mannschaft siegt im Finale.",
+          "exampleRu": "Наша команда побеждает в финале."
         },
         {
           "id": 2054,
@@ -149856,7 +150894,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Успех. Удача. Поражение"
+          "subcategory": "Успех. Удача. Поражение",
+          "exampleDe": "Wir verlieren das Spiel mit 1:2.",
+          "exampleRu": "Мы проигрываем матч со счётом 1:2."
         },
         {
           "id": 2055,
@@ -149926,7 +150966,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Успех. Удача. Поражение"
+          "subcategory": "Успех. Удача. Поражение",
+          "exampleDe": "Ich versuche, die Aufgabe zu lösen.",
+          "exampleRu": "Я пытаюсь решить задачу."
         },
         {
           "id": 2057,
@@ -150012,7 +151054,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Das Kind schreit vor Angst.",
+          "exampleRu": "Ребёнок кричит от страха."
         },
         {
           "id": 2060,
@@ -150176,7 +151220,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Seine Worte kränken sie.",
+          "exampleRu": "Его слова её обижают."
         },
         {
           "id": 2069,
@@ -150256,7 +151302,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Er beleidigt seinen Kollegen.",
+          "exampleRu": "Он оскорбляет своего коллегу."
         },
         {
           "id": 2072,
@@ -150362,7 +151410,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Sie klagt über starke Schmerzen.",
+          "exampleRu": "Она жалуется на сильную боль."
         },
         {
           "id": 2079,
@@ -150442,7 +151492,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Der Journalist kritisiert die Entscheidung.",
+          "exampleRu": "Журналист критикует решение."
         },
         {
           "id": 2082,
@@ -150512,7 +151564,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Die Staatsanwaltschaft klagt ihn wegen Betrugs an.",
+          "exampleRu": "Прокуратура обвиняет его в мошенничестве."
         },
         {
           "id": 2084,
@@ -150582,7 +151636,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Er rächt sich an seinem Feind.",
+          "exampleRu": "Он мстит своему врагу."
         },
         {
           "id": 2086,
@@ -150662,7 +151718,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Sie verachtet seine Lügen.",
+          "exampleRu": "Она презирает его ложь."
         },
         {
           "id": 2089,
@@ -150732,7 +151790,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Ich hasse Ungerechtigkeit.",
+          "exampleRu": "Я ненавижу несправедливость."
         },
         {
           "id": 2091,
@@ -150806,7 +151866,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Sein Verhalten ärgert mich.",
+          "exampleRu": "Его поведение меня злит."
         },
         {
           "id": 2095,
@@ -150860,7 +151922,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Der Vater schilt seinen Sohn.",
+          "exampleRu": "Отец ругает своего сына."
         },
         {
           "id": 2096,
@@ -150930,7 +151994,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Niemand darf andere Menschen erniedrigen.",
+          "exampleRu": "Никто не имеет права унижать других людей."
         },
         {
           "id": 2098,
@@ -151010,7 +152076,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Die Nachricht schockiert uns.",
+          "exampleRu": "Новость нас шокирует."
         },
         {
           "id": 2101,
@@ -151142,7 +152210,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Seine Hände zittern vor Kälte.",
+          "exampleRu": "Его руки дрожат от холода."
         },
         {
           "id": 2109,
@@ -151196,7 +152266,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Das Mädchen weint vor Freude.",
+          "exampleRu": "Девочка плачет от радости."
         },
         {
           "id": 2110,
@@ -151356,7 +152428,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Entschuldigung, störe ich dich?",
+          "exampleRu": "Извини, я тебе не мешаю?"
         },
         {
           "id": 2118,
@@ -151430,7 +152504,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Sie bricht den Kontakt zu ihm ab.",
+          "exampleRu": "Она прекращает общение с ним."
         },
         {
           "id": 2121,
@@ -151484,7 +152560,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Ich erschrecke bei jedem lauten Geräusch.",
+          "exampleRu": "Я пугаюсь каждого громкого звука."
         },
         {
           "id": 2122,
@@ -151538,7 +152616,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Er schlägt mit der Faust auf den Tisch.",
+          "exampleRu": "Он ударяет кулаком по столу."
         },
         {
           "id": 2123,
@@ -151602,7 +152682,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Общение и эмоции",
-          "subcategory": "Обиды. Ссора. Негативные эмоции"
+          "subcategory": "Обиды. Ссора. Негативные эмоции",
+          "exampleDe": "Wir erledigen den Streit in Ruhe.",
+          "exampleRu": "Мы спокойно улаживаем спор."
         },
         {
           "id": 2125,
@@ -153561,48 +154643,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "schieße",
-              "perfect": "habe geschießt",
-              "preterite": "schießte",
+              "perfect": "habe geschossen",
+              "preterite": "schoss",
               "future": "werde schießen"
             },
             {
               "pronoun": "du",
               "present": "schießt",
-              "perfect": "hast geschießt",
-              "preterite": "schießtest",
+              "perfect": "hast geschossen",
+              "preterite": "schossest",
               "future": "wirst schießen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "schießt",
-              "perfect": "hat geschießt",
-              "preterite": "schießte",
+              "perfect": "hat geschossen",
+              "preterite": "schoss",
               "future": "wird schießen"
             },
             {
               "pronoun": "wir",
               "present": "schießen",
-              "perfect": "haben geschießt",
-              "preterite": "schießten",
+              "perfect": "haben geschossen",
+              "preterite": "schossen",
               "future": "werden schießen"
             },
             {
               "pronoun": "ihr",
               "present": "schießt",
-              "perfect": "habt geschießt",
-              "preterite": "schießtet",
+              "perfect": "habt geschossen",
+              "preterite": "schosst",
               "future": "werdet schießen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "schießen",
-              "perfect": "haben geschießt",
-              "preterite": "schießten",
+              "perfect": "haben geschossen",
+              "preterite": "schossen",
               "future": "werden schießen"
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Футбол"
+          "subcategory": "Футбол",
+          "exampleDe": "Der Stürmer schießt aufs Tor.",
+          "exampleRu": "Нападающий бьёт по воротам."
         },
         {
           "id": 4165,
@@ -153752,7 +154836,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Футбол"
+          "subcategory": "Футбол",
+          "exampleDe": "Der Schiedsrichter pfeift das Spiel ab.",
+          "exampleRu": "Судья даёт свисток об окончании матча."
         },
         {
           "id": 4172,
@@ -153838,7 +154924,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Футбол"
+          "subcategory": "Футбол",
+          "exampleDe": "Der Spieler foult seinen Gegner.",
+          "exampleRu": "Игрок нарушает правила против соперника."
         },
         {
           "id": 4175,
@@ -153950,7 +155038,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Футбол"
+          "subcategory": "Футбол",
+          "exampleDe": "Der Schiedsrichter disqualifiziert den Läufer.",
+          "exampleRu": "Судья дисквалифицирует бегуна."
         },
         {
           "id": 4180,
@@ -154062,7 +155152,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Футбол"
+          "subcategory": "Футбол",
+          "exampleDe": "Der Trainer ersetzt den verletzten Spieler.",
+          "exampleRu": "Тренер заменяет травмированного игрока."
         },
         {
           "id": 4187,
@@ -154196,7 +155288,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Футбол"
+          "subcategory": "Футбол",
+          "exampleDe": "Die Fans schreien vor Freude.",
+          "exampleRu": "Болельщики кричат от радости."
         },
         {
           "id": 4193,
@@ -154298,7 +155392,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Футбол"
+          "subcategory": "Футбол",
+          "exampleDe": "Unsere Mannschaft verliert das Spiel.",
+          "exampleRu": "Наша команда проигрывает матч."
         },
         {
           "id": 4197,
@@ -154394,7 +155490,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Футбол"
+          "subcategory": "Футбол",
+          "exampleDe": "Unsere Mannschaft gewinnt das Finale.",
+          "exampleRu": "Наша команда побеждает в финале."
         },
         {
           "id": 4201,
@@ -154477,7 +155575,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Футбол",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Ich gratuliere dir zum Sieg.",
+          "exampleRu": "Поздравляю тебя с победой."
         },
         {
           "id": 4204,
@@ -154547,7 +155647,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Футбол"
+          "subcategory": "Футбол",
+          "exampleDe": "Sie kommentiert das Fußballspiel.",
+          "exampleRu": "Она комментирует футбольный матч."
         },
         {
           "id": 4206,
@@ -154835,7 +155937,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Теннис. Гольф"
+          "subcategory": "Теннис. Гольф",
+          "exampleDe": "Der Spieler gibt den Ball an seinen Mitspieler ab.",
+          "exampleRu": "Игрок передаёт мяч товарищу по команде."
         },
         {
           "id": 4224,
@@ -155139,7 +156243,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Шахматы"
+          "subcategory": "Шахматы",
+          "exampleDe": "Er opfert seine Dame, um zu gewinnen.",
+          "exampleRu": "Он жертвует ферзём, чтобы победить."
         },
         {
           "id": 4243,
@@ -155433,7 +156539,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Бокс"
+          "subcategory": "Бокс",
+          "exampleDe": "Der Boxer schlägt seinen Gegner k. o.",
+          "exampleRu": "Боксёр отправляет соперника в нокаут."
         },
         {
           "id": 4261,
@@ -155599,7 +156707,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Спорт. Разное"
+          "subcategory": "Спорт. Разное",
+          "exampleDe": "Die Heimmannschaft siegt mit zwei zu eins.",
+          "exampleRu": "Домашняя команда побеждает со счётом два — один."
         },
         {
           "id": 4269,
@@ -155653,7 +156763,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Спорт. Разное"
+          "subcategory": "Спорт. Разное",
+          "exampleDe": "Sie gewinnt den Wettbewerb.",
+          "exampleRu": "Она выигрывает соревнование."
         },
         {
           "id": 4270,
@@ -155723,7 +156835,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Спорт. Разное"
+          "subcategory": "Спорт. Разное",
+          "exampleDe": "Unsere Mannschaft führt mit einem Tor.",
+          "exampleRu": "Наша команда ведёт с преимуществом в один гол."
         },
         {
           "id": 4272,
@@ -156131,7 +157245,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Спорт. Разное"
+          "subcategory": "Спорт. Разное",
+          "exampleDe": "Der Schiedsrichter bestraft das Foul mit einer Gelben Karte.",
+          "exampleRu": "Судья наказывает за нарушение жёлтой карточкой."
         },
         {
           "id": 4305,
@@ -156240,48 +157356,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "schieße",
-              "perfect": "habe geschießt",
-              "preterite": "schießte",
+              "perfect": "habe geschossen",
+              "preterite": "schoss",
               "future": "werde schießen"
             },
             {
               "pronoun": "du",
               "present": "schießt",
-              "perfect": "hast geschießt",
-              "preterite": "schießtest",
+              "perfect": "hast geschossen",
+              "preterite": "schossest",
               "future": "wirst schießen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "schießt",
-              "perfect": "hat geschießt",
-              "preterite": "schießte",
+              "perfect": "hat geschossen",
+              "preterite": "schoss",
               "future": "wird schießen"
             },
             {
               "pronoun": "wir",
               "present": "schießen",
-              "perfect": "haben geschießt",
-              "preterite": "schießten",
+              "perfect": "haben geschossen",
+              "preterite": "schossen",
               "future": "werden schießen"
             },
             {
               "pronoun": "ihr",
               "present": "schießt",
-              "perfect": "habt geschießt",
-              "preterite": "schießtet",
+              "perfect": "habt geschossen",
+              "preterite": "schosst",
               "future": "werdet schießen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "schießen",
-              "perfect": "haben geschießt",
-              "preterite": "schießten",
+              "perfect": "haben geschossen",
+              "preterite": "schossen",
               "future": "werden schießen"
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Спорт. Разное"
+          "subcategory": "Спорт. Разное",
+          "exampleDe": "Der Spieler schießt den Ball ins Tor.",
+          "exampleRu": "Игрок забивает мяч в ворота."
         },
         {
           "id": 4312,
@@ -156345,7 +157463,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Спорт. Разное"
+          "subcategory": "Спорт. Разное",
+          "exampleDe": "Sie trainiert die Jugendmannschaft.",
+          "exampleRu": "Она тренирует юношескую команду."
         },
         {
           "id": 4315,
@@ -156399,7 +157519,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Спорт. Разное"
+          "subcategory": "Спорт. Разное",
+          "exampleDe": "Er trainiert jeden Morgen im Fitnessstudio.",
+          "exampleRu": "Он тренируется каждое утро в спортзале."
         },
         {
           "id": 4316,
@@ -156639,7 +157761,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Театр"
+          "subcategory": "Театр",
+          "exampleDe": "Die Schauspieler proben für die Premiere.",
+          "exampleRu": "Актёры репетируют перед премьерой."
         },
         {
           "id": 4550,
@@ -157007,7 +158131,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Театр"
+          "subcategory": "Театр",
+          "exampleDe": "Das Publikum klatscht begeistert.",
+          "exampleRu": "Зрители восторженно аплодируют."
         },
         {
           "id": 4571,
@@ -157509,7 +158635,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Кино"
+          "subcategory": "Кино",
+          "exampleDe": "Sie spielt die Hauptrolle im Theaterstück.",
+          "exampleRu": "Она играет главную роль в пьесе."
         },
         {
           "id": 4600,
@@ -158503,7 +159631,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Изобразительное искусство"
+          "subcategory": "Изобразительное искусство",
+          "exampleDe": "Das Kind zeichnet ein Haus mit einem Bleistift.",
+          "exampleRu": "Ребёнок рисует дом карандашом."
         },
         {
           "id": 4662,
@@ -158557,7 +159687,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Изобразительное искусство"
+          "subcategory": "Изобразительное искусство",
+          "exampleDe": "Sie malt ein Bild mit Wasserfarben.",
+          "exampleRu": "Она рисует картину акварельными красками."
         },
         {
           "id": 4663,
@@ -158797,7 +159929,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Изобразительное искусство"
+          "subcategory": "Изобразительное искусство",
+          "exampleDe": "Fachleute restaurieren das alte Gemälde.",
+          "exampleRu": "Специалисты реставрируют старую картину."
         },
         {
           "id": 4676,
@@ -159523,7 +160657,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Цирк"
+          "subcategory": "Цирк",
+          "exampleDe": "Der Artist jongliert mit drei Bällen.",
+          "exampleRu": "Артист жонглирует тремя мячами."
         },
         {
           "id": 4722,
@@ -159609,7 +160745,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Цирк"
+          "subcategory": "Цирк",
+          "exampleDe": "Sie dressiert ihren Hund.",
+          "exampleRu": "Она дрессирует свою собаку."
         },
         {
           "id": 4725,
@@ -159711,7 +160849,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Музыка. Эстрада"
+          "subcategory": "Музыка. Эстрада",
+          "exampleDe": "Er spielt Klavier.",
+          "exampleRu": "Он играет на пианино."
         },
         {
           "id": 4729,
@@ -160196,7 +161336,7 @@ window.FLASHCARDS_DATA = {
         {
           "id": 4759,
           "front": "komponieren",
-          "back": "сочинить (стихи, песню)",
+          "back": "сочинять музыку, песню",
           "chapter": "ДЕЯТЕЛЬНОСТЬ ЧЕЛОВЕКА",
           "subchapter": "искусство",
           "paragraph": "Музыка. Эстрада",
@@ -160245,7 +161385,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Музыка. Эстрада"
+          "subcategory": "Музыка. Эстрада",
+          "exampleDe": "Sie komponiert ein Lied für ihre Tochter.",
+          "exampleRu": "Она сочиняет песню для дочери."
         },
         {
           "id": 4760,
@@ -160555,7 +161697,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Похороны"
+          "subcategory": "Похороны",
+          "exampleDe": "Sein Großvater ist gestern gestorben.",
+          "exampleRu": "Его дедушка умер вчера."
         },
         {
           "id": 5741,
@@ -160641,7 +161785,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Похороны"
+          "subcategory": "Похороны",
+          "exampleDe": "Die Familie begräbt ihren Angehörigen auf dem Friedhof.",
+          "exampleRu": "Семья хоронит своего родственника на кладбище."
         },
         {
           "id": 5744,
@@ -160855,7 +162001,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Похороны"
+          "subcategory": "Похороны",
+          "exampleDe": "Das Kind weint vor Schmerz.",
+          "exampleRu": "Ребёнок плачет от боли."
         },
         {
           "id": 5755,
@@ -160909,7 +162057,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Похороны"
+          "subcategory": "Похороны",
+          "exampleDe": "Sie schluchzt nach der traurigen Nachricht.",
+          "exampleRu": "Она рыдает после печального известия."
         },
         {
           "id": 5756,
@@ -161427,7 +162577,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Люди"
+          "subcategory": "Война. Люди",
+          "exampleDe": "Soldaten patrouillieren an der Grenze.",
+          "exampleRu": "Солдаты патрулируют границу."
         },
         {
           "id": 5786,
@@ -161577,7 +162729,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Люди"
+          "subcategory": "Война. Люди",
+          "exampleDe": "Er verrät seine Kameraden.",
+          "exampleRu": "Он предаёт своих товарищей."
         },
         {
           "id": 5793,
@@ -161647,7 +162801,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Люди"
+          "subcategory": "Война. Люди",
+          "exampleDe": "Der Soldat desertiert aus der Armee.",
+          "exampleRu": "Солдат дезертирует из армии."
         },
         {
           "id": 5795,
@@ -161865,7 +163021,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Der Staat erklärt dem Nachbarland den Krieg.",
+          "exampleRu": "Государство объявляет войну соседней стране."
         },
         {
           "id": 5807,
@@ -161935,7 +163093,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Die Truppen fallen überraschend ein.",
+          "exampleRu": "Войска неожиданно вторгаются."
         },
         {
           "id": 5809,
@@ -161989,7 +163149,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Die Armee fällt in das Nachbarland ein.",
+          "exampleRu": "Армия вторгается в соседнюю страну."
         },
         {
           "id": 5810,
@@ -162091,7 +163253,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Die Soldaten verteidigen die Stadt.",
+          "exampleRu": "Солдаты обороняют город."
         },
         {
           "id": 5814,
@@ -162229,7 +163393,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Der Offizier befiehlt den Rückzug.",
+          "exampleRu": "Офицер приказывает отступить."
         },
         {
           "id": 5823,
@@ -162373,7 +163539,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Die Soldaten stürmen die Festung.",
+          "exampleRu": "Солдаты штурмуют крепость."
         },
         {
           "id": 5830,
@@ -162459,7 +163627,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Die Armee greift die Stellung an.",
+          "exampleRu": "Армия атакует позицию."
         },
         {
           "id": 5833,
@@ -162555,7 +163725,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Die Truppen kesseln die Stadt ein.",
+          "exampleRu": "Войска окружают город."
         },
         {
           "id": 5837,
@@ -162635,7 +163807,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Flugzeuge bombardieren die Stadt.",
+          "exampleRu": "Самолёты бомбят город."
         },
         {
           "id": 5840,
@@ -162680,48 +163854,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "schieße",
-              "perfect": "habe geschießt",
-              "preterite": "schießte",
+              "perfect": "habe geschossen",
+              "preterite": "schoss",
               "future": "werde schießen"
             },
             {
               "pronoun": "du",
               "present": "schießt",
-              "perfect": "hast geschießt",
-              "preterite": "schießtest",
+              "perfect": "hast geschossen",
+              "preterite": "schossest",
               "future": "wirst schießen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "schießt",
-              "perfect": "hat geschießt",
-              "preterite": "schießte",
+              "perfect": "hat geschossen",
+              "preterite": "schoss",
               "future": "wird schießen"
             },
             {
               "pronoun": "wir",
               "present": "schießen",
-              "perfect": "haben geschießt",
-              "preterite": "schießten",
+              "perfect": "haben geschossen",
+              "preterite": "schossen",
               "future": "werden schießen"
             },
             {
               "pronoun": "ihr",
               "present": "schießt",
-              "perfect": "habt geschießt",
-              "preterite": "schießtet",
+              "perfect": "habt geschossen",
+              "preterite": "schosst",
               "future": "werdet schießen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "schießen",
-              "perfect": "haben geschießt",
-              "preterite": "schießten",
+              "perfect": "haben geschossen",
+              "preterite": "schossen",
               "future": "werden schießen"
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Der Soldat schießt auf ein Ziel.",
+          "exampleRu": "Солдат стреляет по мишени."
         },
         {
           "id": 5843,
@@ -162801,7 +163977,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Er richtet die Kanone auf das Ziel.",
+          "exampleRu": "Он наводит пушку на цель."
         },
         {
           "id": 5846,
@@ -162855,7 +164033,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Der Schütze trifft das Ziel.",
+          "exampleRu": "Стрелок попадает в цель."
         },
         {
           "id": 5847,
@@ -162909,7 +164089,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Das U-Boot versenkt das Schiff.",
+          "exampleRu": "Подводная лодка топит корабль."
         },
         {
           "id": 5848,
@@ -162979,7 +164161,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Das beschädigte Schiff versinkt im Meer.",
+          "exampleRu": "Повреждённый корабль тонет в море."
         },
         {
           "id": 5850,
@@ -163081,7 +164265,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Die Behörden evakuieren die Bewohner.",
+          "exampleRu": "Власти эвакуируют жителей."
         },
         {
           "id": 5854,
@@ -163199,7 +164385,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 1"
+          "subcategory": "Война. Военные действия - 1",
+          "exampleDe": "Der Angriff verwundet mehrere Soldaten.",
+          "exampleRu": "В результате нападения несколько солдат получают ранения."
         },
         {
           "id": 5859,
@@ -163305,7 +164493,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Die Soldaten nehmen den Gegner gefangen.",
+          "exampleRu": "Солдаты берут противника в плен."
         },
         {
           "id": 5865,
@@ -163395,7 +164585,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Der Gefangene flieht aus dem Lager.",
+          "exampleRu": "Пленный сбегает из лагеря."
         },
         {
           "id": 5870,
@@ -163449,7 +164641,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Er verrät seine Freunde.",
+          "exampleRu": "Он предаёт своих друзей."
         },
         {
           "id": 5872,
@@ -163519,7 +164713,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Die Soldaten erschießen den Gefangenen.",
+          "exampleRu": "Солдаты расстреливают пленного."
         },
         {
           "id": 5874,
@@ -163983,7 +165179,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Die Explosion zerstört die Brücke.",
+          "exampleRu": "Взрыв разрушает мост."
         },
         {
           "id": 5902,
@@ -164037,7 +165235,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Sie überlebt den Unfall.",
+          "exampleRu": "Она выживает после аварии."
         },
         {
           "id": 5903,
@@ -164091,7 +165291,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Die Polizei entwaffnet den Angreifer.",
+          "exampleRu": "Полиция обезоруживает нападавшего."
         },
         {
           "id": 5904,
@@ -164145,7 +165347,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Der Soldat handhabt die Waffe vorsichtig.",
+          "exampleRu": "Солдат осторожно обращается с оружием."
         },
         {
           "id": 5905,
@@ -164251,7 +165455,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Er schwört, die Wahrheit zu sagen.",
+          "exampleRu": "Он клянётся говорить правду."
         },
         {
           "id": 5910,
@@ -164321,7 +165527,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Der Präsident zeichnet die Helfer aus.",
+          "exampleRu": "Президент награждает помощников."
         },
         {
           "id": 5913,
@@ -164455,7 +165663,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Война. Военные действия - 2"
+          "subcategory": "Война. Военные действия - 2",
+          "exampleDe": "Die Soldaten marschieren durch die Stadt.",
+          "exampleRu": "Солдаты маршируют по городу."
         },
         {
           "id": 5921,
@@ -165127,7 +166337,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Оружие"
+          "subcategory": "Оружие",
+          "exampleDe": "Der Soldat lädt sein Gewehr.",
+          "exampleRu": "Солдат заряжает винтовку."
         },
         {
           "id": 5964,
@@ -165829,7 +167041,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Средние века"
+          "subcategory": "Средние века",
+          "exampleDe": "Die Armee erobert die Festung.",
+          "exampleRu": "Армия завоёвывает крепость."
         },
         {
           "id": 6043,
@@ -165883,7 +167097,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Средние века"
+          "subcategory": "Средние века",
+          "exampleDe": "Die Truppen besetzen die Stadt.",
+          "exampleRu": "Войска занимают город."
         },
         {
           "id": 6045,
@@ -165947,7 +167163,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Средние века"
+          "subcategory": "Средние века",
+          "exampleDe": "Die Armee belagert die Festung.",
+          "exampleRu": "Армия осаждает крепость."
         },
         {
           "id": 6047,
@@ -166203,7 +167421,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Средние века"
+          "subcategory": "Средние века",
+          "exampleDe": "Die Forscher entdecken eine unbekannte Insel.",
+          "exampleRu": "Исследователи открывают неизвестный остров."
         },
         {
           "id": 6061,
@@ -166486,7 +167706,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Die Täter kidnappen einen Geschäftsmann.",
+          "exampleRu": "Преступники похищают бизнесмена."
         },
         {
           "id": 6148,
@@ -166598,7 +167820,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Die Täter rauben einem Passanten das Geld.",
+          "exampleRu": "Преступники отнимают деньги у прохожего."
         },
         {
           "id": 6153,
@@ -166684,7 +167908,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Täter erpresst Geld von seinem Opfer.",
+          "exampleRu": "Преступник вымогает деньги у своей жертвы."
         },
         {
           "id": 6156,
@@ -166770,7 +167996,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Täter mordet aus Habgier.",
+          "exampleRu": "Преступник совершает убийство из корысти."
         },
         {
           "id": 6159,
@@ -166856,7 +168084,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Täter erschießt den Wachmann.",
+          "exampleRu": "Преступник застреливает охранника."
         },
         {
           "id": 6166,
@@ -166958,7 +168188,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Sturm beschädigt das Dach.",
+          "exampleRu": "Буря повреждает крышу."
         },
         {
           "id": 6170,
@@ -167054,7 +168286,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Mann greift einen Passanten an.",
+          "exampleRu": "Мужчина нападает на прохожего."
         },
         {
           "id": 6174,
@@ -167108,7 +168342,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Täter schlägt sein Opfer.",
+          "exampleRu": "Преступник бьёт свою жертву."
         },
         {
           "id": 6175,
@@ -167162,7 +168398,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Die Angreifer verprügeln den Mann.",
+          "exampleRu": "Нападавшие избивают мужчину."
         },
         {
           "id": 6176,
@@ -167216,7 +168454,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Dieb nimmt ihr die Tasche weg.",
+          "exampleRu": "Вор отнимает у неё сумку."
         },
         {
           "id": 6177,
@@ -167270,7 +168510,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Täter ersticht sein Opfer.",
+          "exampleRu": "Преступник убивает свою жертву ножом."
         },
         {
           "id": 6178,
@@ -167324,7 +168566,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Angriff verstümmelt das Opfer.",
+          "exampleRu": "В результате нападения жертва получает тяжёлые увечья."
         },
         {
           "id": 6180,
@@ -167394,7 +168638,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Der Täter erpresst sie mit privaten Fotos.",
+          "exampleRu": "Преступник шантажирует её личными фотографиями."
         },
         {
           "id": 6182,
@@ -167608,7 +168854,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 1"
+          "subcategory": "Нарушения закона. Преступники - 1",
+          "exampleDe": "Er fälscht die Unterschrift.",
+          "exampleRu": "Он подделывает подпись."
         },
         {
           "id": 6193,
@@ -167688,7 +168936,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Der Täter vergewaltigt die Frau.",
+          "exampleRu": "Преступник насилует женщину."
         },
         {
           "id": 6196,
@@ -167854,7 +169104,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Die Täter sprengen den Geldautomaten.",
+          "exampleRu": "Преступники взрывают банкомат."
         },
         {
           "id": 6205,
@@ -167982,7 +169234,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Er betrügt seine Kunden.",
+          "exampleRu": "Он обманывает своих клиентов."
         },
         {
           "id": 6211,
@@ -168068,7 +169322,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Der Mann versucht, den Beamten zu bestechen.",
+          "exampleRu": "Мужчина пытается подкупить чиновника."
         },
         {
           "id": 6214,
@@ -168170,7 +169426,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Der Täter vergiftet das Getränk.",
+          "exampleRu": "Преступник отравляет напиток."
         },
         {
           "id": 6218,
@@ -168269,7 +169527,9 @@ window.FLASHCARDS_DATA = {
           "subcategory": "Нарушения закона. Преступники - 2",
           "grammar": {
             "government": "+ Dat."
-          }
+          },
+          "exampleDe": "Er droht seinem Nachbarn.",
+          "exampleRu": "Он угрожает своему соседу."
         },
         {
           "id": 6222,
@@ -168290,7 +169550,7 @@ window.FLASHCARDS_DATA = {
         {
           "id": 6223,
           "front": "versuchen",
-          "back": "покушаться",
+          "back": "пытаться, пробовать",
           "chapter": "ЛЮДИ | СОБЫТИЯ",
           "subchapter": "события в жизни человека",
           "paragraph": "Нарушения закона. Преступники - 2",
@@ -168339,7 +169599,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Der Täter versucht, den Politiker zu töten.",
+          "exampleRu": "Преступник пытается убить политика."
         },
         {
           "id": 6224,
@@ -168468,7 +169730,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Die Täter entführen ein Flugzeug.",
+          "exampleRu": "Преступники захватывают самолёт."
         },
         {
           "id": 6227,
@@ -168548,7 +169812,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Die Täter foltern den Gefangenen.",
+          "exampleRu": "Преступники пытают пленного."
         },
         {
           "id": 6231,
@@ -168602,7 +169868,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Die Täter quälen das Opfer.",
+          "exampleRu": "Преступники мучают жертву."
         },
         {
           "id": 6233,
@@ -168714,7 +169982,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Нарушения закона. Преступники - 2"
+          "subcategory": "Нарушения закона. Преступники - 2",
+          "exampleDe": "Der Agent spioniert für einen fremden Staat.",
+          "exampleRu": "Агент шпионит в пользу иностранного государства."
         },
         {
           "id": 6238,
@@ -168848,7 +170118,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 1"
+          "subcategory": "Полиция. Закон - 1",
+          "exampleDe": "Das Gericht richtet über den Angeklagten.",
+          "exampleRu": "Суд судит обвиняемого."
         },
         {
           "id": 6244,
@@ -168998,7 +170270,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 1"
+          "subcategory": "Полиция. Закон - 1",
+          "exampleDe": "Das Gericht verurteilt ihn zu einer Geldstrafe.",
+          "exampleRu": "Суд приговаривает его к денежному штрафу."
         },
         {
           "id": 6251,
@@ -169068,7 +170342,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 1"
+          "subcategory": "Полиция. Закон - 1",
+          "exampleDe": "Der Richter bestraft den Täter.",
+          "exampleRu": "Судья наказывает преступника."
         },
         {
           "id": 6253,
@@ -169218,7 +170494,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 1"
+          "subcategory": "Полиция. Закон - 1",
+          "exampleDe": "Der Staat richtet den Verurteilten hin.",
+          "exampleRu": "Государство казнит осуждённого."
         },
         {
           "id": 6260,
@@ -169410,7 +170688,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 1"
+          "subcategory": "Полиция. Закон - 1",
+          "exampleDe": "Der Häftling bricht aus dem Gefängnis aus.",
+          "exampleRu": "Заключённый сбегает из тюрьмы."
         },
         {
           "id": 6270,
@@ -169464,7 +170744,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 1"
+          "subcategory": "Полиция. Закон - 1",
+          "exampleDe": "Der Mann verschwindet spurlos.",
+          "exampleRu": "Мужчина бесследно исчезает."
         },
         {
           "id": 6271,
@@ -169746,7 +171028,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 1"
+          "subcategory": "Полиция. Закон - 1",
+          "exampleDe": "Der Verdächtige verschwindet in der Menschenmenge.",
+          "exampleRu": "Подозреваемый скрывается в толпе."
         },
         {
           "id": 6287,
@@ -169832,7 +171116,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Die Polizei sucht den Vermissten.",
+          "exampleRu": "Полиция разыскивает пропавшего."
         },
         {
           "id": 6290,
@@ -169912,7 +171198,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Die Polizei hält das Auto zur Kontrolle an.",
+          "exampleRu": "Полиция останавливает машину для проверки."
         },
         {
           "id": 6293,
@@ -169966,7 +171254,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Die Polizei verhaftet den Verdächtigen.",
+          "exampleRu": "Полиция задерживает подозреваемого."
         },
         {
           "id": 6294,
@@ -170132,7 +171422,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Die Ermittler verhören den Verdächtigen.",
+          "exampleRu": "Следователи допрашивают подозреваемого."
         },
         {
           "id": 6302,
@@ -170186,7 +171478,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Die Polizei vernimmt einen Zeugen.",
+          "exampleRu": "Полиция опрашивает свидетеля."
         },
         {
           "id": 6303,
@@ -170304,7 +171598,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Der Hund jagt dem Dieb nach.",
+          "exampleRu": "Собака преследует вора."
         },
         {
           "id": 6308,
@@ -170358,7 +171654,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Die Ermittler verfolgen den Verdächtigen.",
+          "exampleRu": "Следователи следят за подозреваемым."
         },
         {
           "id": 6309,
@@ -170428,7 +171726,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Die Polizei verhaftet den Täter.",
+          "exampleRu": "Полиция арестовывает преступника."
         },
         {
           "id": 6311,
@@ -170482,7 +171782,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Die Polizei ertappt den Dieb auf frischer Tat.",
+          "exampleRu": "Полиция ловит вора с поличным."
         },
         {
           "id": 6312,
@@ -170543,48 +171845,50 @@ window.FLASHCARDS_DATA = {
             {
               "pronoun": "ich",
               "present": "beweise",
-              "perfect": "habe beweist",
-              "preterite": "beweiste",
+              "perfect": "habe bewiesen",
+              "preterite": "bewies",
               "future": "werde beweisen"
             },
             {
               "pronoun": "du",
               "present": "beweist",
-              "perfect": "hast beweist",
-              "preterite": "beweistest",
+              "perfect": "hast bewiesen",
+              "preterite": "bewiesest",
               "future": "wirst beweisen"
             },
             {
               "pronoun": "er/sie/es",
               "present": "beweist",
-              "perfect": "hat beweist",
-              "preterite": "beweiste",
+              "perfect": "hat bewiesen",
+              "preterite": "bewies",
               "future": "wird beweisen"
             },
             {
               "pronoun": "wir",
               "present": "beweisen",
-              "perfect": "haben beweist",
-              "preterite": "beweisten",
+              "perfect": "haben bewiesen",
+              "preterite": "bewiesen",
               "future": "werden beweisen"
             },
             {
               "pronoun": "ihr",
               "present": "beweist",
-              "perfect": "habt beweist",
-              "preterite": "beweistet",
+              "perfect": "habt bewiesen",
+              "preterite": "bewiest",
               "future": "werdet beweisen"
             },
             {
               "pronoun": "sie/Sie",
               "present": "beweisen",
-              "perfect": "haben beweist",
-              "preterite": "beweisten",
+              "perfect": "haben bewiesen",
+              "preterite": "bewiesen",
               "future": "werden beweisen"
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Der Anwalt beweist die Unschuld seines Mandanten.",
+          "exampleRu": "Адвокат доказывает невиновность своего клиента."
         },
         {
           "id": 6316,
@@ -170748,7 +172052,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Действия и процессы",
-          "subcategory": "Полиция. Закон - 2"
+          "subcategory": "Полиция. Закон - 2",
+          "exampleDe": "Die Polizei beschlagnahmt das Fahrzeug.",
+          "exampleRu": "Полиция конфискует транспортное средство."
         },
         {
           "id": 6325,
@@ -171414,7 +172720,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Die Kinder lärmen auf dem Schulhof.",
+          "exampleRu": "Дети шумят на школьном дворе."
         },
         {
           "id": 6737,
@@ -171524,7 +172832,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Die Zuschauer schreien laut.",
+          "exampleRu": "Зрители громко кричат."
         },
         {
           "id": 6743,
@@ -171594,7 +172904,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Sie flüstert ihrem Freund etwas ins Ohr.",
+          "exampleRu": "Она шепчет своему другу что-то на ухо."
         },
         {
           "id": 6745,
@@ -171664,7 +172976,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Der Hund bellt vor dem Haus.",
+          "exampleRu": "Собака лает перед домом."
         },
         {
           "id": 6747,
@@ -171734,7 +173048,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Der Patient stöhnt vor Schmerzen.",
+          "exampleRu": "Пациент стонет от боли."
         },
         {
           "id": 6749,
@@ -171804,7 +173120,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Er hustet seit gestern.",
+          "exampleRu": "Он кашляет со вчерашнего дня."
         },
         {
           "id": 6751,
@@ -171874,7 +173192,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Der Schiedsrichter pfeift laut.",
+          "exampleRu": "Судья громко свистит."
         },
         {
           "id": 6753,
@@ -171944,7 +173264,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Jemand klopft an die Tür.",
+          "exampleRu": "Кто-то стучит в дверь."
         },
         {
           "id": 6755,
@@ -171998,7 +173320,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Das Eis kracht unter seinen Füßen.",
+          "exampleRu": "Лёд трещит у него под ногами."
         },
         {
           "id": 6756,
@@ -172100,7 +173424,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Die Lokomotive pfeift vor dem Tunnel.",
+          "exampleRu": "Локомотив гудит перед туннелем."
         },
         {
           "id": 6760,
@@ -172170,7 +173496,9 @@ window.FLASHCARDS_DATA = {
             }
           ],
           "category": "Полезные фразы",
-          "subcategory": "Шумы. Звуки"
+          "subcategory": "Шумы. Звуки",
+          "exampleDe": "Der Fahrer hupt an der Kreuzung.",
+          "exampleRu": "Водитель сигналит на перекрёстке."
         }
       ]
     }
