@@ -4883,8 +4883,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich deute das nach der Arbeit an.",
-          "exampleRu": "Я после работы это подсказаю."
+          "exampleDe": "Der Lehrer deutet die Lösung an.",
+          "exampleRu": "Учитель намекает на решение."
         },
         {
           "id": 256,
@@ -5110,8 +5110,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich aussehe das am Morgen vor.",
-          "exampleRu": "Я утром это предвидею."
+          "exampleDe": "Niemand sieht dieses Problem voraus.",
+          "exampleRu": "Никто не предвидит эту проблему."
         },
         {
           "id": 260,
@@ -5334,8 +5334,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich stelle das in der Schule ein.",
-          "exampleRu": "Я в школе это прекращаю."
+          "exampleDe": "Die Firma stellt die Produktion ein.",
+          "exampleRu": "Фирма прекращает производство."
         },
         {
           "id": 264,
@@ -5844,8 +5844,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich versäume das zu Hause.",
-          "exampleRu": "Я дома это пропускаю."
+          "exampleDe": "Ich versäume heute den Unterricht.",
+          "exampleRu": "Сегодня я пропускаю занятие."
         },
         {
           "id": 273,
@@ -6018,8 +6018,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich verstecke das in der Schule.",
-          "exampleRu": "Я в школе это прятаю."
+          "exampleDe": "Das Kind versteckt den Schlüssel.",
+          "exampleRu": "Ребёнок прячет ключ."
         },
         {
           "id": 276,
@@ -6186,8 +6186,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich erlaube das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это разрешаю."
+          "exampleDe": "Meine Eltern erlauben mir die Reise.",
+          "exampleRu": "Родители разрешают мне поездку."
         },
         {
           "id": 279,
@@ -6242,8 +6242,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich zähle auf … das nach der Arbeit.",
-          "exampleRu": "Я после работы это рассчитывать на."
+          "exampleDe": "Ich zähle auf deine Hilfe.",
+          "exampleRu": "Я рассчитываю на твою помощь."
         },
         {
           "id": 280,
@@ -6466,8 +6466,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich schelte das am Morgen.",
-          "exampleRu": "Я утром это ругаю."
+          "exampleDe": "Die Mutter schilt das Kind nicht.",
+          "exampleRu": "Мать не ругает ребёнка."
         },
         {
           "id": 284,
@@ -6522,8 +6522,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich leite das Wasser zu Hause.",
-          "exampleRu": "Я дома воду руководю."
+          "exampleDe": "Sie leitet eine kleine Firma.",
+          "exampleRu": "Она руководит небольшой фирмой."
         },
         {
           "id": 285,
@@ -6578,8 +6578,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 3",
-          "exampleDe": "Ich grabe das in der Stadt.",
-          "exampleRu": "Я в городе это рыть."
+          "exampleDe": "Der Mann gräbt ein Loch im Garten.",
+          "exampleRu": "Мужчина копает яму в саду."
         },
         {
           "id": 286,
@@ -6917,8 +6917,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich miete das nach der Arbeit.",
-          "exampleRu": "Я после работы это снимаю."
+          "exampleDe": "Wir mieten eine Wohnung in Berlin.",
+          "exampleRu": "Мы снимаем квартиру в Берлине."
         },
         {
           "id": 292,
@@ -7312,8 +7312,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich rette das im Büro.",
-          "exampleRu": "Я в офисе это спасаю."
+          "exampleDe": "Der Arzt rettet das Kind.",
+          "exampleRu": "Врач спасает ребёнка."
         },
         {
           "id": 299,
@@ -7368,8 +7368,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich frage das in der Schule.",
-          "exampleRu": "Я в школе это спрашиваю.",
+          "exampleDe": "Ich frage den Lehrer nach dem Weg.",
+          "exampleRu": "Я спрашиваю учителя о дороге.",
           "grammar": {
             "government": "nach + Dat. / + Akk."
           }
@@ -7595,8 +7595,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich schieße das nach der Arbeit.",
-          "exampleRu": "Я после работы это стреляю."
+          "exampleDe": "Der Jäger schießt in die Luft.",
+          "exampleRu": "Охотник стреляет в воздух."
         },
         {
           "id": 304,
@@ -7987,8 +7987,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich ermorde das im Büro.",
-          "exampleRu": "Я в офисе это убиваю."
+          "exampleDe": "Der Täter ermordet einen Mann.",
+          "exampleRu": "Преступник убивает мужчину."
         },
         {
           "id": 311,
@@ -8043,8 +8043,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich drohe das in der Schule.",
-          "exampleRu": "Я в школе это угрожаю.",
+          "exampleDe": "Der Mann droht seinem Nachbarn.",
+          "exampleRu": "Мужчина угрожает своему соседу.",
           "grammar": {
             "government": "+ Dat."
           }
@@ -8382,8 +8382,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich nehme teil das morgen.",
-          "exampleRu": "Я завтра это участвую.",
+          "exampleDe": "Ich nehme morgen am Kurs teil.",
+          "exampleRu": "Завтра я участвую в курсе.",
           "grammar": {
             "government": "an + Dat."
           }
@@ -8721,8 +8721,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Самые важные глаголы - 4",
-          "exampleDe": "Ich mache Witz das in der Schule.",
-          "exampleRu": "Я в школе это шутю."
+          "exampleDe": "Er macht einen Witz in der Klasse.",
+          "exampleRu": "Он шутит в классе."
         },
         {
           "id": 8370,
@@ -11757,8 +11757,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы А-Е",
-          "exampleDe": "Ich gehe das Haus morgen aus.",
-          "exampleRu": "Я завтра дом выйти."
+          "exampleDe": "Ich gehe am Samstag aus.",
+          "exampleRu": "В субботу я выхожу из дома."
         },
         {
           "id": 8430,
@@ -15789,8 +15789,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Ж-М",
-          "exampleDe": "Ich kompromittiere das morgen.",
-          "exampleRu": "Я завтра это компрометирую."
+          "exampleDe": "Diese Nachricht kompromittiert den Politiker.",
+          "exampleRu": "Эта новость компрометирует политика."
         },
         {
           "id": 8524,
@@ -17136,8 +17136,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Ж-М",
-          "exampleDe": "Ich wasche das Auto morgen.",
-          "exampleRu": "Я мою машину завтра."
+          "exampleDe": "Ich wasche mich jeden Morgen.",
+          "exampleRu": "Я умываюсь каждое утро."
         },
         {
           "id": 8558,
@@ -17248,8 +17248,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich wärme das am Morgen.",
-          "exampleRu": "Я утром это нагрюю."
+          "exampleDe": "Ich wärme die Suppe auf.",
+          "exampleRu": "Я разогреваю суп."
         },
         {
           "id": 8561,
@@ -17304,8 +17304,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich ernenne das zu Hause.",
-          "exampleRu": "Я дома это назначаю."
+          "exampleDe": "Der Minister ernennt sie zur Direktorin.",
+          "exampleRu": "Министр назначает её директором."
         },
         {
           "id": 8562,
@@ -17360,8 +17360,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich benenne das in der Stadt.",
-          "exampleRu": "Я в городе это называю."
+          "exampleDe": "Sie benennt das Problem klar.",
+          "exampleRu": "Она ясно называет проблему."
         },
         {
           "id": 8564,
@@ -17416,8 +17416,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich gieße das im Büro.",
-          "exampleRu": "Я в офисе это наливаю."
+          "exampleDe": "Ich gieße Wasser in die Tasse.",
+          "exampleRu": "Я наливаю воду в чашку."
         },
         {
           "id": 8565,
@@ -17472,8 +17472,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich deute das in der Schule an.",
-          "exampleRu": "Я в школе это намекаю."
+          "exampleDe": "Er deutet die Antwort nur an.",
+          "exampleRu": "Он только намекает на ответ."
         },
         {
           "id": 8566,
@@ -17528,8 +17528,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich miete das am Wochenende.",
-          "exampleRu": "Я на выходных это нанимаю."
+          "exampleDe": "Wir mieten ein Boot am See.",
+          "exampleRu": "Мы арендуем лодку у озера."
         },
         {
           "id": 8567,
@@ -17584,8 +17584,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich stelle das nach dem Essen ein.",
-          "exampleRu": "Я после еды это нанимаю."
+          "exampleDe": "Die Firma stellt neue Mitarbeiter ein.",
+          "exampleRu": "Фирма нанимает новых сотрудников."
         },
         {
           "id": 8568,
@@ -17640,8 +17640,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich fülle das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это наполняю."
+          "exampleDe": "Ich fülle das Glas mit Wasser.",
+          "exampleRu": "Я наполняю стакан водой."
         },
         {
           "id": 8569,
@@ -17696,8 +17696,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich erinnere das nach der Arbeit.",
-          "exampleRu": "Я после работы это напоминаю."
+          "exampleDe": "Ich erinnere dich an den Termin.",
+          "exampleRu": "Я напоминаю тебе о встрече."
         },
         {
           "id": 8570,
@@ -17976,8 +17976,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich tauche das zu Hause.",
-          "exampleRu": "Я дома это ныряю."
+          "exampleDe": "Ich tauche im See.",
+          "exampleRu": "Я ныряю в озере."
         },
         {
           "id": 8580,
@@ -18088,8 +18088,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich klage das im Büro an.",
-          "exampleRu": "Я в офисе это обвиняю."
+          "exampleDe": "Der Anwalt klagt den Mann an.",
+          "exampleRu": "Адвокат обвиняет мужчину."
         },
         {
           "id": 8584,
@@ -18144,8 +18144,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich beleidige das in der Schule.",
-          "exampleRu": "Я в школе это обижаю."
+          "exampleDe": "Er beleidigt seinen Freund.",
+          "exampleRu": "Он оскорбляет своего друга."
         },
         {
           "id": 8585,
@@ -18312,8 +18312,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich umarme das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это обнимаю."
+          "exampleDe": "Ich umarme meine Schwester.",
+          "exampleRu": "Я обнимаю свою сестру."
         },
         {
           "id": 8589,
@@ -18368,8 +18368,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich richte das nach der Arbeit ein.",
-          "exampleRu": "Я после работы это оборудую."
+          "exampleDe": "Wir richten die Wohnung neu ein.",
+          "exampleRu": "Мы заново обставляем квартиру."
         },
         {
           "id": 8590,
@@ -18592,8 +18592,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich lehre das am Morgen.",
-          "exampleRu": "Я утром это обучаю."
+          "exampleDe": "Sie lehrt Deutsch an der Schule.",
+          "exampleRu": "Она преподаёт немецкий в школе."
         },
         {
           "id": 8597,
@@ -18704,8 +18704,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich erwarte das in der Stadt.",
-          "exampleRu": "Я в городе это ожидаю."
+          "exampleDe": "Ich erwarte morgen einen Brief.",
+          "exampleRu": "Завтра я жду письмо."
         },
         {
           "id": 8599,
@@ -18760,8 +18760,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich bezeichne das im Büro.",
-          "exampleRu": "Я в офисе это означаю."
+          "exampleDe": "Das Wort bezeichnet einen Beruf.",
+          "exampleRu": "Это слово обозначает профессию."
         },
         {
           "id": 8600,
@@ -18816,8 +18816,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich überspringe das in der Schule.",
-          "exampleRu": "Я в школе это опускаю."
+          "exampleDe": "Ich überspringe diesen Satz beim Lesen.",
+          "exampleRu": "При чтении я пропускаю это предложение."
         },
         {
           "id": 8601,
@@ -18872,8 +18872,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich lasse herunter das am Wochenende.",
-          "exampleRu": "Я на выходных это опускаю."
+          "exampleDe": "Ich lasse die Jalousie herunter.",
+          "exampleRu": "Я опускаю жалюзи."
         },
         {
           "id": 8602,
@@ -18984,8 +18984,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich blende das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это ослепляю."
+          "exampleDe": "Die Sonne blendet den Fahrer.",
+          "exampleRu": "Солнце ослепляет водителя."
         },
         {
           "id": 8606,
@@ -19488,8 +19488,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich sage das in der Schule ab.",
-          "exampleRu": "Я в школе это отказываю."
+          "exampleDe": "Ich sage den Termin ab.",
+          "exampleRu": "Я отменяю встречу."
         },
         {
           "id": 8617,
@@ -19936,8 +19936,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich schicke das am Morgen zurück.",
-          "exampleRu": "Я утром это отправить обратно."
+          "exampleDe": "Ich schicke das Paket zurück.",
+          "exampleRu": "Я отправляю посылку обратно."
         },
         {
           "id": 8626,
@@ -20104,8 +20104,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich haue das im Büro ab.",
-          "exampleRu": "Я в офисе это отрубю."
+          "exampleDe": "Der Arbeiter haut den Ast ab.",
+          "exampleRu": "Рабочий отрубает ветку."
         },
         {
           "id": 8629,
@@ -20160,8 +20160,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich lege das in der Schule ab.",
-          "exampleRu": "Я в школе это отчаливаю."
+          "exampleDe": "Das Schiff legt am Abend ab.",
+          "exampleRu": "Корабль отчаливает вечером."
         },
         {
           "id": 8631,
@@ -20216,8 +20216,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich bewache das am Wochenende.",
-          "exampleRu": "Я на выходных это охраняю."
+          "exampleDe": "Der Ranger bewacht den Wald.",
+          "exampleRu": "Рейнджер охраняет лес."
         },
         {
           "id": 8632,
@@ -20272,8 +20272,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Н-О",
-          "exampleDe": "Ich entzücke das nach dem Essen.",
-          "exampleRu": "Я после еды это очаровываю."
+          "exampleDe": "Das Lied entzückt die Gäste.",
+          "exampleRu": "Песня очаровывает гостей."
         },
         {
           "id": 8633,
@@ -20440,8 +20440,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich rieche das heute.",
-          "exampleRu": "Я сегодня это пахнуть."
+          "exampleDe": "Die Blumen riechen gut.",
+          "exampleRu": "Цветы хорошо пахнут."
         },
         {
           "id": 8636,
@@ -20496,8 +20496,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich umdrehe das morgen.",
-          "exampleRu": "Я завтра это перевернуть."
+          "exampleDe": "Ich drehe den Stein um.",
+          "exampleRu": "Я переворачиваю камень."
         },
         {
           "id": 8638,
@@ -20608,8 +20608,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich tue nochmals das am Morgen.",
-          "exampleRu": "Я утром это переделываю."
+          "exampleDe": "Ich mache die Aufgabe noch einmal.",
+          "exampleRu": "Я переделываю задание ещё раз."
         },
         {
           "id": 8640,
@@ -20832,8 +20832,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich spucke das in der Schule.",
-          "exampleRu": "Я в школе это плюю."
+          "exampleDe": "Er spuckt auf den Boden.",
+          "exampleRu": "Он плюёт на пол."
         },
         {
           "id": 8648,
@@ -20888,8 +20888,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich biege das am Wochenende ab.",
-          "exampleRu": "Я на выходных это поворачиваю."
+          "exampleDe": "Das Auto biegt rechts ab.",
+          "exampleRu": "Машина поворачивает направо."
         },
         {
           "id": 8650,
@@ -21000,8 +21000,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich unterstütze das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это поддержаю."
+          "exampleDe": "Ich unterstütze diesen Vorschlag.",
+          "exampleRu": "Я поддерживаю это предложение."
         },
         {
           "id": 8652,
@@ -21056,8 +21056,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich verdächtige das nach der Arbeit.",
-          "exampleRu": "Я после работы это подозрюю."
+          "exampleDe": "Die Polizei verdächtigt den Fahrer.",
+          "exampleRu": "Полиция подозревает водителя."
         },
         {
           "id": 8654,
@@ -21112,8 +21112,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich belausche das heute.",
-          "exampleRu": "Я сегодня это подслушиваю."
+          "exampleDe": "Sie belauscht das Gespräch.",
+          "exampleRu": "Она подслушивает разговор."
         },
         {
           "id": 8655,
@@ -21168,8 +21168,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich gucke das morgen.",
-          "exampleRu": "Я завтра это подсматриваю."
+          "exampleDe": "Das Kind guckt durch das Fenster.",
+          "exampleRu": "Ребёнок подсматривает через окно."
         },
         {
           "id": 8656,
@@ -21339,8 +21339,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich unterstreiche das zu Hause.",
-          "exampleRu": "Я дома это подчеркнуть."
+          "exampleDe": "Ich unterstreiche das wichtige Wort.",
+          "exampleRu": "Я подчёркиваю важное слово."
         },
         {
           "id": 8659,
@@ -21451,8 +21451,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich erlaube das im Büro.",
-          "exampleRu": "Я в офисе это позволяю."
+          "exampleDe": "Der Lehrer erlaubt die Frage.",
+          "exampleRu": "Учитель разрешает вопрос."
         },
         {
           "id": 8661,
@@ -21507,8 +21507,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich gratuliere das in der Schule.",
-          "exampleRu": "Я в школе это поздравляю.",
+          "exampleDe": "Ich gratuliere dir zum Geburtstag.",
+          "exampleRu": "Я поздравляю тебя с днём рождения.",
           "grammar": {
             "government": "+ Dat."
           }
@@ -21734,8 +21734,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich notiere das nach der Arbeit.",
-          "exampleRu": "Я после работы это пометю."
+          "exampleDe": "Ich notiere die Adresse.",
+          "exampleRu": "Я записываю адрес."
         },
         {
           "id": 8667,
@@ -22129,8 +22129,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich stelle das im Büro vor.",
-          "exampleRu": "Я в офисе это представляю."
+          "exampleDe": "Ich stelle dir meine Freundin vor.",
+          "exampleRu": "Я представляю тебе свою подругу."
         },
         {
           "id": 8679,
@@ -22297,8 +22297,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich höre das nach dem Essen auf.",
-          "exampleRu": "Я после еды это прекращаю."
+          "exampleDe": "Ich höre mit der Arbeit auf.",
+          "exampleRu": "Я прекращаю работу."
         },
         {
           "id": 8683,
@@ -22409,8 +22409,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich komme das nach der Arbeit an.",
-          "exampleRu": "Я после работы это прибываю."
+          "exampleDe": "Der Zug kommt pünktlich an.",
+          "exampleRu": "Поезд прибывает вовремя."
         },
         {
           "id": 8685,
@@ -22465,8 +22465,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich begrüße das heute.",
-          "exampleRu": "Я сегодня это приветствую."
+          "exampleDe": "Ich begrüße die Gäste herzlich.",
+          "exampleRu": "Я сердечно приветствую гостей."
         },
         {
           "id": 8686,
@@ -22521,8 +22521,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich bringe in Ordnung das Wasser morgen.",
-          "exampleRu": "Я завтра воду приводить в порядок."
+          "exampleDe": "Ich bringe mein Zimmer in Ordnung.",
+          "exampleRu": "Я привожу свою комнату в порядок."
         },
         {
           "id": 8687,
@@ -22689,8 +22689,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich verurteile das zu Hause.",
-          "exampleRu": "Я дома это приговариваю."
+          "exampleDe": "Der Richter verurteilt den Täter.",
+          "exampleRu": "Судья приговаривает преступника."
         },
         {
           "id": 8691,
@@ -22916,8 +22916,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich zwinge das am Wochenende.",
-          "exampleRu": "Я на выходных это принуждаю."
+          "exampleDe": "Niemand zwingt dich dazu.",
+          "exampleRu": "Никто не заставляет тебя это делать."
         },
         {
           "id": 8696,
@@ -23028,8 +23028,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich lege das vor dem Unterricht an.",
-          "exampleRu": "Я перед уроком это причаливаю."
+          "exampleDe": "Das Boot legt am Ufer an.",
+          "exampleRu": "Лодка причаливает к берегу."
         },
         {
           "id": 8698,
@@ -23196,8 +23196,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich verjage das morgen.",
-          "exampleRu": "Я завтра это прогнаю."
+          "exampleDe": "Der Hund verjagt die Katze.",
+          "exampleRu": "Собака прогоняет кошку."
         },
         {
           "id": 8702,
@@ -23308,8 +23308,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich fahre das am Morgen vorbei.",
-          "exampleRu": "Я утром это проезжаю."
+          "exampleDe": "Der Bus fährt am Bahnhof vorbei.",
+          "exampleRu": "Автобус проезжает мимо вокзала."
         },
         {
           "id": 8705,
@@ -23476,8 +23476,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich dringe das im Büro ein.",
-          "exampleRu": "Я в офисе это проникаю."
+          "exampleDe": "Wasser dringt in den Keller ein.",
+          "exampleRu": "Вода проникает в подвал."
         },
         {
           "id": 8709,
@@ -23644,8 +23644,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы П",
-          "exampleDe": "Ich protestiere das nach dem Essen.",
-          "exampleRu": "Я после еды это протестую."
+          "exampleDe": "Die Studenten protestieren gegen die Regel.",
+          "exampleRu": "Студенты протестуют против правила."
         },
         {
           "id": 8716,
@@ -23756,8 +23756,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich amüsiere das nach der Arbeit.",
-          "exampleRu": "Я после работы это развлекаю."
+          "exampleDe": "Der Clown amüsiert die Kinder.",
+          "exampleRu": "Клоун развлекает детей."
         },
         {
           "id": 8719,
@@ -24148,8 +24148,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich erlaube das im Büro im Büro.",
-          "exampleRu": "Я в офисе это разрешаю в офисе."
+          "exampleDe": "Meine Chefin erlaubt mir die Pause.",
+          "exampleRu": "Моя начальница разрешает мне перерыв."
         },
         {
           "id": 8726,
@@ -24204,8 +24204,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich stelle das in der Schule.",
-          "exampleRu": "Я в школе это располагаю."
+          "exampleDe": "Ich stelle den Stuhl ans Fenster.",
+          "exampleRu": "Я ставлю стул к окну."
         },
         {
           "id": 8727,
@@ -24372,8 +24372,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich erzähle das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это рассказываю.",
+          "exampleDe": "Ich erzähle dir eine Geschichte.",
+          "exampleRu": "Я рассказываю тебе историю.",
           "grammar": {
             "government": "von + Dat. / über + Akk."
           }
@@ -24487,8 +24487,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich züchte das heute.",
-          "exampleRu": "Я сегодня это растю."
+          "exampleDe": "Wir züchten Tomaten im Garten.",
+          "exampleRu": "Мы выращиваем помидоры в саду."
         },
         {
           "id": 8733,
@@ -24767,8 +24767,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich riskiere das in der Stadt.",
-          "exampleRu": "Я в городе это рискую."
+          "exampleDe": "Er riskiert sein Leben.",
+          "exampleRu": "Он рискует своей жизнью."
         },
         {
           "id": 8741,
@@ -24823,8 +24823,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich manage das Wasser im Büro.",
-          "exampleRu": "Я в офисе воду руководю."
+          "exampleDe": "Sie managt ein großes Projekt.",
+          "exampleRu": "Она руководит большим проектом."
         },
         {
           "id": 8742,
@@ -24879,8 +24879,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich grabe das in der Schule.",
-          "exampleRu": "Я в школе это рыть."
+          "exampleDe": "Der Hund gräbt ein Loch.",
+          "exampleRu": "Собака роет яму."
         },
         {
           "id": 8743,
@@ -25047,8 +25047,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich ärgere das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это сердю."
+          "exampleDe": "Sein Verhalten ärgert mich.",
+          "exampleRu": "Его поведение меня сердит."
         },
         {
           "id": 8746,
@@ -25215,8 +25215,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich säe das morgen.",
-          "exampleRu": "Я завтра это сеяю."
+          "exampleDe": "Der Bauer sät Weizen.",
+          "exampleRu": "Фермер сеет пшеницу."
         },
         {
           "id": 8749,
@@ -25383,8 +25383,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich höre das zu Hause.",
-          "exampleRu": "Я дома это слушаю."
+          "exampleDe": "Ich höre zu Hause Musik.",
+          "exampleRu": "Я дома слушаю музыку."
         },
         {
           "id": 8755,
@@ -25439,8 +25439,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich mische das in der Stadt.",
-          "exampleRu": "Я в городе это смешиваю."
+          "exampleDe": "Ich mische Zucker mit Zimt.",
+          "exampleRu": "Я смешиваю сахар с корицей."
         },
         {
           "id": 8757,
@@ -25495,8 +25495,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich sehe das im Büro.",
-          "exampleRu": "Я в офисе это смотрею."
+          "exampleDe": "Ich sehe den Film heute Abend.",
+          "exampleRu": "Сегодня вечером я смотрю фильм."
         },
         {
           "id": 8758,
@@ -25551,8 +25551,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich miete das in der Schule.",
-          "exampleRu": "Я в школе это снимаю."
+          "exampleDe": "Ich miete eine kleine Wohnung.",
+          "exampleRu": "Я снимаю небольшую квартиру."
         },
         {
           "id": 8759,
@@ -25719,8 +25719,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich begleite das vor dem Unterricht.",
-          "exampleRu": "Я перед уроком это сопровождаю."
+          "exampleDe": "Ich begleite meine Mutter zum Arzt.",
+          "exampleRu": "Я сопровождаю маму к врачу."
         },
         {
           "id": 8767,
@@ -25831,8 +25831,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich arbeite das heute zusammen.",
-          "exampleRu": "Я сегодня это сотрудничаю."
+          "exampleDe": "Wir arbeiten gut zusammen.",
+          "exampleRu": "Мы хорошо сотрудничаем."
         },
         {
           "id": 8769,
@@ -26167,8 +26167,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich radiere das im Büro aus.",
-          "exampleRu": "Я в офисе это стерею."
+          "exampleDe": "Ich radiere den Fehler aus.",
+          "exampleRu": "Я стираю ошибку."
         },
         {
           "id": 8778,
@@ -26223,8 +26223,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich wasche das in der Schule.",
-          "exampleRu": "Я в школе это стираю."
+          "exampleDe": "Ich wasche die Wäsche am Abend.",
+          "exampleRu": "Я стираю бельё вечером."
         },
         {
           "id": 8780,
@@ -26279,8 +26279,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich leide das am Wochenende.",
-          "exampleRu": "Я на выходных это страдаю.",
+          "exampleDe": "Er leidet unter Kopfschmerzen.",
+          "exampleRu": "Он страдает от головной боли.",
           "grammar": {
             "government": "an + Dat. / unter + Dat."
           }
@@ -26450,8 +26450,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich trockne das nach der Arbeit.",
-          "exampleRu": "Я после работы это сушю."
+          "exampleDe": "Ich trockne die Haare mit dem Handtuch.",
+          "exampleRu": "Я сушу волосы полотенцем."
         },
         {
           "id": 8786,
@@ -26562,8 +26562,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich halte für das morgen.",
-          "exampleRu": "Я завтра это считаю."
+          "exampleDe": "Ich halte ihn für ehrlich.",
+          "exampleRu": "Я считаю его честным."
         },
         {
           "id": 8788,
@@ -26786,8 +26786,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich ertrinke das in der Stadt.",
-          "exampleRu": "Я в городе это тонуть."
+          "exampleDe": "Der Mann ertrinkt im Fluss.",
+          "exampleRu": "Мужчина тонет в реке."
         },
         {
           "id": 8792,
@@ -27010,8 +27010,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich trainiere das nach dem Essen.",
-          "exampleRu": "Я после еды это тренирую."
+          "exampleDe": "Ich trainiere die Mannschaft.",
+          "exampleRu": "Я тренирую команду."
         },
         {
           "id": 8798,
@@ -27178,8 +27178,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich schüttle das heute.",
-          "exampleRu": "Я сегодня это трясти."
+          "exampleDe": "Ich schüttle die Flasche.",
+          "exampleRu": "Я трясу бутылку."
         },
         {
           "id": 8801,
@@ -27346,8 +27346,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы Р-Т",
-          "exampleDe": "Ich ziehe das am Morgen.",
-          "exampleRu": "Я утром это тянуть."
+          "exampleDe": "Ich ziehe am Seil.",
+          "exampleRu": "Я тяну за верёвку."
         },
         {
           "id": 8804,
@@ -27402,8 +27402,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich überzeuge das zu Hause.",
-          "exampleRu": "Я дома это убеждаю."
+          "exampleDe": "Ich überzeuge meinen Freund.",
+          "exampleRu": "Я убеждаю своего друга."
         },
         {
           "id": 8806,
@@ -27458,8 +27458,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich räume das Wasser in der Stadt auf.",
-          "exampleRu": "Я в городе воду убираю."
+          "exampleDe": "Ich räume mein Zimmer auf.",
+          "exampleRu": "Я убираю свою комнату."
         },
         {
           "id": 8807,
@@ -27514,8 +27514,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich lege das im Büro weg.",
-          "exampleRu": "Я в офисе это убираю."
+          "exampleDe": "Ich lege das Buch weg.",
+          "exampleRu": "Я убираю книгу в сторону."
         },
         {
           "id": 8808,
@@ -27682,8 +27682,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich erblicke das nach dem Essen.",
-          "exampleRu": "Я после еды это увидею."
+          "exampleDe": "Ich erblicke den Turm in der Ferne.",
+          "exampleRu": "Я замечаю башню вдали."
         },
         {
           "id": 8812,
@@ -27906,8 +27906,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich erstaune das morgen.",
-          "exampleRu": "Я завтра это удивляю."
+          "exampleDe": "Die Nachricht erstaunt mich.",
+          "exampleRu": "Эта новость меня удивляет."
         },
         {
           "id": 8816,
@@ -28074,8 +28074,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich fahre das zu Hause weg.",
-          "exampleRu": "Я дома это уезжаю."
+          "exampleDe": "Wir fahren morgen früh weg.",
+          "exampleRu": "Мы уезжаем завтра утром."
         },
         {
           "id": 8820,
@@ -28186,8 +28186,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich erkenne das im Büro.",
-          "exampleRu": "Я в офисе это узнаваю."
+          "exampleDe": "Ich erkenne meinen Nachbarn sofort.",
+          "exampleRu": "Я сразу узнаю своего соседа."
         },
         {
           "id": 8822,
@@ -28242,8 +28242,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich zeige das in der Schule.",
-          "exampleRu": "Я в школе это указаю."
+          "exampleDe": "Ich zeige dir den Weg.",
+          "exampleRu": "Я указываю тебе дорогу."
         },
         {
           "id": 8823,
@@ -28578,8 +28578,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich flehe das morgen an.",
-          "exampleRu": "Я завтра это умоляю."
+          "exampleDe": "Sie fleht ihn um Hilfe an.",
+          "exampleRu": "Она умоляет его о помощи."
         },
         {
           "id": 8830,
@@ -28690,8 +28690,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich bringe das am Morgen fort.",
-          "exampleRu": "Я утром это уносю."
+          "exampleDe": "Ich bringe den Müll fort.",
+          "exampleRu": "Я уношу мусор."
         },
         {
           "id": 8833,
@@ -28746,8 +28746,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich gebrauche das zu Hause.",
-          "exampleRu": "Я дома это употребю."
+          "exampleDe": "Ich gebrauche dieses Wort selten.",
+          "exampleRu": "Я редко употребляю это слово."
         },
         {
           "id": 8834,
@@ -28802,8 +28802,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich werfe das in der Stadt vor.",
-          "exampleRu": "Я в городе это упрекаю."
+          "exampleDe": "Ich werfe ihm einen Fehler vor.",
+          "exampleRu": "Я упрекаю его в ошибке."
         },
         {
           "id": 8835,
@@ -28858,8 +28858,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich vereinfache das im Büro.",
-          "exampleRu": "Я в офисе это упрощаю."
+          "exampleDe": "Ich vereinfache die Aufgabe.",
+          "exampleRu": "Я упрощаю задание."
         },
         {
           "id": 8836,
@@ -28914,8 +28914,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich beruhige das in der Schule.",
-          "exampleRu": "Я в школе это успокаиваю."
+          "exampleDe": "Die Mutter beruhigt das Kind.",
+          "exampleRu": "Мать успокаивает ребёнка."
         },
         {
           "id": 8837,
@@ -28970,8 +28970,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich werde müde das am Wochenende.",
-          "exampleRu": "Я на выходных это уставаю."
+          "exampleDe": "Ich werde abends schnell müde.",
+          "exampleRu": "По вечерам я быстро устаю."
         },
         {
           "id": 8838,
@@ -29138,8 +29138,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich gebe das nach der Arbeit nach.",
-          "exampleRu": "Я после работы это уступаю."
+          "exampleDe": "Ich gebe in dieser Frage nach.",
+          "exampleRu": "Я уступаю в этом вопросе."
         },
         {
           "id": 8841,
@@ -29250,8 +29250,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich ermüde das morgen.",
-          "exampleRu": "Я завтра это утомляю."
+          "exampleDe": "Die lange Reise ermüdet mich.",
+          "exampleRu": "Долгая поездка меня утомляет."
         },
         {
           "id": 8844,
@@ -29474,8 +29474,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich kratze das in der Stadt.",
-          "exampleRu": "Я в городе это царапаю."
+          "exampleDe": "Die Katze kratzt an der Tür.",
+          "exampleRu": "Кошка царапает дверь."
         },
         {
           "id": 8850,
@@ -29642,8 +29642,8 @@ window.FLASHCARDS_DATA = {
           ],
           "category": "Глаголы",
           "subcategory": "Глаголы У-Я",
-          "exampleDe": "Ich putze das am Wochenende.",
-          "exampleRu": "Я на выходных это чистю."
+          "exampleDe": "Ich putze am Wochenende die Küche.",
+          "exampleRu": "На выходных я убираю кухню."
         },
         {
           "id": 8854,
@@ -31774,8 +31774,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr kostenlos.",
-          "exampleRu": "Это очень бесплатный."
+          "exampleDe": "Der Eintritt ist kostenlos.",
+          "exampleRu": "Вход бесплатный."
         },
         {
           "id": 8183,
@@ -31798,8 +31798,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr nächst.",
-          "exampleRu": "Это очень ближайший."
+          "exampleDe": "Der nächste Zug fährt um acht.",
+          "exampleRu": "Следующий поезд отправляется в восемь."
         },
         {
           "id": 8185,
@@ -31928,8 +31928,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr innen-.",
-          "exampleRu": "Это очень внутренний."
+          "exampleDe": "Die innere Tasche ist klein.",
+          "exampleRu": "Внутренний карман маленький."
         },
         {
           "id": 8200,
@@ -31940,8 +31940,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr möglich.",
-          "exampleRu": "Это очень возможный."
+          "exampleDe": "Eine Lösung ist möglich.",
+          "exampleRu": "Решение возможно."
         },
         {
           "id": 8201,
@@ -31964,8 +31964,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr höchst.",
-          "exampleRu": "Это очень высший."
+          "exampleDe": "Das ist die höchste Stufe.",
+          "exampleRu": "Это высшая ступень."
         },
         {
           "id": 8203,
@@ -32258,8 +32258,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr gesetzlich.",
-          "exampleRu": "Это очень законный."
+          "exampleDe": "Die gesetzliche Regel gilt für alle.",
+          "exampleRu": "Законное правило действует для всех."
         },
         {
           "id": 8231,
@@ -32282,8 +32282,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr tiefgekühlt.",
-          "exampleRu": "Это очень замороженный."
+          "exampleDe": "Der Fisch ist tiefgekühlt.",
+          "exampleRu": "Рыба заморожена."
         },
         {
           "id": 8233,
@@ -32318,8 +32318,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr ausländisch.",
-          "exampleRu": "Это очень иностранный."
+          "exampleDe": "Sie liest ausländische Zeitungen.",
+          "exampleRu": "Она читает иностранные газеты."
         },
         {
           "id": 8236,
@@ -32438,8 +32438,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr tot.",
-          "exampleRu": "Это очень мёртвый."
+          "exampleDe": "Der Baum ist tot.",
+          "exampleRu": "Дерево мёртвое."
         },
         {
           "id": 8248,
@@ -32486,8 +32486,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr gegenwärtig.",
-          "exampleRu": "Это очень настоящий."
+          "exampleDe": "Das ist im gegenwärtigen Moment wichtig.",
+          "exampleRu": "Это важно в настоящий момент."
         },
         {
           "id": 8254,
@@ -32520,8 +32520,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения А-Н",
           "category": "Прилагательные",
           "subcategory": "Определения А-Н",
-          "exampleDe": "Das ist sehr unmöglich.",
-          "exampleRu": "Это очень невозможный."
+          "exampleDe": "Diese Aufgabe ist unmöglich.",
+          "exampleRu": "Эта задача невозможна."
         },
         {
           "id": 8257,
@@ -32684,8 +32684,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr öffentlich.",
-          "exampleRu": "Это очень общественный."
+          "exampleDe": "Die Sitzung ist öffentlich.",
+          "exampleRu": "Заседание открытое."
         },
         {
           "id": 8272,
@@ -32708,8 +32708,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr obligatorisch.",
-          "exampleRu": "Это очень обязательный."
+          "exampleDe": "Der Kurs ist obligatorisch.",
+          "exampleRu": "Курс обязательный."
         },
         {
           "id": 8274,
@@ -32744,8 +32744,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr gleich.",
-          "exampleRu": "Это очень одинаковый."
+          "exampleDe": "Die beiden Schlüssel sind gleich.",
+          "exampleRu": "Оба ключа одинаковые."
         },
         {
           "id": 8277,
@@ -32780,8 +32780,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr hauptsächlich.",
-          "exampleRu": "Это очень основной."
+          "exampleDe": "Das ist der hauptsächliche Grund.",
+          "exampleRu": "Это основная причина."
         },
         {
           "id": 8280,
@@ -32816,8 +32816,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr ausgezeichnet.",
-          "exampleRu": "Это очень отличный."
+          "exampleDe": "Das Essen ist ausgezeichnet.",
+          "exampleRu": "Еда отличная."
         },
         {
           "id": 8283,
@@ -32840,8 +32840,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr persönlich.",
-          "exampleRu": "Это очень персональный."
+          "exampleDe": "Das ist eine persönliche Frage.",
+          "exampleRu": "Это личный вопрос."
         },
         {
           "id": 8285,
@@ -32934,8 +32934,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr beständig.",
-          "exampleRu": "Это очень постоянный."
+          "exampleDe": "Seine Adresse ist beständig.",
+          "exampleRu": "Его адрес постоянный."
         },
         {
           "id": 8295,
@@ -33028,8 +33028,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr andauernd.",
-          "exampleRu": "Это очень продолжительный."
+          "exampleDe": "Der Regen dauert lange an.",
+          "exampleRu": "Дождь продолжается долго."
         },
         {
           "id": 8304,
@@ -33112,8 +33112,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr vergangen.",
-          "exampleRu": "Это очень прошедший."
+          "exampleDe": "Das vergangene Jahr war schwer.",
+          "exampleRu": "Прошедший год был трудным."
         },
         {
           "id": 8311,
@@ -33124,8 +33124,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr vorig.",
-          "exampleRu": "Это очень прошлый."
+          "exampleDe": "Die vorige Woche war ruhig.",
+          "exampleRu": "Прошлая неделя была спокойной."
         },
         {
           "id": 8313,
@@ -33288,8 +33288,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr nächst.",
-          "exampleRu": "Это очень следующий."
+          "exampleDe": "Der nächste Bus kommt bald.",
+          "exampleRu": "Следующий автобус скоро придёт."
         },
         {
           "id": 8328,
@@ -33348,8 +33348,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr gemeinsam.",
-          "exampleRu": "Это очень совместный."
+          "exampleDe": "Wir haben ein gemeinsames Ziel.",
+          "exampleRu": "У нас есть общая цель."
         },
         {
           "id": 8333,
@@ -33646,8 +33646,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr einzigartig.",
-          "exampleRu": "Это очень уникальный."
+          "exampleDe": "Dieses Bild ist einzigartig.",
+          "exampleRu": "Эта картина уникальна."
         },
         {
           "id": 8358,
@@ -33706,8 +33706,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr ganz.",
-          "exampleRu": "Это очень целый."
+          "exampleDe": "Ich habe den ganzen Tag frei.",
+          "exampleRu": "У меня свободен весь день."
         },
         {
           "id": 8365,
@@ -33730,8 +33730,8 @@ window.FLASHCARDS_DATA = {
           "paragraph": "Определения О-Я",
           "category": "Прилагательные",
           "subcategory": "Определения О-Я",
-          "exampleDe": "Das ist sehr privat.",
-          "exampleRu": "Это очень частный."
+          "exampleDe": "Das ist eine private Nachricht.",
+          "exampleRu": "Это личное сообщение."
         },
         {
           "id": 8367,
