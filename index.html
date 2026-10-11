@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flashcards</title>
-  <link rel="stylesheet" href="style.css?v=20260807d">
+  <link rel="stylesheet" href="style.css?v=20261011a">
 </head>
 
 <body>
@@ -44,6 +44,15 @@
     <select id="topicSelect"></select>
   </div>
 
+  <!-- режим -->
+  <div class="menu-section">
+    <label>Режим</label>
+    <select id="modeSelect">
+      <option value="category">Категория</option>
+      <option value="favorites">Избранное</option>
+    </select>
+  </div>
+
 </div> <!-- ЗАКРЫВАЕМ SIDEBAR -->
 
 <div class="overlay" id="overlay"></div>
@@ -69,10 +78,17 @@
   <div class="buttons">
     <button id="knowBtn" class="primary">Знаю</button>
     <button id="repeatBtn" class="secondary-btn">Повторить</button>
+    <button id="undoBtn" class="secondary-btn">Назад</button>
     <button id="shuffleBtn" class="secondary-btn">Перемешать</button>
+    <button id="favoriteBtn" class="secondary-btn favorite-btn" aria-label="Добавить в избранное">☆</button>
   </div>
 
   <p id="stats">0 / 0</p>
+
+  <div class="progress-track" aria-label="Прогресс категории">
+    <div id="progressBar" class="progress-bar"></div>
+  </div>
+  <p id="progressDetails" class="progress-details">Изучено 0 из 0 · осталось 0</p>
 
   <button id="openStats" class="secondary-btn">Статистика</button>
 
@@ -90,8 +106,8 @@
 <!-- ===== THEME ===== -->
 <button id="themeToggle" class="theme-toggle">☀️</button>
 
-<script src="data_compact_final.js?v=20260807d"></script>
-<script src="script.js?v=20260807d"></script>
+<script src="data_compact_final.js?v=20261011a"></script>
+<script src="script.js?v=20261011a"></script>
 
 </body>
 </html>

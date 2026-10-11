@@ -12,10 +12,17 @@ const state = {
   nextRound: [],
   initialTotal: 0,
   round: 1,
-  completed: false
+  completed: false,
+  mode: "category",
+  history: [],
+  sourceCards: []
 };
 
 const STUDY_STATE_KEY = "flashcardsStudyState";
+const STUDY_STATES_KEY = "flashcardsStudyStates";
+const FAVORITES_KEY = "flashcardsFavorites";
+const FAVORITES_CATEGORY_ID = "__favorites__";
+const MAX_HISTORY = 20;
 const REQUIRED_CORRECT_ANSWERS = 3;
 
 const wordEl = document.getElementById("word");
@@ -36,8 +43,16 @@ const menuBtn = document.getElementById("menuBtn");
 const knowBtn = document.getElementById("knowBtn");
 const repeatBtn = document.getElementById("repeatBtn");
 const shuffleBtn = document.getElementById("shuffleBtn");
+const undoBtn = document.getElementById("undoBtn");
+const favoriteBtn = document.getElementById("favoriteBtn");
+const modeSelect = document.getElementById("modeSelect");
+const progressBar = document.getElementById("progressBar");
+const progressDetails = document.getElementById("progressDetails");
 const defaultKnowBtnText = knowBtn?.textContent || "Знаю";
 const defaultRepeatBtnText = repeatBtn?.textContent || "Повторить";
+const defaultShuffleBtnText = shuffleBtn?.textContent || "Перемешать";
+
+let favoriteKeys = readFavorites();
 
 function resetProgress() {
   state.current = 0;
@@ -47,10 +62,45 @@ function resetProgress() {
   state.initialTotal = 0;
   state.round = 1;
   state.completed = false;
+  state.history = [];
 }
 
 function getCardKey(card, index = 0) {
   return String(card.id ?? `${card.front}|${card.back}|${index}`);
+}
+
+function readFavorites() {
+  const saved = readStoredJson(FAVORITES_KEY, []);
+
+  if (!Array.isArray(saved)) return new Set();
+
+  return new Set(saved.map(String));
+}
+
+function saveFavorites() {
+  writeStoredJson(FAVORITES_KEY, [...favoriteKeys]);
+}
+
+function isFavoriteCard(card) {
+  return favoriteKeys.has(getCardKey(card));
+}
+
+function getFavoriteCards() {
+  const favoriteCards = [];
+  const seen = new Set();
+
+  getCategories().forEach(category => {
+    (category.cards || []).forEach((card, index) => {
+      const key = getCardKey(card, index);
+
+      if (!favoriteKeys.has(key) || seen.has(key)) return;
+
+      favoriteCards.push(card);
+      seen.add(key);
+    });
+  });
+
+  return favoriteCards;
 }
 
 function makeWord(card, index = 0) {
@@ -63,19 +113,65 @@ function makeWord(card, index = 0) {
   };
 }
 
-function readStudyState() {
+function readStoredJson(key, fallback) {
   try {
-    return JSON.parse(localStorage.getItem(STUDY_STATE_KEY)) || null;
+    const value = localStorage.getItem(key);
+    return value ? JSON.parse(value) : fallback;
   } catch {
-    return null;
+    return fallback;
   }
 }
 
-function saveStudyState() {
-  if (!state.category) return;
+function writeStoredJson(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch {
+    // Сайт должен работать даже если браузер запретил сохранение.
+  }
+}
 
-  const payload = {
+function readAllStudyStates() {
+  const savedStates = readStoredJson(STUDY_STATES_KEY, {});
+
+  if (savedStates && typeof savedStates === "object" && !Array.isArray(savedStates)) {
+    return savedStates;
+  }
+
+  return {};
+}
+
+function migrateLegacyStudyState() {
+  const legacy = readStoredJson(STUDY_STATE_KEY, null);
+
+  if (!isValidStudyState(legacy)) return;
+
+  const savedStates = readAllStudyStates();
+
+  if (!savedStates[legacy.category]) {
+    savedStates[legacy.category] = {
+      ...legacy,
+      mode: legacy.category === FAVORITES_CATEGORY_ID ? "favorites" : "category",
+      history: Array.isArray(legacy.history) ? legacy.history : []
+    };
+
+    writeStoredJson(STUDY_STATES_KEY, savedStates);
+  }
+}
+
+function readStudyState(categoryId = state.category) {
+  migrateLegacyStudyState();
+
+  if (!categoryId) return null;
+
+  const savedStates = readAllStudyStates();
+  return savedStates[categoryId] || null;
+}
+
+function createStudySnapshot() {
+  return {
     category: state.category,
+    mode: state.mode,
+    updatedAt: Date.now(),
     current: state.current,
     known: state.known,
     repeated: state.repeated,
@@ -86,15 +182,31 @@ function saveStudyState() {
     nextRoundOrder: state.nextRound.map(item => item.key),
     cardProgress: Object.fromEntries(
       [...state.words, ...state.nextRound]
-        .map(item => [item.key, item.correctCount])
+        .map(item => [item.key, Math.max(Number(item.correctCount) || 0, 0)])
     )
   };
+}
 
-  try {
-    localStorage.setItem(STUDY_STATE_KEY, JSON.stringify(payload));
-  } catch {
-    // Сайт должен работать даже если браузер запретил сохранение.
+function pushHistorySnapshot() {
+  state.history.push(createStudySnapshot());
+
+  if (state.history.length > MAX_HISTORY) {
+    state.history = state.history.slice(-MAX_HISTORY);
   }
+}
+
+function saveStudyState() {
+  if (!state.category) return;
+
+  const payload = {
+    ...createStudySnapshot(),
+    history: state.history.slice(-MAX_HISTORY)
+  };
+
+  const savedStates = readAllStudyStates();
+  savedStates[state.category] = payload;
+  writeStoredJson(STUDY_STATES_KEY, savedStates);
+  writeStoredJson(STUDY_STATE_KEY, payload);
 }
 
 function isValidStudyState(saved) {
@@ -133,9 +245,58 @@ function restoreWordOrder(words, saved) {
   return restoreWordsByOrder(words, saved.order);
 }
 
+function applyStudySnapshot(snapshot, cards = state.sourceCards) {
+  if (!isValidStudyState(snapshot)) return false;
+
+  const allWords = cards.map(makeWord);
+
+  state.words = restoreWordOrder(allWords, snapshot);
+  state.nextRound = restoreWordsByOrder(allWords, snapshot.nextRoundOrder);
+
+  [...state.words, ...state.nextRound].forEach(word => {
+    word.correctCount = Math.max(
+      Number(snapshot.cardProgress?.[word.key]) || 0,
+      0
+    );
+  });
+
+  state.words = state.words.filter(
+    word => word.correctCount < REQUIRED_CORRECT_ANSWERS
+  );
+  state.nextRound = state.nextRound.filter(
+    word => word.correctCount < REQUIRED_CORRECT_ANSWERS
+  );
+  state.current = Math.min(
+    Math.max(Number(snapshot.current) || 0, 0),
+    Math.max(state.words.length - 1, 0)
+  );
+  state.known = Number(snapshot.known) || 0;
+  state.repeated = Number(snapshot.repeated) || 0;
+  state.initialTotal = Number(snapshot.initialTotal) || cards.length;
+  state.round = Math.max(Number(snapshot.round) || 1, 1);
+  state.completed = Boolean(snapshot.completed);
+
+  return true;
+}
+
 function closeSidebar() {
   sidebar?.classList.remove("open");
   overlay?.classList.remove("show");
+}
+
+function updateFavoriteButton() {
+  if (!favoriteBtn) return;
+
+  const card = state.words[state.current]?.raw;
+  const isActive = Boolean(card && isFavoriteCard(card));
+
+  favoriteBtn.textContent = isActive ? "★" : "☆";
+  favoriteBtn.classList.toggle("active", isActive);
+  favoriteBtn.disabled = !card || state.completed;
+  favoriteBtn.setAttribute(
+    "aria-label",
+    isActive ? "Убрать из избранного" : "Добавить в избранное"
+  );
 }
 
 function updateControls() {
@@ -153,22 +314,37 @@ function updateControls() {
       shuffleBtn.disabled = true;
     }
 
+    if (undoBtn) {
+      undoBtn.disabled = !state.history.length;
+    }
+
+    updateFavoriteButton();
+
     return;
   }
 
+  const hasCards = Boolean(state.words.length);
+
   if (knowBtn) {
     knowBtn.textContent = defaultKnowBtnText;
-    knowBtn.disabled = false;
+    knowBtn.disabled = !hasCards;
   }
 
   if (repeatBtn) {
     repeatBtn.textContent = defaultRepeatBtnText;
-    repeatBtn.disabled = false;
+    repeatBtn.disabled = !hasCards;
   }
 
   if (shuffleBtn) {
-    shuffleBtn.disabled = false;
+    shuffleBtn.textContent = defaultShuffleBtnText;
+    shuffleBtn.disabled = !hasCards;
   }
+
+  if (undoBtn) {
+    undoBtn.disabled = !state.history.length;
+  }
+
+  updateFavoriteButton();
 }
 
 function escapeHtml(value) {
@@ -348,6 +524,44 @@ function getGeneratedExample(card) {
   return null;
 }
 
+function getVerbSummary(card) {
+  const thirdPerson = (card.tenses || [])
+    .find(item => item.pronoun === "er/sie/es");
+
+  if (!thirdPerson) return "";
+
+  const parts = [];
+
+  if (thirdPerson.perfect) {
+    parts.push(`Perfekt: ${thirdPerson.perfect}`);
+  }
+
+  if (thirdPerson.preterite) {
+    parts.push(`Präteritum: ${thirdPerson.preterite}`);
+  }
+
+  return parts.join(" · ");
+}
+
+function getGrammarSummary(card) {
+  const parts = [];
+  const verbSummary = getVerbSummary(card);
+
+  if (card.article) {
+    parts.push(`Артикль: ${card.article}`);
+  }
+
+  if (card.grammar?.case) {
+    parts.push(`Падеж: ${card.grammar.case}`);
+  }
+
+  if (verbSummary) {
+    parts.push(verbSummary);
+  }
+
+  return parts.join(" · ");
+}
+
 function formatFront(card) {
   const hint = getCardHint(card);
 
@@ -362,9 +576,11 @@ function formatBack(card) {
   const exampleDe = card.exampleDe || card.example || generatedExample?.exampleDe || "";
   const exampleRu = card.exampleRu || generatedExample?.exampleRu || "";
   const hasExample = exampleDe || exampleRu;
+  const grammarSummary = getGrammarSummary(card);
 
   return `
     <div class="translation-main">${escapeHtml(card.back)}</div>
+    ${grammarSummary ? `<div class="grammar-block">${escapeHtml(grammarSummary)}</div>` : ""}
     ${hasExample ? `
       <div class="example-block">
         ${exampleDe ? `<div class="example-de">${escapeHtml(exampleDe)}</div>` : ""}
@@ -375,40 +591,22 @@ function formatBack(card) {
 }
 
 function setWordsFromCards(cards, options = {}) {
-  const saved = options.restore ? readStudyState() : null;
+  state.sourceCards = cards;
+
+  const saved = options.restore ? readStudyState(state.category) : null;
   const canRestore = saved?.category === state.category &&
     isValidStudyState(saved);
-  const allWords = cards.map(makeWord);
 
   resetProgress();
+  state.sourceCards = cards;
 
   if (canRestore) {
-    state.words = restoreWordOrder(allWords, saved);
-    state.nextRound = restoreWordsByOrder(allWords, saved.nextRoundOrder);
-    [...state.words, ...state.nextRound].forEach(word => {
-      word.correctCount = Math.max(
-        Number(saved.cardProgress?.[word.key]) || 0,
-        0
-      );
-    });
-    state.words = state.words.filter(
-      word => word.correctCount < REQUIRED_CORRECT_ANSWERS
-    );
-    state.nextRound = state.nextRound.filter(
-      word => word.correctCount < REQUIRED_CORRECT_ANSWERS
-    );
-    state.current = Math.min(
-      Math.max(Number(saved.current) || 0, 0),
-      Math.max(state.words.length - 1, 0)
-    );
-    state.known = Number(saved.known) || 0;
-    state.repeated = Number(saved.repeated) || 0;
-    state.initialTotal = Number(saved.initialTotal) || cards.length;
-    state.round = Math.max(Number(saved.round) || 1, 1);
-    state.completed = saved.completed ||
-      (!state.words.length && !state.nextRound.length);
+    applyStudySnapshot(saved, cards);
+    state.history = Array.isArray(saved.history)
+      ? saved.history.filter(isValidStudyState).slice(-MAX_HISTORY)
+      : [];
   } else {
-    state.words = allWords;
+    state.words = cards.map(makeWord);
     state.initialTotal = state.words.length;
     shuffle(state.words);
   }
@@ -423,6 +621,22 @@ function shuffle(arr) {
   }
 }
 
+function updateProgressDisplay() {
+  const total = Math.max(Number(state.initialTotal) || 0, 0);
+  const left = state.completed ? 0 : state.words.length + state.nextRound.length;
+  const known = Math.min(Math.max(Number(state.known) || 0, 0), total);
+  const percent = total ? Math.round((known / total) * 100) : 0;
+
+  if (progressBar) {
+    progressBar.style.width = `${percent}%`;
+  }
+
+  if (progressDetails) {
+    progressDetails.textContent =
+      `Изучено ${known} из ${total} · осталось ${left} · раунд ${state.round}`;
+  }
+}
+
 function showCard() {
   updateControls();
 
@@ -432,6 +646,7 @@ function showCard() {
       `<div class="translation-main">Все карточки изучены</div>`;
     statsEl.textContent =
       `Изучено ${state.known} из ${state.initialTotal}`;
+    updateProgressDisplay();
     cardInner.classList.remove("flipped");
     saveStudyState();
     return;
@@ -439,10 +654,14 @@ function showCard() {
 
   if (!state.words.length) {
     updateControls();
-    wordEl.textContent = "Выберите категорию";
+    wordEl.textContent = state.mode === "favorites"
+      ? "В избранном пока пусто"
+      : "Выберите категорию";
     translationEl.innerHTML = "";
     statsEl.textContent = "0 / 0";
+    updateProgressDisplay();
     cardInner.classList.remove("flipped");
+    saveStudyState();
     return;
   }
 
@@ -457,6 +676,7 @@ function showCard() {
   statsEl.textContent =
     `Раунд ${state.round} · осталось ${left} · прогресс ${card.correctCount}/${REQUIRED_CORRECT_ANSWERS}`;
 
+  updateProgressDisplay();
   cardInner.classList.remove("flipped");
   saveStudyState();
 }
@@ -493,6 +713,8 @@ function prevCard() {
 
 function finishCurrentCard(shouldRepeat) {
   if (!state.words.length || state.completed) return;
+
+  pushHistorySnapshot();
 
   const [word] = state.words.splice(state.current, 1);
   word.correctCount = Math.max(Number(word.correctCount) || 0, 0);
@@ -531,28 +753,53 @@ function finishCurrentCard(shouldRepeat) {
   showCard();
 }
 
+function undoLastAction() {
+  const snapshot = state.history.pop();
+
+  if (!snapshot) return;
+
+  const remainingHistory = state.history.slice();
+
+  if (!applyStudySnapshot(snapshot)) return;
+
+  state.history = remainingHistory;
+  showCard();
+}
+
 function clearSavedStudyStateForCategory(categoryId) {
-  const saved = readStudyState();
+  const savedStates = readAllStudyStates();
 
-  if (saved?.category !== categoryId) return;
+  if (savedStates[categoryId]) {
+    delete savedStates[categoryId];
+    writeStoredJson(STUDY_STATES_KEY, savedStates);
+  }
 
-  try {
-    localStorage.removeItem(STUDY_STATE_KEY);
-  } catch {
-    localStorage.setItem(STUDY_STATE_KEY, "");
+  const legacy = readStoredJson(STUDY_STATE_KEY, null);
+
+  if (legacy?.category === categoryId) {
+    try {
+      localStorage.removeItem(STUDY_STATE_KEY);
+    } catch {
+      localStorage.setItem(STUDY_STATE_KEY, "");
+    }
   }
 }
 
 function restartCurrentCategory() {
-  const category = getCategories()
-    .find(item => item.id === state.category);
+  const cards = state.mode === "favorites"
+    ? getFavoriteCards()
+    : getCategories()
+      .find(item => item.id === state.category)?.cards;
 
-  if (!category || !Array.isArray(category.cards)) return;
+  if (!Array.isArray(cards)) return;
 
   clearSavedStudyStateForCategory(state.category);
   resetProgress();
-  state.category = category.id;
-  state.words = category.cards.map(makeWord);
+  state.category = state.mode === "favorites"
+    ? FAVORITES_CATEGORY_ID
+    : state.category;
+  state.sourceCards = cards;
+  state.words = cards.map(makeWord);
   state.initialTotal = state.words.length;
   state.words.forEach(word => {
     word.correctCount = 0;
@@ -575,6 +822,41 @@ repeatBtn.onclick = () => {
 
   finishCurrentCard(true);
 };
+
+if (undoBtn) {
+  undoBtn.onclick = undoLastAction;
+}
+
+if (favoriteBtn) {
+  favoriteBtn.onclick = () => {
+    const card = state.words[state.current]?.raw;
+
+    if (!card || state.completed) return;
+
+    const key = getCardKey(card);
+
+    if (favoriteKeys.has(key)) {
+      favoriteKeys.delete(key);
+    } else {
+      favoriteKeys.add(key);
+    }
+
+    saveFavorites();
+    updateFavoriteButton();
+
+    if (state.mode === "favorites" && !favoriteKeys.has(key)) {
+      state.words.splice(state.current, 1);
+      state.nextRound = state.nextRound.filter(item => item.key !== key);
+
+      if (state.current >= state.words.length) {
+        state.current = 0;
+      }
+
+      state.initialTotal = Math.max(state.initialTotal - 1, 0);
+      showCard();
+    }
+  };
+}
 
 shuffleBtn.onclick = () => {
   if (!state.words.length || state.completed) return;
@@ -621,6 +903,7 @@ function loadCategory(categoryId) {
   if (!category || !Array.isArray(category.cards)) {
     state.words = [];
     state.category = "";
+    state.mode = "category";
     resetProgress();
     showCard();
     wordEl.textContent = "Категория не найдена";
@@ -628,7 +911,22 @@ function loadCategory(categoryId) {
   }
 
   state.category = category.id;
+  state.mode = "category";
   setWordsFromCards(category.cards, { restore: true });
+}
+
+function loadFavoritesMode() {
+  state.category = FAVORITES_CATEGORY_ID;
+  state.mode = "favorites";
+  setWordsFromCards(getFavoriteCards(), { restore: true });
+}
+
+function loadSelectedMode() {
+  if (modeSelect?.value === "favorites") {
+    loadFavoritesMode();
+  } else {
+    loadCategory(topicSelect.value);
+  }
 }
 
 function populateCategories() {
@@ -659,7 +957,18 @@ function populateCategories() {
     topicSelect.appendChild(option);
   });
 
-  const saved = readStudyState();
+  migrateLegacyStudyState();
+
+  const savedStates = readAllStudyStates();
+  const legacySaved = readStoredJson(STUDY_STATE_KEY, null);
+  const saved = isValidStudyState(legacySaved)
+    ? legacySaved
+    : (
+      Object.values(savedStates)
+        .filter(isValidStudyState)
+        .sort((a, b) => Number(b.updatedAt || 0) - Number(a.updatedAt || 0))[0] ||
+      readStudyState(categories[0].id)
+    );
   const canRestoreSavedCategory = isValidStudyState(saved);
   const savedCategoryExists = canRestoreSavedCategory && categories
     .some(category => category.id === saved?.category);
@@ -668,13 +977,31 @@ function populateCategories() {
     : categories[0].id;
 
   topicSelect.value = startCategory;
-  loadCategory(startCategory);
+
+  if (modeSelect && saved?.category === FAVORITES_CATEGORY_ID) {
+    modeSelect.value = "favorites";
+    loadFavoritesMode();
+  } else {
+    modeSelect.value = "category";
+    loadCategory(startCategory);
+  }
 }
 
 topicSelect.addEventListener("change", () => {
+  if (modeSelect) {
+    modeSelect.value = "category";
+  }
+
   loadCategory(topicSelect.value);
   closeSidebar();
 });
+
+if (modeSelect) {
+  modeSelect.addEventListener("change", () => {
+    loadSelectedMode();
+    closeSidebar();
+  });
+}
 
 if (fileInput) {
   fileInput.addEventListener("change", () => {
@@ -695,6 +1022,10 @@ if (fileInput) {
         }
 
         state.category = `import:${file.name}`;
+        state.mode = "category";
+        if (modeSelect) {
+          modeSelect.value = "category";
+        }
         setWordsFromCards(data.cards);
 
         closeSidebar();
@@ -714,7 +1045,7 @@ function updateModalStats() {
     : state.words.length + state.nextRound.length;
 
   modalStats.textContent =
-    `Всего карточек: ${state.initialTotal}. Изучено: ${state.known}. Повторить: ${state.repeated}. Осталось: ${left}. Раунд: ${state.round}. Нужно правильных ответов: ${REQUIRED_CORRECT_ANSWERS}.`;
+    `Режим: ${state.mode === "favorites" ? "Избранное" : "Категория"}. Всего карточек: ${state.initialTotal}. Изучено: ${state.known}. Повторить: ${state.repeated}. Осталось: ${left}. Раунд: ${state.round}. Нужно правильных ответов: ${REQUIRED_CORRECT_ANSWERS}. В избранном: ${favoriteKeys.size}.`;
 }
 
 if (openStatsBtn && closeStatsBtn && statsModal) {
